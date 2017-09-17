@@ -1,8 +1,18 @@
 # DiscordNight Changelog
 All notable changes to this project will be documented in this file.
 
+## [v0.1.2]() - 2017-09-17 04:50:
+### Changed
+- Top right recent Mentions Jump Box
+- Jump to present messages Bottom Box
+- UserList add Note box selection
+- UserList Quick Message text color
+### Fixed
+- Fix for longer usernames moving bottom icons
+- Converted many colors from RGB to HEX
+
 ## [v0.1.1](https://github.com/KillYoy/DiscordNight/commit/8a07caf79de615ca03c8bb90eb33aac86fa88be3) - 2017-09-17 02:30:
-### Added 
+### Added
 - Help window
 ### Changed
 - Selected Voice Channel icon color

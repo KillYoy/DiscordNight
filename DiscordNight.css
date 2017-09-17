@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy","version":"0.1.1"}*//
+//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy","version":"0.1.2"}*//
 
 /* Container Transparency To Allow General Color Changes */
 .links,
@@ -28,7 +28,7 @@
 	box-shadow: none;
 }
 
-/* Top Bar */
+/* Top Right Bar */
 .chat .title-wrap {
 	background-color: #1B1B1B;
 }
@@ -49,8 +49,8 @@
 }
 /* Scroller Selection Bar */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-	border-color: rgb(17,17,17) !important;
-	background: rgb(30,30,30) !important;
+	border-color: #111111 !important;
+	background: #1E1E1E !important;
 }
 /* Scroller Whole Bar */
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -146,19 +146,19 @@
 }
 /* Current Selected Channel Background */
 .channels-wrap div[class^='contentSelectedText'] {
-	background: rgb(30,30,30);
+	background: #1E1E1E;
     border-left: 4px solid #434B60;
 }
 .channels-wrap div[class^='contentHoveredText'] {
-	background: rgb(27,27,27);
+	background: #1B1B1B;
 }
 /* Right Clicked/Hover Voice Channel */
 .contentHoveredVoice-3qGNKh:active, .contentHoveredVoice-3qGNKh, .contentSelectedVoice-gTtYM9:active {
-	background: rgb(27,27,27);
+	background: #1B1B1B;
 }
 /* Current Connected Voice Channel Background Hover */
 .contentSelectedVoice-gTtYM9:hover {
-	background: rgb(27,27,27);
+	background: #1B1B1B;
 }
 /* Right Clicked Or Dragging User In Voice Channel */
 .userHovered-3tfm93:active {
@@ -221,6 +221,10 @@
 	left: 7px;
 	width: 18px;
 }
+.button-1aU9q1:hover {
+    background-color: transparent;
+}
+
 /* Voice Connected UI */
 .container-3lnMWU {
 	font-weight: 300;
@@ -235,6 +239,15 @@
 	width: 35px;
 }
 */
+/* Fix For Longer UserNames Moving Icons */
+.accountDetails-15i-_e .username {
+    max-width: 69px;
+}
+/* Below UserName Discriminator UserId */
+.accountDetails-15i-_e .discriminator {
+    color: #FFFFFF !important;
+    opacity: .4;
+}
 
 /* RTC Connection Menu */
 #rtc-connection-popout section {
@@ -247,7 +260,7 @@
 /******************************* Top Bar (Channel Name, Buttons, Search etc) *******************************/
 
 /* Top Channel Chat Section Header */
-.chat > .title-wrap {
+.chat .title-wrap {
 	min-height: 53px;
 	border-bottom: none !important;
 }
@@ -326,7 +339,7 @@
     background: #1B1B1B;
 }
 .search .search-bar {
-	background-color: rgb(35,35,35) !important;
+	background-color: #232323 !important;
 }
 .search-bar input {
 	font-size: 10px;
@@ -358,10 +371,12 @@
 	color: #fff;
 	border: none;
 }
-
 /* Jump To Present/Current Messages Bottom Box */
-.chat .jump-to-present-bar {
-	background-color: rgba(40,40,40,0.75);
+.chat .jump-to-present-bar, .chat .jump-to-present-bar button {
+	background-color: rgba(40,40,40,0.95);
+}
+.chat .jump-to-present-bar button {
+    padding: 5px 10px 10px 10px;
 }
 
 /* Pinned Messages Box */
@@ -371,7 +386,7 @@
 }
 .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
 	background-color: #535559;
-	color: rgb(47,47,47);
+	color: #2F2F2F;
 }
 .themed-popout .header {
 	background-color: #161616;
@@ -380,6 +395,15 @@
 .theme-dark .messages-popout-wrap .messages-popout .message-group {
 	background-color: #111111;
 	border-color: #161616;
+}
+/* Recent Mentions Jump Box */
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background: #1C1C1C;
 }
 
 /* Help Window */
@@ -475,7 +499,7 @@
 .message-group .comment .markup {
 	/* min-height: 25px; */
 	line-height: 20px;
-	color: rgba(255, 255, 255, 0.7);
+	color: rgba(255,255,255,0.7);
 	margin-top: 0;
 }
 .message-group.compact .comment .markup { margin-bottom: 0; }
@@ -494,11 +518,11 @@
 
 /* Reactions */
 .reaction { 
-	background: rgb(27,27,27) !important; 
+	background: #1B1B1B !important; 
 	transition: background 150ms; 
 }
 .reaction:hover { 
-	background: rgb(37,37,37) !important; 
+	background: #212121 !important; 
 }
 /* Show All Reactions Box*/
 .scroller-2IVcoQ {
@@ -605,7 +629,7 @@
 	border-width: 0 4px 0 0;
 }
 /* Chat NEW MESSAGES */
-.chat .divider > div { 
+.chat .divider > div {
 	background: #474a4f; 
 }
 .chat .divider { 
@@ -735,6 +759,7 @@
 }
 
 /******************************* Friends tab **********************************/
+
 /* Friends Button */
 .theme-dark #friends .friends-table .friends-row:hover {
 	background-color: #1E1E1E;
@@ -794,6 +819,14 @@
 .chat>.title-wrap>.title { 
 	margin-left: -12px;
 }
+
+/* UserList Loading Placeholder Fix
+.theme-dark .channel-members-loading {
+    background-color: #000;
+    background: #000;
+    color: #000;
+}
+*/
 
 /**************************************** Main Discord UI ***************************************/
 
@@ -1088,31 +1121,6 @@
 	background-color: #191919;
 	background-image: none;
 }
-.avatar-profile {
-	border-radius: 60px;
-	background-size: 128px 128px;
-	margin-top: -29px;
-	/*
-	width: 138px;
-    height: 138px;
-	background-size: 138px 138px;
-	margin-top: -34px;
-	*/
-}
-.avatar-profile .status {
-	border-color: #202020;
-}
-.discriminator {
-	color: #A5A5A5!important;
-	font-size: 24px;
-	text-shadow: -1px 2px 0px #070707;
-}
-#user-profile-modal .header .username {
-	margin-top: -30px;
-	color: #fff;
-	font-size: 34px;
-	text-shadow: -1px 2px 0px #070707;
-}
 #user-profile-modal .avatar-wrapper {
 	background-color: transparent;
 }
@@ -1132,6 +1140,32 @@
 	background: #111111;
 	border-bottom: 0;
 }
+.avatar-profile {
+	border-radius: 60px;
+	background-size: 128px 128px;
+	margin-top: -29px;
+	/*
+	width: 138px;
+    height: 138px;
+	background-size: 138px 138px;
+	margin-top: -34px;
+	*/
+}
+.avatar-profile .status {
+	border-color: #191919;
+}
+#user-profile-modal .header .username {
+	margin-top: -30px;
+	color: #fff;
+	font-size: 34px;
+	text-shadow: -1px 2px 0px #070707;
+}
+.discriminator {
+	color: #A5A5A5!important;
+	font-size: 24px;
+	text-shadow: -1px 2px 0px #070707;
+}
+
 /* Mutual Servers/Friends*/
 #user-profile-modal .guilds .guild .guild-name {
 	color: #AFAFAF;
@@ -1139,7 +1173,12 @@
 #user-profile-modal .guilds .guild:hover {
 	background: #0C0C0C;
 }
+/* Mutual Friends/Server Empty */
+#user-profile-modal .empty {
+	background-color: #111111;
+}
 
+/* User Info & Tabs */
 #user-profile-modal .guilds .section .connected-accounts .connected-account a:hover .connected-account-open-icon {
 	opacity: 0.8;
 }
@@ -1166,14 +1205,16 @@
 	font-weight: bold;
 	border-bottom-color: #fff;
 }
-/* Onwner Tag Plugins */
+
+/* Owner Tag Plugin: Red */
 #user-profile-modal .kawaii-tag {
 	background: #B72118!important;
 	text-shadow: -1px 2px 0px #821412;
 }
-/* Mutual Friends/Server Empty */
-#user-profile-modal .empty {
-	background-color: #111111;
+.kawaii-tag-invert {
+	color: #FFFFFF !important;
+	background: #B72118 !important;
+	text-shadow: -1px 2px 0px #821412;
 }
 
 /***************************************** Profile Popout ****************************************/
@@ -1220,6 +1261,10 @@
 	/* font-size: 11px; */
 	color: #A5A5A5;
 }
+/* Add Note Box Selection */
+.note textarea:focus {
+	background-color: #202020;
+}
 .member-role.member-role-add {
 	background-color: #1E1E1E;
 	border: 1px solid gray;
@@ -1231,6 +1276,7 @@
 .quick-message {
 	background-color: #161616;
 	border-color: #4C4C4C;
+	color: #B4BAC4;
 }
 /* BOT Tag Fix */
 .botTagInvert-gorWR_ {

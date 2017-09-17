@@ -1,11 +1,9 @@
 # DiscordNight Changelog
 All notable changes to this project will be documented in this file.
 
-## v0.0.1 - 2017-08-10 13:00: 
-- Started working on DiscordNight.
 
-## v0.1.0 - 2017-09-16 18:30: 
-- DiscordNight finally releases on Github.
+
+
 
 ## v0.1.1 - 2017-09-17 02:30:
 ### Added 
@@ -21,3 +19,9 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - Unecessary file attachment button
 - Unecessary old code
+
+## v0.1.0 - 2017-09-16 18:30: 
+- DiscordNight finally releases on Github.
+
+## v0.0.1 - 2017-08-10 13:00: 
+- Started working on DiscordNight.

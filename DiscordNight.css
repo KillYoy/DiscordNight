@@ -1,6 +1,9 @@
 //META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy","version":"0.1.1"}*//
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /* Container Transparency To Allow General Color Changes */
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .links,
 .chat,
 .typing,
@@ -27,7 +30,6 @@
 	background-color: transparent !important;
 	box-shadow: none;
 }
-
 /* Top Bar */
 .chat .title-wrap {
 	background-color: #1B1B1B;
@@ -39,9 +41,17 @@
 #friends .friends-table .friends-table-body, .messages-wrapper { 
 	background-color: #111111 !important; 
 }
+.name-2SL4ev{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 90% !important; 
+}
 /* Chat */
 .content .flex-spacer { 
 	background-color: #111111;
+}
+.theme-dark .chat>.content .messages .message-group .comment .markup{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 80% !important; 
 }
 /* Channel Users List */
 .channel-members { 
@@ -204,7 +214,8 @@
 	background: rgb(27,27,27);
 	border-bottom: none;
 	margin-bottom: 0px;
-	/* font-size: 15px; */
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 12px !important;
 }
 .channels-wrap > div:last-of-type {
 	padding: -1px 12px 0px 12px;
@@ -250,6 +261,7 @@
 .chat > .title-wrap {
 	min-height: 53px;
 	border-bottom: none !important;
+	
 }
 
 /* Top Right Buttons */
@@ -329,7 +341,9 @@
 	background-color: rgb(35,35,35) !important;
 }
 .search-bar input {
-	font-size: 10px;
+	font-size: 10px !important;
+	font-family: 'Roboto', sans-serif !important;
+
 }
 .search-bar .search-bar-inner {
 	width: 100px;
@@ -416,7 +430,10 @@
 }
 /* Chat Text Input Box */
 .channel-text-area-default { margin: -0px 0 7px; }
-.channel-text-area-default textarea { font-size: 16px !important; }
+.channel-text-area-default textarea { 
+font-family: 'Roboto', sans-serif !important;
+font-size: 14px !important; 
+}
 .channel-text-area-default > div:first-child { background-color: rgb(27,27,27); }
 
 /* Emoji Menu Button */
@@ -430,7 +447,7 @@
 }
 /* User Is Typing Indicator */
 .theme-dark .chat form .typing { 
-	font-size: 9.5px;
+	font-size: 9.5px !important;
 	padding-left: 12.5px; 
 	padding-bottom: 0px;
 }
@@ -669,6 +686,7 @@
 }
 .channel-members .member .member-activity strong {
 	font-size: 10px !important;
+	font-family: 'Roboto', sans-serif !important;
 	max-height: 12px;
 	width: 160px;
 	transition: all 250ms;
@@ -852,7 +870,7 @@
 .context-menu {
 	color: #B5B5B5;
 	background-color: #202020;
-	font-size: 12.5px;
+	font-size: 12.5px !important;
 }
 .context-menu .item {
 	background-color: #202020;
@@ -916,7 +934,7 @@
 	right: 11px;
 	bottom: 33px;
 	opacity: 0.1;
-	font-size: 10px;
+	font-size: 10px !important;
 }
 
 /* Roles & Member Add Popout Window */
@@ -1104,13 +1122,13 @@
 }
 .discriminator {
 	color: #A5A5A5!important;
-	font-size: 24px;
+	font-size: 13px ;
 	text-shadow: -1px 2px 0px #070707;
 }
 #user-profile-modal .header .username {
 	margin-top: -30px;
 	color: #fff;
-	font-size: 34px;
+	font-size: 34px !important;
 	text-shadow: -1px 2px 0px #070707;
 }
 #user-profile-modal .avatar-wrapper {
@@ -1179,7 +1197,7 @@
 /***************************************** Profile Popout ****************************************/
 .userPopout-4pfA0d .header-3mZJcV {
 	padding: 7px 0px 0px;
-	font-size: 20px;
+	font-size: 20px !important;
 	line-height: 17px;
 }
 .userPopout-4pfA0d .headerNormal-1cioxU {
@@ -1216,7 +1234,7 @@
 	background: linear-gradient(#202020,#202020,#0F0F0F);
 }
 .protip {
-	font-size: 0px;
+	font-size: 0px !important;
 	/* font-size: 11px; */
 	color: #A5A5A5;
 }

@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.2.0]() - 2017-09-20 21:00:
+## [v0.2.0](https://github.com/KillYoy/DiscordNight/commit/07089922c1409e35d9564e7b176191ad7d9a0580) - 2017-09-20 21:00:
 ### Added
 - Join/Create server window
 - Settings Drop Down menu
@@ -63,7 +63,7 @@
 - Instant invite, edit channel, create channel buttons for longer to make more space for longer channel names
 - More old unnecessary code
 
-## [v0.1.2]() - 2017-09-17 04:50:
+## [v0.1.2](https://github.com/KillYoy/DiscordNight/commit/dba30b449bca895046e3a9ca0f91f34297c30c8d) - 2017-09-17 04:50:
 ### Changed
 - Top right recent Mentions Jump Box
 - Jump to present messages Bottom Box

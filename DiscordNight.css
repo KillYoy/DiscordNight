@@ -1,53 +1,35 @@
-//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy","version":"0.1.2"}*//
+//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy","version":"0.2.0"}*//
 
-/* Container Transparency To Allow General Color Changes */
-.links,
-.chat,
-.typing,
-.content,
-.guild-channels,
-.private-channels,
-.divider,
-.divider-red span,
-.messages-wrapper,
-#rtc-connection,
-.channel-textarea textarea,
-.friends-table,
-.private-channels .channel.selected,
-.guilds-add {
-	background: transparent !important;
-	background-color: transparent !important;
+/* Change Font */
+/*
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	font-family: Roboto;
 }
-.account,
-.account .btn,
-#rtc-connection .btn,
-.help-container,
+*/
+/* Server Name Font Fix */
+/*
+.name-3gtcmp {
+	font-family: Roboto;
+}
+*/
+
+/* Better Discord Sub Menu: Theme Version */
+#bd-settings-sidebar:after {
+	white-space: pre;
+	font-size: 12px;
+	font-weight: 600;
+	color: #72767D;
+	content: "\A	   DiscordNight 0.2.0";
+}
+
+/* Container Transparency Fixes */
 .messages-wrapper .messages .divider span {
 	background: transparent !important;
 	background-color: transparent !important;
-	box-shadow: none;
 }
 
-/* Top Right Bar */
-.chat .title-wrap {
-	background-color: #1B1B1B;
-}
-/* Text / Voice Channels, Friends/Users Tab Area */
-.channels-wrap > div:first-of-type, #friends {
-	background-color: #161616 !important;
-}
-#friends .friends-table .friends-table-body, .messages-wrapper { 
-	background-color: #111111 !important; 
-}
-/* Chat */
-.content .flex-spacer { 
-	background-color: #111111;
-}
-/* Channel Users List */
-.channel-members { 
-	background-color: #161616 !important; 
-}
-/* Scroller Selection Bar */
+/* Scroller Bar */
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border-color: #111111 !important;
 	background: #1E1E1E !important;
@@ -58,9 +40,14 @@
 	border-color: transparent !important;
 }
 
-/******************************** Server/Guild list ********************************/
+/******************************** Server List ********************************/
 
-/* Server/Guild List Placement */
+/* No Server Icon Background Color */
+.guilds-wrapper .guilds .guild .guild-inner {
+	background: #2E3035 !important;
+}
+
+/* Server List Placement */
 .guilds-wrapper {
 	width: 68px;
 	background-color: #1B1B1B;
@@ -75,95 +62,155 @@
 	height: 5px;
 	width: 70px;
 	margin-left: -10px;
-    margin-top: -5px;
+	margin-top: -5px;
 	margin-bottom: 8px;
 }
 
 /* Server Unread Message Icon */
 .guilds-wrapper .guilds .guild.unread:before {
 	background-color: #4C4C4C;
-	border-radius: 3px;
-	margin-top: -6px;
+	border-radius: 6px;
+	 /* margin-top: -6px; */
+	margin-top: -13px;
+	height: 26px;
+	width: 11px;
 }
-/*
-.guilds-wrapper .guilds .guild.selected.unread:before {
-	margin-top: -20px;
-}
-*/
-/* Selected Server/Guild */
+
+/* Selected Server */
 .guilds-wrapper .guilds .guild.selected:before {
-    height: 0px;
-    /* height: 30px; */
-    background: #666666;
-    margin-top: -15px;
+	height: 54px;
+	width: 54px;
+	border-radius: 18px;
+	background: #111111;
+	margin: -27px 0px 0px 13px;
+}
+/* Add Server Button */
+.guilds-wrapper .guilds-add {
+	background: #1B1B1B;
 }
 
 /* DM's & Friends Icon */
 .guilds-wrapper .guilds .friends-icon {
 	background-size: 32px 29px;
-	/* background-color: #576677; */
+}
+/* DM's And Guilds Separator */
+.guilds-wrapper .guild-separator:after {
+	top: 1px;
 }
 
-/************************* Text/voice channel section *************************/
+/* New Message Indicator When Scrolled Down */
+.new-messages-indicator.new-messages-indicator-mention {
+	background-color: rgba(255,20,0,.8);
+}
+
+/************************* Text/Voice Channel Section *************************/
+
+/* Text / Voice Channels, Friends/Users Tab Area */
+.channels-wrap > div:first-of-type, #friends {
+	background-color: #161616 !important;
+}
 
 /* Server Name Header */
-.channels-wrap > div:first-of-type > div:first-of-type header,.private-channels .search-bar {
+.header-1tSljs, .header-1tSljs:hover {
 	height: 53px;
 	background: #1B1B1B;
 	border-bottom: none;
-	padding: 0 5px;
+	padding: 0 12px;
+}
+.popout-open .header-1tSljs {
+	background: #1B1B1B;
+	border-bottom: none;
 }
 
 /* Channels List */
 .channels-wrap {
 	width: 165px !important;
 	transition: width 150ms;
-	position: relative;
-	background-color: #1B1B1B; /* Temp Fix For Voice Connected Padding */
 }
 /* Channels Placement/Formatting */
 .containerDefault-1bbItS, .containerUserOver-3O3u5c {
-    padding-top: -0px;
+	padding-top: 0px;
 }
 .wrapperCollapsed-18mf-c, .wrapperDefault-1Dl4SS, .wrapperHovered-1KDCyZ, .wrapperHoveredCollapsed-25KVVp, .wrapperMuted-PmsxPn, .wrapperUnread-450E16 {
 	height: 36px;
-	padding-top: 14px;
+	padding-top: 13px;
 	padding-left: 10px;
-	padding-right: 7px;
+	padding-right: 6px;
 }
-
-/* Text Channel Unread Notice Icon Left Of Channel Name */
-.unread-23Kvxk {
-    background-color: transparent; /* #434B60 */
+.channels-wrap .horizontal-2VE-Fw {
+	margin: -4px;
 }
-
-/* Text Channel & Voice Channel Padding */
-.channels-wrap > div[class^='wrapperDefault'] div[class^='nameDefault'] {
-	line-height: 19px;
+.channels-wrap .overflowEllipsis-2ynGQq {
+	margin-left: 4px;
 }
+/* Invite/Edit Channel Buttons */
+.channels-wrap div[class^='scroller-'] {
+	margin-right: -9px;
+	overflow-x: hidden;
+}
+.channels-wrap .icon-3dhTrw {
+	margin-right: -2px;
+}
+/* Text Channel/Voice Channel Padding */
 .channels-wrap div[class^='content'] {
-	margin: 0;
+	margin: 0px;
+	padding: 7px;
 }
-/* Current Selected Channel Background */
-.channels-wrap div[class^='contentSelectedText'] {
-	background: #1E1E1E;
-    border-left: 4px solid #434B60;
+/* Hide Instant Invite/Edit Channel Buttons */
+.channels-wrap .iconSpacing-5GIHkT {
+	display: none;
 }
-.channels-wrap div[class^='contentHoveredText'] {
-	background: #1B1B1B;
+/* Hide Create Channel Buttons */
+.channels-wrap .icon-2WU8ha {
+	display: none;
 }
+
+/* Text Channel Unread Notice Icon Left Channel Name */
+.unread-23Kvxk {
+	background-color: transparent; /* #434B60 */
+}
+
+/* Current Selected Text Channel Background */
+.contentSelectedText-3j5CXt {
+	background-color: #1E1E1E;
+	border-left: 4px solid #434B60;
+	/* padding: 3px !important; */
+}
+.contentSelectedText-3j5CXt:Hover {
+	background-color: #212121;
+}
+/* Text Channel Hover Background */
+.contentHoveredText-2HYGIY {
+	background-color: #1B1B1B;
+}
+/* Text Channel First Letter Uppercase */
+/*
+.nameSelectedText-32NDX5::first-letter {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.nameDefaultText-QoumjC::first-letter {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.contentHoveredText-2HYGIY::first-letter {
+	text-transform: uppercase;
+	font-size: 15px;
+}
+*/
+
 /* Right Clicked/Hover Voice Channel */
 .contentHoveredVoice-3qGNKh:active, .contentHoveredVoice-3qGNKh, .contentSelectedVoice-gTtYM9:active {
-	background: #1B1B1B;
+	background-color: #1B1B1B;
 }
 /* Current Connected Voice Channel Background Hover */
 .contentSelectedVoice-gTtYM9:hover {
-	background: #1B1B1B;
+	background-color: #1B1B1B;
 }
 /* Right Clicked Or Dragging User In Voice Channel */
 .userHovered-3tfm93:active {
-    border-radius: 2px;
-    background-color: transparent;
+	border-radius: 2px;
+	background-color: transparent;
 }
 /* Voice Channel User Padding */
 .channels-wrap div[class^='containerDefault'] > div:nth-child(2) {
@@ -181,48 +228,80 @@
 	color: #475272;
 }
 
-/* Invite/Edit Channel Buttons */
-.channels-wrap div[class^='scroller-'] {
-	overflow-x: hidden !important;
-	margin-right: -7px;
-}
-.channels-wrap div[class^='scroller-'] > div[class^='wrapperDefault'] {
-	height: 35px;
-	padding-top: 16px;
-	padding-left: 13px;
-}
-.channels-wrap div[class^='scroller-'] > div[class^='wrapperDefault'] svg {
-	width: 12px;
-	height: 12px;
-	left: 3px;
-	position: relative;
-	top: 2px;
+/* User Mute/Deafen Icons */
+.iconSpacing-1WJZFe {
+	margin-right: -5px;
+	margin-left: 5px;
 }
 
+/* Limited/Max Users Channels */
+.wrapper-2ldvyE {
+	font-size: 11px;
+	padding: 0px 2px;
+	background-color: #141414;
+	border: none;
+}
+
+/* Invite People Notice Box */
+.channel-notices .channel-notice.invite {
+	background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	margin: -5px;
+}
+/* Server Quick Switch Notice Box */
+.channel-notices .channel-notice.quickswitcher-notice {
+	background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	margin: -5px;
+}
+
+/* New Mentions Notice */
+/*
+.new-messages-indicator.new-messages-indicator-mention {
+	border: 1px solid rgba(255,20,0,.65);
+	background-color: #1B1B1B;
+}
+*/
+
+/******************************* Channel List Bottom Bar *******************************/
+
 /* Channels Bottom Status Box (Mute, Deafen, Settings) */
-.channels-wrap > div[class^='container'] {
-	background: rgb(27,27,27);
+.container-iksrDt {
+	height: 44px;
+	background: #1B1B1B;
 	border-bottom: none;
 	margin-bottom: 0px;
 	/* font-size: 15px; */
 }
-.channels-wrap > div:last-of-type {
-	padding: -1px 12px 0px 12px;
-}
-.container-iksrDt{
-	height: 44px;
-}
-/* User Name & Picture */
+/* User Name, Picture and Discriminator User#ID */
 .container-iksrDt .avatar-small {
-    margin: 0px 3px 0px -10px;
+	margin: 0px 3px 0px -10px;
+}
+.container-iksrDt .avatar-small .status {
+	border-color: #1B1B1B;
+}
+.container-iksrDt .accountDetails-15i-_e .discriminator {
+	color: #FFFFFF !important;
+	opacity: .4;
+}
+/* Fix For Longer UserNames Moving Icons */
+.accountDetails-15i-_e .username {
+	max-width: 69px;
 }
 /* Mute, Deafen, Settings Buttons */
 .button-1aU9q1 {
-	left: 7px;
-	width: 18px;
+	left: 6px;
+	width: 17px;
 }
 .button-1aU9q1:hover {
-    background-color: transparent;
+	background-color: transparent;
+}
+
+/* Change Online Status Window */
+.popout.popout-top-left {
+	margin-top: -7px;
 }
 
 /* Voice Connected UI */
@@ -234,33 +313,20 @@
 .button-3WJ5FX {
 	width: 20px;
 }
-/*
-.inner-ptMwR- .rtc-connection-status .ping{
-	width: 35px;
-}
-*/
-/* Fix For Longer UserNames Moving Icons */
-.accountDetails-15i-_e .username {
-    max-width: 69px;
-}
-/* Below UserName Discriminator UserId */
-.accountDetails-15i-_e .discriminator {
-    color: #FFFFFF !important;
-    opacity: .4;
-}
 
 /* RTC Connection Menu */
 #rtc-connection-popout section {
 	background: #161616;
 }
 #rtc-connection-popout hr {
-    border: none;
+	border: none;
 }
 
 /******************************* Top Bar (Channel Name, Buttons, Search etc) *******************************/
 
-/* Top Channel Chat Section Header */
+/* Top Right Channel Chat Section Header */
 .chat .title-wrap {
+	background-color: #1B1B1B;
 	min-height: 53px;
 	border-bottom: none !important;
 }
@@ -272,9 +338,13 @@
 	height: 25px;
 	margin-top: 2px;
 }
-.chat .header-toolbar button:first-of-type {
-	margin-right: 7px;
+/* Buttons Sizes */
+.chat .title-wrap .header-toolbar button span {
+	width: 25px;
+	height: 25px;
+	background-size: 23px;
 }
+/* Separator */
 .chat .header-toolbar button:first-of-type:after {
 	content: " ";
 	border-right: 1px solid hsla(0,0%,85%,.1);
@@ -284,32 +354,62 @@
 	left: 30px;
 	top: 4px;
 }
-.chat .title-wrap .header-toolbar button span {
-	width: 25px;
-	height: 25px;
-	background-size: 23px;
+.chat .header-toolbar button:first-of-type {
+	margin-right: 7px;
 }
 
-/* Left Search Bar Results Box */
+/* Channel Topic */
+.chat .title-wrap .topic {
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-left: 2px;
+	padding-left: 6px;
+}
+/* Channel Topic Window */
+/*
+.header-3sp3cE {
+	background-color: #111111;
+}
+*/
+/* Better Discord Channel Topic Text Hashtag/Mention Color */
+.bd-blue .tooltip {
+	background-color: #161616 !important;
+}
+.bd-blue .mention {
+	color: #3a71c1;
+}
+.bd-blue .mention:hover {
+	background-color: transparent;
+}
+.mention {
+	background: transparent;
+}
+.mention:hover {
+	background-color: #7289DA;
+}
+
+/* DM's Left Search Bar Results Box */
 .theme-dark .quickswitcher-2NdiGJ {
-    background-color: #111;
+	background-color: #111;
 }
 .theme-dark .input-MwQhcX {
-    background-color: #1b1b1b;
+	background-color: #1b1b1b;
 }
 
 /* Right Search Bar, Search Options & Results Box */
 .theme-light.search-popout .option {
-    background: #1B1B1B;
+	background: #1B1B1B;
 }
 .theme-light.search-popout .option::after {
-    background: #1B1B1B;
+	background: #1B1B1B;
 }
 .theme-light.search-popout .option.selected {
-    background: #141414;
+	background: #141414;
 }
 .theme-light.search-popout .option.selected::after {
-    background: #141414;
+	background: #141414;
 }
 .theme-light.search-popout {
 	background-color: #1B1B1B;
@@ -318,13 +418,13 @@
 	background-color: #1B1B1B;
 }
 .option.search-option.selected {
-    background: #111111;
+	background: #111111;
 }
 .option.search-option.selected::after {
-    background: #111111;
+	background: #111111;
 }
 .option.search-option::after {
-    background: #1B1B1B;
+	background: #1B1B1B;
 }
 .option.history {
 	background-color: #1B1B1B;
@@ -333,10 +433,10 @@
 	background-color: #111111;
 }
 .option.history.selected::after {
-    background: #111111;
+	background: #111111;
 }
 .option.history::after {
-    background: #1B1B1B;
+	background: #1B1B1B;
 }
 .search .search-bar {
 	background-color: #232323 !important;
@@ -345,17 +445,17 @@
 	font-size: 10px;
 }
 .search-bar .search-bar-inner {
-	width: 100px;
+	border: none;
 }
 /* Search For "X" */
 .option.search-query{
-    background: #1B1B1B;
+	background: #1B1B1B;
 }
 .option.search-query.selected {
-    background: #161616;
+	background: #161616;
 }
 .keybind-shortcut.dim {
-    display: none;
+	display: none;
 }
 
 /* New Messages Top Box */
@@ -363,20 +463,24 @@
 	background-color: rgba(40,40,40,0.75);
 }
 .chat .new-messages-bar button:last-child {
-	color: #fff;
+	color: #FFFFFF;
 }
+
 /* Load More Messages Top Box */
 .theme-dark .chat .has-more button {
-	background-color: rgba(40,40,40,0.75);
-	color: #fff;
+	background-color: rgba(40,40,40,0.25);
+	margin: -22px 10px 6px 19px;
+	color: #FFFFFF;
 	border: none;
 }
+
 /* Jump To Present/Current Messages Bottom Box */
 .chat .jump-to-present-bar, .chat .jump-to-present-bar button {
-	background-color: rgba(40,40,40,0.95);
+	background-color: #171717;
+	/* background-color: rgba(40,40,40,0.95); */
 }
 .chat .jump-to-present-bar button {
-    padding: 5px 10px 10px 10px;
+	padding: 5px 10px 10px 10px;
 }
 
 /* Pinned Messages Box */
@@ -398,12 +502,12 @@
 }
 /* Recent Mentions Jump Box */
 .theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
 }
 .theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
-    background: #1C1C1C;
+	background: #1C1C1C;
 }
 
 /* Help Window */
@@ -411,7 +515,7 @@
 	background-color: #111111;
 }
 .need-help-modal.deprecated a {
-	color: #FFF;
+	color: #FFFFFF;
 }
 .need-help-modal.deprecated .form-inner.loading {
 	background-color: #191919;
@@ -422,15 +526,29 @@
 }
 .need-help-modal.deprecated .header input[type=text] {
 	background-color: #212121;
-    -webkit-box-shadow: none;
-    -webkit-box-sizing: none;
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	-webkit-box-sizing: none;
+	box-shadow: none;
 }
 .form.deprecated .control-group input[type=text] {
-    border-bottom: none;
+	border-bottom: none;
 }
 
-/******************************* Text chat section *******************************/
+/******************************* Text Chat Section *******************************/
+
+/* Main Chat */
+#friends .friends-table .friends-table-body, .messages-wrapper { 
+	background-color: #111111 !important; 
+	/* margin: -5px 0px 0px -15px; */
+}
+.content .flex-spacer { 
+	background-color: #111111;
+}
+
+/* Scroller Padding Fix */
+.chat .messages-wrapper, .chat .messages-wrapper .scroller-wrap { 
+	padding-bottom: 4px; 
+}
 
 /* Bottom Chat Area (Padded Container Including The Input Box & Typing Indicator) */
 .chat form {
@@ -438,20 +556,13 @@
 	padding: 0px 0px;
 	border-top: none !important;
 }
-/* Chat Text Input Box */
-.channel-text-area-default { margin: -0px 0 7px; }
-.channel-text-area-default textarea { font-size: 16px !important; }
-.channel-text-area-default > div:first-child { background-color: rgb(27,27,27); }
+.channel-text-area-default { 
+	margin: -0px 0 7px; 
+}
+.channel-text-area-default textarea { 
+	font-size: 16px; 
+}
 
-/* Emoji Menu Button */
-.spriteNormal-3BYqCK {
-	margin-right: 5px;
-    opacity: .25;
-}
-.spriteHovered-2ymMOw {
-	margin-right: 5px;
-	opacity: .75;
-}
 /* User Is Typing Indicator */
 .theme-dark .chat form .typing { 
 	font-size: 9.5px;
@@ -475,56 +586,71 @@
 	width: 0px;
 }
 .theme-dark .attachButtonDivider-3tknGJ {
-    background-color: transparent;
+	background-color: transparent;
 	width: 0px;
 	margin: 0px 0px 0px 5px;
 }
-/* DM's And Guilds Separator */
-.guilds-wrapper .guild-separator:after {
-	top: 2px;
+/* Emoji Menu Button */
+.spriteNormal-3BYqCK {
+	margin-right: 5px;
+	opacity: .25;
 }
+.spriteHovered-2ymMOw {
+	margin-right: 5px;
+	opacity: .75;
+}
+/* CharacterCounter Plugin */
+#charcounter {
+	right: 11px;
+	bottom: 33px;
+	opacity: 0.1;
+	font-size: 10px;
+}
+
 /* Messages Format/Styling/Separation */
 .message-group {
 	padding: 6px 0;
 	margin-left: 7px;
 	margin-right: 0px;
-	border-bottom: none; /* 1px solid #000000;*/
+	border-bottom: none; /* 1px solid #161616 !important */
 	overflow: hidden;
 }
-.message-group .comment { margin-right: 5px; }
-.message-group .message { position: relative; }
-.message-group.compact { margin-left: 5px; }
-.message-group.compact .comment .markup { padding-left: 75px; text-indent: -75px; }
-.message-group.compact .bot-tag { margin: 0 3px 0 0 !important; line-height: 22px; }
+/* Remove Padding Right Of Comments */
+.message-group .comment {
+    margin-right: 0px !important;
+}
 .message-group .comment .markup {
 	/* min-height: 25px; */
-	line-height: 20px;
-	color: rgba(255,255,255,0.7);
 	margin-top: 0;
+	line-height: 19px;
 }
-.message-group.compact .comment .markup { margin-bottom: 0; }
-.message-group .embed { background: rgb(22,22,22); border: none !important; }
-.message-group .embed-field .markup { margin-top: 0; }
-.message-group .mentioned .message-text { background: rgb(27,27,27) !important; }
 
 /* Chat User Avatar */
 .message-group .avatar-large {
-	margin-top: 0;
-	margin-right: 12px;
+	margin-top: 1px;
+	margin-right: 11px;
 	width: 35px;
 	height: 35px;
 	background-size: 35px 35px;
 }
+/* Code Formatting In Chat */
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+	background: #161616;
+}
 
 /* Reactions */
-.reaction { 
+.reaction {
 	background: #1B1B1B !important; 
 	transition: background 150ms; 
 }
 .reaction:hover { 
 	background: #212121 !important; 
 }
-/* Show All Reactions Box*/
+/* Add Reaction/Message Options Button */
+.message-group .btn-reaction {
+	margin-right: -1px;
+}
+/* Show All Reactions Box */
 .scroller-2IVcoQ {
 	background-color: #111111;
 }
@@ -534,8 +660,8 @@
 
 /* Reaction Box */
 .reactions {
-    margin-top: 0px;
-    margin-left: -2px;
+	margin-top: 0px;
+	margin-left: -2px;
 }
 /* Reaction Emojis */
 .reactions .emoji {
@@ -543,25 +669,135 @@
 	width: 18px;
 }
 
+/* Edit Text Box */
+.theme-dark .inner-3if5cm, .innerNoAutocomplete-kaUXJZ {
+	background-color: #1B1B1B;
+}
+/* AutoComplete Box */
+.autocompleteInner-N7OQf1 {
+	background-color: #111111;
+}
+.theme-dark .selectorSelected-2M0IGv {
+	background-color: #141414;
+}
+.message-group .edit-message .edit-container-outer {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+/* Chat @Mention highlight */
+.message-group .mentioned.first .message-text { 
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.message-group .mentioned .message-text {
+	/* padding: 1px 3px !important; */
+	border-radius: 2px;
+	border: solid #faa61a;
+	border-width: 0 4px 0 0;
+}
+.theme-dark .message-group .mentioned .message-text { 
+	background: #161616 !important;
+}
+.theme-dark .message-group .comment .markup .mention {
+	background-color: rgba(115,139,215,.05);
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+	background-color: rgba(115,139,215,.15);
+}
+
+/* Chat Date/New Messages Divider */
+.chat .divider {
+	height: 16px;
+	background: #474A4F; 
+	background-color: transparent;
+}
+/* Chat Date Divider */
+.friends-table .messages .divider:before, .friends-table .messages .divider span, .messages-wrapper .messages .divider:before, .messages-wrapper .messages .divider span { 
+	background-color: transparent !important; 
+}
+.messages-wrapper .messages .divider div { 
+	background: #2F2F2F !important; 
+}
+/* Chat New Message Divider */
+.messages-wrapper .messages .divider.divider-red>div { 
+	background: #F04747 !important; 
+}
+
+/* Embedded Previews */
+.embed {
+	padding: 6px 12px 6px;
+	background-color: #161616 !important;
+	border: none;
+}
+/* Embedding Links Compacting */
+.message-group .markup pre code { background: transparent !important; }
+.messages-wrapper .messages .embed { border-color: #2F2F2F !important; }
+.message-group .comment .markup pre {
+	background: #161616 !important;
+	border: none;
+	display: inline-block;
+}
+
+.invite-button {
+	background-color: #1B1B1B !important;
+	border-color: #1B1B1B !important;
+}
+
+/* Chat Compact Mode Fixes */
+.message-group.compact { 
+	margin-left: -12px;
+	border-bottom: 1px solid #161616 !important;
+}
+.message-group.compact .accessory {
+    margin: 2px 35px 3px -30px;
+}
+.message-group.comment .markup {
+    font-size: 14.5px;
+    line-height: 12px;
+}
+.message-group.compact .message {
+    margin: 2px -2px;
+}
+/* Compact Mode: User Names */
+.message-group.compact .message .message-text .markup .user-name {
+    margin-right: 3px;
+    font-size: 15.5px;
+}
+/* Remove Extra Padding Timestamp */
+.message-group.compact .timestamp {
+    width: 43px!important;
+    padding-right: 4px!important;
+}
+/* Compact Mode: Hide Owner Tag */
+.message-group.compact .kawaii-tag { 
+	display: none 
+}
+/* Compact Mode: Message Options Button Padding */
+.message-group.compact .message .btn-option {
+    margin-left: 2px;
+}
+
 /* Emoji Solo */
 .emoji.jumboable {
-    width: 28px;
-    height: 28px;
+	width: 28px;
+	height: 28px;
 }
 .emoji {
-    margin: 1px 0px 0px 0.5px!important;
+	margin: 1px 0px 0px 0.5px!important;
 }
 
 /* Emojis Menu */
 .emoji-picker {
 	border: none;
+	margin: 0px -5px
 }
 .emoji-picker .scroller .row {
 	height: 30px;
 	padding: 0 0 0 0px;
 }
 .emoji-picker .header {
-	background-color: #191919;
+	background-color: #111111;
 }
 .emoji-picker .scroller-wrap .scroller {
 	background-color: #191919;
@@ -579,13 +815,40 @@
 	background-color: #111111;
 }
 .bda-dark .emoji-picker .category {
-	background-color: #111111;
-	height: 30px;
-	padding: 0 0 0 10px;
+	background-color: #191919;
+    line-height: 22px;
+    height: 22px;
+    text-transform: uppercase;
+	padding: 0 0 0 6px;
 }
 .bda-dark .emoji-picker .header .search-bar {
+	background-color: #111111;
+}
+.bda-dark .emoji-picker .search-bar input{
 	background-color: #191919;
 }
+.emoji-picker .search-bar-icon {
+	background-color: #191919;
+}
+.emoji-picker .categories .item.selected {
+	border-bottom-color: #333333;
+}
+.bda-dark .emoji-picker .diversity-selector .popout {
+	background-color: #191919;
+	border: none;
+}
+.diversity-selector .popout .item:hover {
+	background-color: #262626;
+	border: none;
+}
+/* Custom Emoji Selection BugFix */
+.bda-dark .emoji-picker .scroller .emoji-item.selected {
+	background-color: #333333 !important;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* Emoji Menu Scroller */
 .emoji-picker .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border-color: transparent !important;
 	background: #191919 !important;
@@ -595,75 +858,53 @@
 	background: #111 !important;
 	border-radius: 0px;
 }
-
-/* Edit Text Box */
-.theme-dark .inner-3if5cm, .innerNoAutocomplete-kaUXJZ {
-	background-color: #1B1B1B;
-}
-/* AutoComplete Box */
-.autocompleteInner-N7OQf1 {
-	background-color: #111111;
-}
-.theme-dark .selectorSelected-2M0IGv {
-	background-color: #141414;
-}
-.message-group .edit-message .edit-container-outer {
-    margin-left: 0px;
-    margin-right: 10px;
-}
-
-/* Expanded description */
-.chat .title-wrap .topic .topic-full {
-	background-color: rgba(0,0,0,0.98) !important;
-	border-bottom: none;
+/* Better Discord Emote Menu Support */
+.bda-dark #bda-qem button {
+	background: #111111;
+	border-left: none;
 	box-shadow: none;
 }
+.bda-dark #bda-qem button.active {
+	background-color: #111111;
+}
+.bda-dark #bda-qem button:hover {
+	background-color: #141414;
+}
+.bda-dark #bda-qem {
+	border-bottom: 0px !important;
+	background: #111111;
+}
+#bda-qem-emojis {
+	border-radius: 0px;
+}
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark #bda-qem {
+	background-color: #141414;
+	margin: 0px -5px
+}
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	border-color: transparent !important;
+	background: #191919 !important;
+}
+#bda-qem-twitch-container .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	border-color: #111 !important;
+	background: #111 !important;
+	border-radius: 0px;
+}
+/* Hide Better Discord Emote Menu: Favorites */
+.emotewrapper:hover .fav {
+	display: none;
+}
+#bda-qem-favourite {
+	display: none;
+}
 
-/* Chat @mention highlight */
-.message-group .mentioned.first .message-text { margin-top: 5px !important; }
-.message-group.compact .mentioned.first .message-text { margin-top: 0 !important; }
-.message-group .mentioned .message-text {
-	padding: 1px 3px !important;
-	border-radius: 2px;
-	border: solid #faa61a;
-	border-width: 0 4px 0 0;
-}
-/* Chat NEW MESSAGES */
-.chat .divider > div {
-	background: #474a4f; 
-}
-.chat .divider { 
-	height: 17px;
-	background: transparent;
-}
-/* Embedded previews etc */
-.embed .embed-thumbnail { margin-top: 3px; }
-.embed {
-	padding: 6px 12px 6px;
-	background-color: rgb(22,22,22) !important;
-}
+/****************************** Server/Channel User List Section ******************************/
 
-.invite-button {
-	background-color: rgb(27,27,27) !important;
-	border-color: rgb(27,27,27) !important;
+/* Server/Channel Users List */
+.channel-members { 
+	width: 190px;
+	background-color: #161616 !important; 
 }
-
-.chat .messages-wrapper, .chat .messages-wrapper .scroller-wrap { padding-bottom: 3px; }
-.messages-wrapper .messages .divider div { background: rgb(47,47,47) !important; }
-.messages-wrapper .messages .divider.divider-red>div { background: #f04747 !important; }
-.friends-table .messages .divider:before, .friends-table .messages .divider span, .messages-wrapper .messages .divider:before, .messages-wrapper .messages .divider span { background-color: transparent !important; }
-.message-group .comment .markup pre {
-	background: rgb(22,22,22) !important;
-	border: none;
-	display: inline-block;
-	/* margin-top: -11px !important; */
-	/* bottom: -9px !important; */
-	/* position: relative !important; */
-}
-.message-group .markup pre code { background: transparent !important; }
-.messages-wrapper .messages .embed { border-color: rgb(47,47,47) !important; }
-
-/****************************** Server User List Section ******************************/
 .channel-members-wrap {
 	width: 180px;
 	min-width: 0 !important;
@@ -672,55 +913,15 @@
 }
 /* User Role Category List Group Labels */
 .channel-members h2 {
-	position: relative;
 	padding: 0 0 2px 0;
-	width: 180px;
+	width: 168px;
 	letter-spacing: .001em;
-	border-bottom: 1px solid #333333; /*#738bd7*/
+	border-bottom: 1px solid #333333;
 	margin-left: 7px;
 	transition: width 150ms;
 	display: inline-flex;
-	white-space: nowrap;
 	margin-top: 18px;
 }
-.channel-members h2:hover {
-	white-space: normal;
-}
-/* User Status Game Playing Text */
-.member-activity-text {
-	margin: -2px 0.5px;
-	font-size: 0px !important;
-}
-.channel-members .member .member-activity strong {
-	font-size: 10px !important;
-	max-height: 12px;
-	width: 160px;
-	transition: all 250ms;
-}
-/* User Profile Icon */
-.channel-members .member .member-inner {
-	width: 180px;
-	padding: 0 0 0 6px;
-}
-.channel-members .avatar-small .status {
-	border-color: #161616 !important;
-}
-/* User Background Hover Effect */
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-	background: linear-gradient(to right, #161616,#1C1C1C,#161616);
-}
-/* User Selection/Hover Animation Transition */
-.channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
-}
-.channel-members .member.popout-open .avatar-small,.channel-members .member .avatar-small {
-	transition: all 100ms ease;
-}
-.channel-members .member:hover {
-	transform: translate(5px);
-}
-
 /* Users Spacing */
 .channel-members .member {
 	padding: 1px 0 1px 10px;
@@ -757,48 +958,174 @@
 	overflow: hidden;
 	right: -5px !important;
 }
+/* User Status Game Playing Text */
+.channel-members .member .member-activity {
+	margin: -2px 0.5px;
+	font-size: 0px !important;
+	width: 135px;
+	color: #8A8A94;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.channel-members .member .member-activity strong {
+	font-size: 10px !important;
+	max-height: 12px;
+}
+/* User Name */
+.channel-members .member .member-inner {
+	width: 135px;
+	padding: 0px 0px 0px 5px;
+	/* padding: 8px 0px 0px 5px; */ /* Not Loading Fix */
+}
+/* User Online Status Icon */
+.channel-members .avatar-small .status {
+	border-color: #161616 !important;
+}
+/* User Background Hover Effect */
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+	background: linear-gradient(to right, #161616,#1C1C1C,#161616);
+}
+/* User Selection/Hover Animation Transition */
+.channel-members .member.popout-open .avatar-small, .channel-members .member:hover .avatar-small {
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.channel-members .member.popout-open .avatar-small,.channel-members .member .avatar-small {
+	transition: all 100ms ease;
+}
+.channel-members .member:hover {
+	transform: translate(5px);
+}
+
+/* User List Loading Fix */
+.channel-members-loading {
+	display: none;
+}
+.theme-dark .channel-members-loading, .theme-dark .channel-members-loading .heading, .theme-dark .channel-members-loading .member, .theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4), .theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) {
+	background: rgba(22,22,22,1);
+}
 
 /******************************* Friends tab **********************************/
 
 /* Friends Button */
-.theme-dark #friends .friends-table .friends-row:hover {
-	background-color: #1E1E1E;
-}
 .bd-blue .private-channels .channel.selected .icon-friends {
 	border-radius: 5px;
 }
 .channel.btn-friends {
-    background-color: #191919;
+	background-color: #191919;
 }
-/* Friends List Header*/
+/* Friends List Header */
 #friends .friends-header {
 	height: 53px;
-	background: rgb(27,27,27) !important;
+	background: #1B1B1B !important;
 	border-bottom: none !important;
 }
 #friends .friends-table { 
 	margin-top: 0; 
 }
-/* Friends List Hide Name/Activity Header */
+/* Friends List: Hide Name/Activity Header */
 #friends .friends-table .friends-table-header { 
-	background: rgb(22,22,22); 
-	margin-top: -27px;
+	background: #111111; 
+	/* margin-top: -27px; */
 }
-.theme-dark #friends .friends-table .friends-table-header {
+#friends .friends-table .friends-row .friends-column-status {
+	margin-left: 28px !important;
+}
+#friends .friends-table .friends-table-header {
 	border-bottom: none;
 }
 #friends .friends-table .friends-table-header .friends-column-separator { 
 	height: 12px;
+}
+/* Friend Hover */
+.theme-dark #friends .friends-table .friends-row:hover {
+	background-color: #161616;
+}
+/* Top Bar Buttons */
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
+	color: #FFF;
+	background-color: #262626;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+	background-color: #212121;
+}
+/*
+.bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+	background-color: #333333;
+}
+*/
+
+/* DM's Search Bar */
+.private-channels .search-bar {
+	height: 53px;
+	background: #1B1B1B;
+	border-bottom: none;
+	padding: 0 5px;
+}
+
+/* Add Friend Button */
+.bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+	background-color: #1B1B1B;
+	color: hsla(0,0%,100%,.6);
+}
+.bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+	background-color: #212121;
+    color: hsla(0,0%,100%,.6);
+}
+.bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+	background-color: #262626;
+	color: #FFFFFF;
+}
+
+/* Add Friend Menu */
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+	background-color: #111111;
+	border: none;
+}
+.theme-dark .add-friend-input-wrapper {
+	border: none;
+	background-color: #151515;
+}
+/* Connected Accounts Discover */
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts {
+	background-color: #111111;
+}
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .connect-accounts .connect-account-btn-inner {
+	background-color: #151515;
+	border: none;
+}
+/* Friend Suggestions */
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+	border: none;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+	background-color: #111111;
+	border: none;
 }
 
 /* Friends List Game Activity */
 #friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text { 
 	white-space: normal; 
 }
+/* Friends List Online Status Icon */
+.chat .title-wrap .title .status {
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	margin-bottom: -3px;
+}
+.avatar-small .status {
+	border: 2px solid #161616;
+}
+.private-channels .channel.selected .status,.private-channels .channel:hover .status {
+	border: 2px solid #191919;
+}
 
 /* DM Name List */
 .private-channels .channel .channel-name {
 	opacity: 0.7;
+	margin: -5px;
 }
 .private-channels .channel a {
 	margin: 0px;
@@ -808,31 +1135,31 @@
 	margin: 0px;
 }
 .private-channels .channel:hover a {
-    background-color: #191919;
+	background-color: #191919;
 	margin: 0px;
 }
-/* Remove DM From List Buton */
+/* Remove DM From List Button */
 .private-channels .channel:hover .close {
 	margin: -5px;
 }
-/* DM Name Placement Correction */
-.chat>.title-wrap>.title { 
-	margin-left: -12px;
+/* DM Header Name Placement */
+.chat .title-wrap .title { 
+	margin-left: -10px;
 }
-
-/* UserList Loading Placeholder Fix
-.theme-dark .channel-members-loading {
-    background-color: #000;
-    background: #000;
-    color: #000;
+/* Friends List Icon */
+.bd-blue .private-channels .channel.selected .icon-friends {
+	background-color: transparent;
 }
-*/
+/* Server Icon Background Fix */
+.bd-blue #friends .friends-table .friends-row .friends-column-guilds .avatar-small, #friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+	background-color: #0C0C0C; /* #262626 */
+}
 
 /**************************************** Main Discord UI ***************************************/
 
 /* Server Invited Box */
 .invite-modal .invite-content {
-	color: #fff;
+	color: #FFFFFF;
 	background-color: #202020;
 }
 .invite-modal .invite-body {
@@ -847,12 +1174,9 @@
 	color: #9E9E9E;
 }
 .option-popout .btn-item:hover {
-	color: #fff;
+	color: #FFFFFF;
 }
 /* Server Name Popout Window */
-.popout.popout-bottom {
-	margin-top: none;
-}
 .popout-menu {
 	background-color: #1B1B1B;
 }
@@ -860,8 +1184,12 @@
 	margin-top: 0px;
 }
 .popout-menu .popout-menu-item:hover {
-	background-color: #202020;
-	color: #fff;
+	background-color: #161616;
+	color: #FFFFFF;
+}
+.bd-blue .popout-menu .popout-menu-item.invite:hover {
+	background-color: #161616;
+	color: #7289DA;
 }
 
 /* Better Formatting Box */
@@ -869,8 +1197,9 @@
 	background: #202020;
 }
 .theme-dark .bf-toolbar div:not(.bf-arrow):hover {
-    background: rgba(255,255,255,.035);
+	background: rgba(255,255,255,.035);
 }
+
 /* Online Status */
 .popout-menu .popout-menu-separator {
 	border-bottom: none;
@@ -890,28 +1219,33 @@
 .context-menu .item {
 	background-color: #202020;
 }
-.theme-dark.context-menu .item-subMenu {
-	background-color: #202020;
+.context-menu .item.danger:hover {
+	background-color: #1C1C1C;
+}
+.context-menu .item:hover {
+	background-color: #1C1C1C;
 }
 .theme-dark.context-menu, .theme-dark.context-menu .context-menu {
 	background-color: #202020;
 }
-
 .theme-dark .context-menu .item {
 	line-height: 13px;
 }
-.theme-dark .context-menu .item-subMenu {
+.theme-dark.context-menu .item-subMenu {
 	background-color: #202020;
 }
 .theme-dark.context-menu .item:hover {
 	background-color: #1C1C1C;
 }
-.context-menu .item:hover {
-	background: #202020;
-}
 .context-menu .context-menu .scroller-wrap .scroller::-webkit-scrollbar-thumb {
 	border-color: #202020 !important;
 	background: #141414 !important;
+}
+.context-menu .context-menu .scroller {
+	max-height: 500px;
+}
+.scroller-wrap .scroller {
+	overflow-y: auto;
 }
 
 /* ToolTips */
@@ -937,60 +1271,46 @@
 	border-bottom-color: #202020;
 }
 
-.context-menu .context-menu .scroller {
-	max-height: 500px;
-}
-.scroller-wrap .scroller {
-	overflow-y: auto;
-}
-
-/* Chat CharacterCounter Plugin */
-#charcounter {
-	right: 11px;
-	bottom: 33px;
-	opacity: 0.1;
-	font-size: 10px;
-}
-
 /* Roles & Member Add Popout Window */
 .popout header {
-    background-color: #1B1B1B;
+	background-color: #1B1B1B;
 }
 #autocomplete-popout .autocomplete-scroller {
-    height: 400px;
-    background-color: #202020;
+	height: 400px;
+	background-color: #202020;
 }
 #autocomplete-popout .row.selected, #autocomplete-popout .row:hover {
-    background-color: #202020;
-    background: #111111;
+	background-color: #202020;
+	background: #111111;
 }
 .channel-settings-permissions-popout .user-name, .channel-settings-permissions .user-name {
 	color: #FFF;
 }
 /* Scroller */
 .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-thumb {
-    background-color: #1B1B1B;
+	background-color: #1B1B1B;
 }
 .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scroller-fzNley::-webkit-scrollbar-track-piece {
-    background-color: #202020;
+	background-color: #202020;
 }
 /* Delete Channel Confirmation: No */
 .buttonPrimaryLinkDefault-1PQflF {
 	background-color: #1B1B1B;
-    color: #dcddde;
+	color: #dcddde;
 }
 
-/* Server Region Selector */
-.region-select-modal {
+/* Drop Down Menu */
+.theme-dark .ui-select .Select-menu-outer {
 	background-color: #1B1B1B;
-}
-.region-select-modal .region-select-modal-option {
-	background-color: #111111;
-	border: 2px solid #202020;
+	border: none;
 }
 
 /* Settings Menues */
-.ui-standard-sidebar-view .content-column.defalt {
+.ui-standard-sidebar-view .sidebar-region .sidebar {
+	width: 218px;
+	padding: 30px 6px 60px 16px;
+}
+.ui-standard-sidebar-view .content-column.default {
 	padding: 35px 37px 80px;
 }
 .ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
@@ -1003,21 +1323,58 @@
 	background-color: #0F0F0F;
 }
 .theme-dark .cardPrimary-ZVL9Jr {
-	background-color: #202020;
+	background-color: #171717;
+	border: none;
 }
 #bd-settingspane-container .scroller-wrap .scroller {
 	background-color: #191919;
 }
 .theme-dark .ui-standard-sidebar-view {
-    background: #191919;
+	background: #191919;
 }
 .theme-dark .ui-standard-sidebar-view .content-region {
-    background: #191919;
+	background: #191919;
 }
-
+/* My Account Menu */
+.theme-dark .user-settings-account .cardPrimary-ZVL9Jr {
+	background-color: #121212;
+	border: none;
+}
+/* Connections Menu */
+.theme-dark .user-settings-connections .cardPrimary-ZVL9Jr {
+	background-color: #141414;
+	border: none;
+}
+/* Authorized Apps Menu */
+.theme-dark .user-settings-authorized-apps .cardPrimaryOutline-2YyAz2 {
+	background: #141414;
+	border: none;
+}
+.theme-dark .user-settings-authorized-apps .formNotice-2tZsrh {
+	background: #141414;
+	border: none;
+}
+/* Appearance Preview Menu */
+.theme-dark .user-settings-appearance .cardPrimaryOutline-2YyAz2 {
+	background: #111111;
+	border: none;
+}
+/* Streamer Mode Menu */
+.user-settings-streamer-mode .cardPrimary-ZVL9Jr {
+	background: #141414;
+	border: none;
+}
+/* Language Menu */
+.user-settings-locale .cardPrimary-ZVL9Jr {
+	background: #141414;
+	border: none;
+}
 /* Settings Buttons */
 .itemDefaultSelected-1UAWLe {
-	background-color: #576677;
+	background-color: hsla(216,4%,74%,.065);
+}
+.theme-dark .itemDefault-3NDwnY:hover {
+	background-color: hsla(216,4%,74%,.025);
 }
 .buttonBrandFilled-3Mv0Ra {
 	background-color: #576677;
@@ -1025,12 +1382,67 @@
 .cardWarning-31DHBH {
 	background-color: #CE9D4E;
 }
+.theme-dark .ui-input-button {
+	background-color: #161616;
+	border: none;
+}
+.theme-dark .ui-select .Select-control {
+	background-color: #161616;
+	border: none;
+}
+.theme-dark .input-2YozMi{
+	background-color: #161616;
+	border: none;
+}
+.theme-dark .copyInputDefault-36NOFa {
+	background-color: #161616;
+	border: none;
+}
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk {
+	background-color: #161616;
+	border: none;
+}
+.theme-dark .buttonPrimaryOutlinedDefault--H0hhk:hover {
+	background-color: #111111;
+	border: none;
+}
+
+/* Unsaved Changes Box */
+.theme-dark .ui-settings-notice {
+	background: #141414 !important;
+}
+/* Check Buttons */
+.theme-dark .checked-2TahvT {
+	background-color: #1E1E1E;
+}
+
+/* Logout Button */
+.itemDanger-3m3dwx.item-3879bf.notSelected-PgwTMa:hover {
+	background-color: hsla(216,4%,74%,.025);
+}
+/* Discord Nitro Button */
+.itemBrand-mC9YR4.item-3879bf.notSelected-PgwTMa:hover {
+    color: #F6F6F7;
+	background-color: hsla(216,4%,74%,.025);
+}
+.itemBrandSelected-3LxxzT {
+    color: #F6F6F7;
+	background-color: hsla(216,4%,74%,.065);
+}
+.itemBrand-mC9YR4 {
+    color: #B9BBBE;
+}
+/* Better Discord Separator Title Font Fix */
+#bd-settings-sidebar .ui-tab-bar-header {
+	font-weight: 700;
+}
+
 /* Announce Message Box (AFK, No Sound From Mic, ...) */
 .theme-dark .content-1hiykS {
 	background-color: #191919;
 }
 .theme-dark .footer-1PYmcw {
-	background-color: #202020;
+	background-color: #191919;
 }
 .theme-dark .primaryButton-1ZHZe8, .secondaryButton-16bxiT {
 	background-color: #191919;
@@ -1039,37 +1451,104 @@
 .theme-dark .modal-3HOjGZ {
 	background-color: #202020;
 }
-
+.theme-dark .inner-1_1f7b .footer-1PYmcw {
+	background-color: #191919;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
 /* Better Discord Buttons */
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-	background-color: #576677;
+	background-color: hsla(216,4%,74%,.065);
 }
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+	background-color: hsla(216,4%,74%,.025);
+}
+/* Better Discord Menu's Top Buttons */
 .bd-blue .bd-pfbtn {
-	background-color: #576677;
+	background-color: #3D444C; /* #282828 #576677 */
 }
+.bd-blue .bd-pfbtn:hover {
+	background: #242628; /* #212121 */
+}
+/* Better Discord Menu's Middle Buttons */
+.ui-standard-sidebar-view .bda-slist .bda-right button {
+	background-color: #1B1B1B; /* #576677 */
+}
+.ui-standard-sidebar-view .bda-slist .bda-right button:hover {
+	background: #151515;
+}
+
 /* BetterDiscord Plugins List */
+.bda-slist .bda-name {
+	color: #E5E5E5;
+	font-weight: 500;
+	font-size: 15px;
+	overflow: visible;
+	/* max-height: 42px; */
+}
 .ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
 	background-color: #202020;
+	border-top: none;
 }
 .ui-standard-sidebar-view .bda-slist li {
+	color: #FFFFFF;
 	background-color: #262626;
+	border-bottom: none;
+	/* margin: -1px; */
 }
-.ui-standard-sidebar-view .bda-slist .bda-right button {
-	background-color: #576677;
+.ui-standard-sidebar-view .bda-slist li input {
+	color: #FFFFFF;
+	background-color: #191919;
+	border: 4px solid #191919;
 }
+.ui-standard-sidebar-view .bda-slist .bda-description {
+	border: none;
+}
+/* Scroller Bar */
+#bd-settingspane-container .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	border-color: #191919 !important;
+	background: #161616 !important;
+}
+
+/* BetterDiscord Custom CSS Editor */
+.cm-s-material.CodeMirror {
+	background-color: #111111 !Important;
+}
+.content-region .cm-s-material .CodeMirror-gutters {
+	background-color: #111111 !Important;
+}
+.content-region #bd-customcss-attach-controls {
+	background: #1C1C1C;
+	box-shadow: none;
+}
+.cm-s-material .CodeMirror-linenumber {
+	color: #FFFFFF;
+}
+.cm-s-material .cm-tag {
+	color: #E5E5E5;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button {
+	background: #2D2D2D;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover {
+	background: #333333;
+}
+
 /* Permissions Settings Boxes */
 .group-3SxASV, .item-3H-QZD {
 	background-color: #202020;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	border: 1px;
+	/* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .theme-dark .allowSelected-1FAg8y {
 	background-color: #43b581;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	/* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 .theme-dark .denySelected-h37B9e {
 	background-color: #f04747;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	/* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
+
 /* Keyboard Controls Showcase Menu */
 .keyboard-shortcuts-modal {
 	background-color: #1B1B1B;
@@ -1079,9 +1558,52 @@
 }
 /* Game Activity "No Game Detected Box" */
 .theme-dark .user-settings-games .not-detected, .user-settings-games .not-detected {
-	background-color: #202020;
+	background-color: #141414;
 }
+
+/* Create Text Channel Window */
+.item-2zi_5J:last-child {
+	background-color: #1B1B1B;
+	border: none;
+}
+.cardPrimaryEditable-2IQ7-V {
+	background-color: #1B1B1B;
+	border: none;
+}
+.theme-dark .buttonBrandFilled-3Mv0Ra {
+	background-color: #141414;
+}
+.theme-dark .buttonBrandFilled-3Mv0Ra:Hover {
+	background-color: #111111;
+}
+
 /* Server Notifications Settings Window */
+.theme-dark .separator-NBIcXB {
+	background-color: #161616;
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	margin: -1px;
+}
+.theme-dark .ui-select .Select-control .Select-placeholder {
+	background: #161616;
+	border: none;
+}
+.theme-dark .inner-1_1f7b .cardPrimaryOutline-2YyAz2 {
+	background: #161616;
+	border: none;
+}
+.theme-dark .inner-1_1f7b .cardPrimaryEditable-2IQ7-V {
+	background: #161616;
+	border: none;
+}
+.theme-dark .checkboxContainer-1sZ9eo:before {
+	background-color: #313235;
+}
+.theme-dark .roundRemoveButton-1NEXB9 {
+	background-color: #191919;
+}
+/*
 .deprecated-settings-modal .settings-inner {
 	background-color: #202020;
 }
@@ -1097,6 +1619,65 @@
 	border-color: #3D3D3D;
 }
 
+/* Server Audit Log */
+.theme-dark .ui-standard-sidebar-view .auditLog-1XsYCj .header-1UnvfG {
+	background-color: #131313;
+	padding: 7px 20px 7px 10px;
+}
+.theme-dark .ui-standard-sidebar-view .auditLog-1XsYCj .changeDetails-zbf-61 {
+	background-color: #111111;
+}
+.theme-dark .ui-standard-sidebar-view .auditLog-1XsYCj {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Server Audit Log Filtering Window */
+.dark-elevation-border-high, .theme-dark .elevation-border-high {
+	background-color: #131313;
+}
+.dark-elevation-border-low, .theme-dark .elevation-border-low {
+	background-color: #131313;
+}
+
+/* Server Emoji Settings */
+.theme-dark .emoji-alias-input .emoji-input {
+	color: #FFFFFF;
+	background-color: #0C0C0C;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.theme-dark .ui-hover-card:before {
+	background-color: #131313;
+	border: none;
+}
+.theme-dark .round-remove-button {
+	background-color: #161616;
+}
+/* WebHooks Settings */
+.theme-dark .ui-standard-sidebar-view .cardPrimaryEditable-2IQ7-V {
+	background-color: #161616;
+}
+/* Create WebHook/Upload Button */
+.theme-dark .ui-standard-sidebar-view .buttonBrandFilled-3Mv0Ra {
+	background-color: #141414;
+}
+.theme-dark .ui-standard-sidebar-view .buttonBrandFilled-3Mv0Ra:hover {
+	background-color: #111111;
+}
+.theme-dark .ui-standard-sidebar-view .buttonWhiteOutlinedDefault-3gEfoF {
+	background-color: #141414;
+	border: none;
+}
+.theme-dark .ui-standard-sidebar-view .buttonWhiteOutlinedDefault-3gEfoF:Hover {
+	background-color: #111111;
+}
+/* Server Members Search Bar */
+.theme-dark .ui-search-bar {
+	background-color: #232323;
+}
+
 /* Pinned Messages Box */
 .theme-dark .messages-popout-wrap .header {
 	background-color: #202020;
@@ -1110,16 +1691,172 @@
 	border: none;
 }
 .messages-popout {
-    background: #191919;
+	background: #191919;
 	border-radius: 0 0 0px 0px; 
 }
+
+/* Join / Create Server Box */
+.create-guild-container.deprecated .form.deprecated .form-inner {
+	background: #111111;
+}
+.form.deprecated .form-inner:last-child, .form.deprecated .form-inner:first-child {
+	background: #111111;
+}
+.create-guild-container.deprecated .action {
+	background: #1E1E1E;
+}
+/* Hide Or, Join, Create Icons */
+.create-guild-container.deprecated .create-or-join .actions .or {
+	display: none;
+}
+/*
+.create-guild-container.deprecated .action.create .action-icon {
+	display: none;
+}
+.create-guild-container.deprecated .action.join .action-icon {
+	display: none;
+}
+*/
+.create-guild-container.deprecated {
+	background: #1E1E1E;
+}
+.create-guild-container.deprecated .join-server .link-container input {
+	color: #fff;
+	background: #1E1E1E;
+	border: none;
+}
+/* Join Server */
+.form.deprecated .form-actions {
+	background: #1E1E1E;
+	border-top: none;
+}
+.form.deprecated .btn-default {
+	background: #1E1E1E;
+	border-bottom: none;
+}
+/* Create Server */
+.avatar-uploader-inner {
+	border-color: #1E1E1E;
+}
+.form.deprecated .control-group input[type=text] {
+	color: #FFFFFF;
+	background: #1E1E1E;
+	padding: 3px;
+	border: 1px solid #1E1E1E;
+	border-radius: 4px 4px 4px 4px;
+}
+.region-select .region-select-inner {
+	background: #1E1E1E;
+	border: 1px solid #1E1E1E;
+	padding: 6px;
+}
+.region-select button {
+	background: #1E1E1E;
+	border: 1px solid #1E1E1E;
+	padding: 6px;
+}
+.region-select:hover .region-select-inner, .region-select:hover button {
+	border-color: #3A71C1;
+}
+.bd-blue .region-select button {
+	color: #FFFFFF;
+}
+/* Server Region Selector */
+.region-select-modal {
+	background-color: #111111;
+}
+.region-select-modal .region-select-modal-option {
+	background-color: #1B1B1B;
+	border: 2px solid #202020;
+}
+
+/* Instant Invite Options */
+.instant-invite-modal, .form.deprecated .form-header, .form.deprecated .form-inner {
+	background-color: #111111;
+}
+#instant-invite-modal-advanced .form-actions {
+	background-color: #111111;
+}
+#instant-invite-modal .form-actions {
+	background-color: #0C0C0C;
+}
+.clipboard-input-inner {
+	background: #0C0C0C;
+	border: none;
+}
+.checkbox .checkbox-inner+span {
+	color: #FFFFFF;
+}
+/* Instant Invite Options Dropdown */
+.form.deprecated .Select-control {
+	color: #FFFFFF;
+	background-color: #1B1B1B;
+	border: none;
+}
+.form.deprecated .has-value .Select-placeholder {
+	color: #FFFFFF !important;
+}
+.form.deprecated .Select-menu-outer {
+	color: #FFFFFF;
+	background-color: #1B1B1B;
+	border: none;
+}
+.form.deprecated .Select-option {
+	color: #BFBFBF;
+}
+.form.deprecated .Select-option.is-focused {
+	color: #EAEAEA;
+	background-color: #161616;
+	border: none;
+}
+.form.deprecated .is-focused:not(.is-open)>.Select-control {
+	border: none;
+}
+
+/* DM Video Call/Voice Chat */
+.ui-video {
+	background-color: #0C0C0C;
+}
+/* Leave Call, Mute, Settings Bar */
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+	background-color: #141414;
+	border: none;
+}
+/* Incoming Call Box */
+.theme-dark .incoming-call-inner {
+	background-color: #111111;
+	border: none;
+}
+
+/* Hotkeys Window */
+.keyboard-shortcuts-modal .modal-title {
+	margin: 0px;
+	color: #FFFFFF;
+	background-color: #141414;
+}
+.keyboard-shortcuts-modal .modal-subtitle {
+	padding: 0 40px 16px;
+	color: #737f8d;
+	background-color: #141414;
+}
+/* Hotkeys Keycaps Icons */
+/*
+.keybind-shortcut span {
+	background-color: #111111;
+}
+.keybind-shortcut span {
+	border: 1px solid #161616;
+	-webkit-box-shadow: inset 0 -4px 0 #1E1E1E;
+	box-shadow: inset 0 -4px 0 #1E1E1E;
+}
+*/
 
 /**************************************** Profile Preview ***************************************/
 
 #user-profile-modal .header {
-	/* background: linear-gradient(#1E1E1E,#161616,#0F0F0F); */
-	background-color: #191919;
-	background-image: none;
+	background: radial-gradient(circle,#1E1E1E,#1C1C1C,#0F0F0F);
+	/* background-color: #191919; */
+	/* background-image: none; */
 }
 #user-profile-modal .avatar-wrapper {
 	background-color: transparent;
@@ -1128,51 +1865,110 @@
 	display: none!important;
 }
 #user-profile-modal .tab-bar {
-	margin-left: -185px;
-	margin-top: 0px;
-	background: #111111;
+	background-color: transparent;
+	margin-left: -186px;
+	margin-top: -6px;
+}
+#user-profile-modal .guilds .section.section {
+	border-top: none;
 }
 #user-profile-modal .tab-bar-container {
-	background-color: #111111;
+	background: radial-gradient(circle,#1E1E1E,#1C1C1C,#0F0F0F);
 	border-bottom: 0;
 }
 #user-profile-modal .scroller {
 	background: #111111;
 	border-bottom: 0;
+	padding: 0px 0px;
 }
+/* User Profile Picture/Avatar */
 .avatar-profile {
-	border-radius: 60px;
-	background-size: 128px 128px;
-	margin-top: -29px;
-	/*
-	width: 138px;
-    height: 138px;
-	background-size: 138px 138px;
-	margin-top: -34px;
-	*/
+	/* border: 2px solid #4C4C4C; */
+	border-radius: 68px;
+	width: 136px;
+	height: 136px;
+	background-size: 136px 136px;
+	margin-top: -30px;
 }
+/* User Online Status Icon */
 .avatar-profile .status {
-	border-color: #191919;
+	border: 3px solid #1D1D1D;
 }
-#user-profile-modal .header .username {
+/* User Name */
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
 	margin-top: -30px;
 	color: #fff;
 	font-size: 34px;
 	text-shadow: -1px 2px 0px #070707;
+	overflow: visible;
 }
-.discriminator {
+/* User #ID */
+#user-profile-modal .discriminator {
 	color: #A5A5A5!important;
 	font-size: 24px;
 	text-shadow: -1px 2px 0px #070707;
 }
+/* Below Name Game Activity */
+#user-profile-modal .header .header-info .header-info-inner .activity {
+	color: #A5A5A5;
+	font-size: 19px;
+	text-shadow: -1px 2px 0px #070707;
+	padding: 4px 1px;
+}
 
-/* Mutual Servers/Friends*/
+/* New Group DM Button Window */
+.theme-dark .themed-popout {
+	background-color: #111111;
+	border: none;
+}
+.theme-dark .themed-popout .header {
+	background-color: #111111;
+}
+.theme-dark .themed-popout .search-bar input {
+	background-color: #151515;
+}
+.theme-dark .themed-popout .search-bar .search-bar-inner {
+	background-color: #151515;
+	border: none;
+}
+.theme-dark .private-channel-recipients-invite .error-state.search-results {
+	background-color: #151515;
+}
+.theme-dark .themed-popout .search-bar .search-bar-tag {
+	background-color: #1C1C1C;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+	background: #161616 !important;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+	background-color: #111 !important;
+}
+.theme-dark .themed-popout .footer {
+	background-color: #111;
+}
+/* New Group DM Window Scroller */
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb {
+	border-color: #111111 !important;
+	background: #1E1E1E !important;
+}
+
+/* Mutual Servers/Friends */
 #user-profile-modal .guilds .guild .guild-name {
 	color: #AFAFAF;
 }
 #user-profile-modal .guilds .guild:hover {
 	background: #0C0C0C;
 }
+#user-profile-modal .guilds .avatar-large {
+	background-color: #0A0A0A !important;
+}
+#user-profile-modal .guilds .avatar-large .status {
+	border: 2px solid #111111;
+}
+#user-profile-modal .guilds:hover .avatar-large .status {
+	border: 2px solid #111111;
+}
+
 /* Mutual Friends/Server Empty */
 #user-profile-modal .empty {
 	background-color: #111111;
@@ -1211,6 +2007,9 @@
 	background: #B72118!important;
 	text-shadow: -1px 2px 0px #821412;
 }
+.kawaii-tag {
+	background-color: #93938D;
+}
 .kawaii-tag-invert {
 	color: #FFFFFF !important;
 	background: #B72118 !important;
@@ -1218,14 +2017,22 @@
 }
 
 /***************************************** Profile Popout ****************************************/
+
+/* Small Profile Popout Window */
 .userPopout-4pfA0d .header-3mZJcV {
 	padding: 7px 0px 0px;
-	font-size: 20px;
+	font-size: 21px;
 	line-height: 17px;
+	text-shadow: -1px 1px 0px #070707;
 }
 .userPopout-4pfA0d .headerNormal-1cioxU {
 	/* background-color: #161616; */
 	background: radial-gradient(circle,#1E1E1E,#1C1C1C,#0F0F0F);
+	margin: -3px;
+}
+/* Streaming/Live On Twitch Profile Header */
+.userPopout-4pfA0d .headerStreaming-3F-wjT {
+	background: radial-gradient(circle,#593695,#301E51,#0F0F0F);
 }
 .userPopout-4pfA0d {
 	width: 220px;
@@ -1233,22 +2040,9 @@
 	overflow: hidden;
 }
 .userPopout-4pfA0d .body-3rkFrF {
-	padding: 12px;
 	background-color: #202020;
 	border-bottom: none;
 	/* border-bottom: 1px solid #4C4C4C; */
-}
-.avatar-1jmnc- {
-	border: 3px solid #4C4C4C;
-}
-.header-3mZJcV .avatarStatusOnline-3Io--E {
-	border-color: #4C4C4C;
-}
-.header-3mZJcV .avatarStatusNormal-1OXVjG {
-	border-color: #4C4C4C;
-}
-.headerDiscriminator-3fLlCR {
-	color: #777777;
 }
 .userPopout-4pfA0d .footer-2J5zqP {
 	padding: 2.5px;
@@ -1256,6 +2050,48 @@
 	background-color: #202020;
 	background: linear-gradient(#202020,#202020,#0F0F0F);
 }
+.userPopout-4pfA0d .avatar-1jmnc- {
+	border: 3px solid #191919;
+}
+/* Online Status Icon */
+.userPopout-4pfA0d .header-3mZJcV .avatarStatusOnline-3Io--E, .header-3mZJcV .avatarStatusNormal-1OXVjG {
+	border-color: #191919;
+}
+/* Away/Idle Status Icon */
+.userPopout-4pfA0d .header-3mZJcV .statusIdle-2AQdvu {
+	border-color: #191919;
+}
+/* Busy/DND Status Icon */
+.userPopout-4pfA0d .header-3mZJcV .avatarStatusDnd-31uU1Q {
+	border-color: #191919;
+}
+/* User ID# */
+.userPopout-4pfA0d .headerDiscriminator-3fLlCR {
+	color: #777777;
+}
+/* Game Activity */
+.userPopout-4pfA0d .headerActivityText-3qBQRo {
+	font-size: 17px;
+}
+/* BOT Tag Fix */
+.botTagInvert-gorWR_ {
+	background: #3A71C1;
+	color: #FFFFFF;
+}
+/* Creation Date Tag Plugin */
+.creation-date-wrapper {
+    font-size: 12px !important;
+    color: #FFFFFF !important;
+    opacity: 0.5 !important;
+	margin-top: -7px;
+    margin-bottom: 4px !important;
+}
+/* Member Roles */
+.userPopout-4pfA0d .member-roles .member-role, .userPopout-4pfA0d .member-role.member-role-add {
+	background-color: #1E1E1E;
+	border: 1px solid #72767D;
+}
+/* Hide ProTip */
 .protip {
 	font-size: 0px;
 	/* font-size: 11px; */
@@ -1265,36 +2101,32 @@
 .note textarea:focus {
 	background-color: #202020;
 }
-.member-role.member-role-add {
-	background-color: #1E1E1E;
-	border: 1px solid gray;
-}
-.member-roles .member-role {
-	background-color: #1E1E1E;
-	border: 1px solid gray;
-}
+/* Quick Message */
 .quick-message {
 	background-color: #161616;
 	border-color: #4C4C4C;
 	color: #B4BAC4;
 }
-/* BOT Tag Fix */
-.botTagInvert-gorWR_ {
-	background: #3A71C1;
-	color: #fff;
-}
 
 /************************************ Needs To Be Loaded Last ************************************/
 
+/* Main Back Background */
+.app, body {
+	background-color: #111111;
+}
 /* Connecting/Reconnecting Loading Screen */
 .app, .connecting {
 	background: hsla(0,0%,5%,0.90);
 }
 .app a, .connecting a {
-	color: #fff;
+	color: #FFFFFF;
+}
+/* Server Welcome To The Beginning Of Channel Message */
+.theme-dark .chat .empty-message {
+	border-color: #111111;
 }
 /* Server Welcome Message */
 .chat .welcome-message {
-    padding: 10px;
-    display: none;
+	padding: 10px;
+	display: none;
 }

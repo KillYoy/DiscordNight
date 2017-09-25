@@ -1,5 +1,33 @@
 # DiscordNight Changelog
 
+## [v0.2.1]() - 2017-09-25 16:35:
+### Added
+- Settings menu's buttons hover animations
+- Profile preview Discord Nitro subscriber, Discord Partner/Hype Squad icon support
+- Channel categories collapse/open channels buttons support
+- "You must be a member for at least X to write in this server" box
+- NSFW channel enter notice
+### Changed
+- Settings toggle switches and slider bars
+- Setting My Account page buttons
+- Bottom bar mute, deafen, settings buttons
+- Voice channel name/avatar position
+- Voice channel user Mute/Deafen icons
+- Connected voice channel voice icon color
+- Connections settings
+- Channel topic text to be same height as channel name
+- Channel topic icon color
+- Popout window color
+- Locked voice channel color
+- Profile preview name, game activity and add friend button color and margin
+- Profile popout name margin and offline status icon border
+- DirectMessages friends row margin and buttons
+- Chat edit message margin
+### Fixed
+- Mentions in channel icon not showing
+- DirectMessages game activiy text margin
+- Voice connected UI background
+
 ## [v0.2.0](https://github.com/KillYoy/DiscordNight/commit/07089922c1409e35d9564e7b176191ad7d9a0580) - 2017-09-20 21:00:
 ### Added
 - Join/Create server window

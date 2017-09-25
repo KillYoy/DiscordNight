@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.2.1]() - 2017-09-25 16:35:
+## [v0.2.1](https://github.com/KillYoy/DiscordNight/commit/83455ceab537415c502e9afda2ad820fcbb60a3f) - 2017-09-25 16:35:
 ### Added
 - Settings menu's buttons hover animations
 - Profile preview Discord Nitro subscriber, Discord Partner/Hype Squad icon support

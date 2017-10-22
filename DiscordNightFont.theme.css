@@ -1,0 +1,6 @@
+//META{"name":"DiscordNight-Font","description":"Font replacement for BetterDiscord and DiscordNight","author":"KillYoy","version":"0.1"}*//{}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	font-family: Roboto !important;
+}

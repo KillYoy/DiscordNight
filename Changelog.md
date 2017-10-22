@@ -1,5 +1,68 @@
 # DiscordNight Changelog
 
+## [v0.3.0](https://github.com/KillYoy/DiscordNight/commit/48ec2390a46617efc8525cf8d8b90360ca2bee4a) - 2017-10-22 02:10:
+### Added
+- Settings & Server settings row button icons
+- Voice & Video menu preview
+- Status Everywhere plugin support
+- View Users Permissions plugin support
+- Replaced BetterDiscord Themes & Plugins checkboxes with switches
+- Boxshadowing to BetterDiscord Plugins/Themes list
+- Profile preview now has a counter when viewing mutual friends & servers
+- Profile preview mutual server verified icon
+- Added user profile & preview rich presence
+- Hover effect to DirectMessages search bar
+- Upload File Menu
+### Updated
+- BetterDiscord BetterTwitchTV Emotes 3.0 compatibility
+- Support for the new CharacterCounter plugin update
+### Changed
+- Top bar/titlebar size slightly
+- Link beware window box
+- Compact Chat mode tweaks
+- Chat table formatting when Discord window is small
+- Remade User Popout & User Previews entirely
+- User Preview roles icons, text and buttons
+- User Popout streaming changes
+- User options volume slider bar color
+- BetterDiscord Plugins/Themes list changed "Open Plugins Folder" & Settings button
+- BetterDiscord Settings menu title text
+- BetterDiscord Core & Emotes settings margins is more compact
+- BetterDiscord Custom CSS editor is a little bigger
+- Selected server background look
+- Settings close menu button color
+- Unread server message background look
+- Server audit log filtering window
+- Recent mentions scroller
+- User managment members list
+- Autocomplete and Edit messages box
+- Server header to make longer names fit better
+- Right click server "Mark as read" text color when already read
+- Chat search bar color darker and added hover effect
+- Moved chat user avatar slightly to be more center
+- Moved emotes button slightly
+- Emotes menu buttons are now dark
+- Slight color change to popout menu
+- Delete message window preview background color
+- Guilds And DirectMessages margins
+- Friends online number and server seperator placement
+- Server list slightly smaller
+- Embed links left border color
+- Friends list table and header margin
+- Chat date divider text color
+### Fixed
+- DirectMessages online status icons margin when AKA tag is visible
+- DirectMessages chat top right call buttons having the wrong height
+- Chat bottom type box top border being visible
+- Mention in channel icon margin
+- Mention in chat highlight border being too far to the left
+- Autocomplete box overlapping behind chat
+- Bot tag background color inconsistencies
+- Settings menu's buttons hover animations not working on Discord Nitro and Log Out
+- BetterDiscord Plugins list "Open Plugins Folder" button margin with "Check For Updates" button
+### Removed
+- Unnecessary old code
+
 ## [v0.2.1](https://github.com/KillYoy/DiscordNight/commit/83455ceab537415c502e9afda2ad820fcbb60a3f) - 2017-09-25 16:35:
 ### Added
 - Settings menu's buttons hover animations

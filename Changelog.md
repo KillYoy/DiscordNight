@@ -1,5 +1,23 @@
 # DiscordNight Changelog
 
+## [v0.3.1](https://github.com/KillYoy/DiscordNight/commit/168bc156b52b40d319444321aacec4a446b7782a) - 2017-10-27 02:45:
+### Added
+- Server Quick/Invite people notice box button
+- No text channel selected notice
+- Settings games last played hover smaller text size for game install location text
+### Changed
+- Settings Discord nitro icon slightly
+- Text channel hover icon color and unread icon color
+- New messages top box color slightly
+- User popout rich presence margin and text color
+### Fixed
+- Chat, text/voice channels, userpopout, headers and much more...
+- Settings BetterDiscord Plugins/Themes "Open" button when BetterDiscord Blue is disabled
+- Settings BetterDiscord Blue checkbox markers colors fix
+- Settings row selected background color being slightly wrong
+- Chat new messages top box hover color being wrong
+- Current connected voice channel background hover color being wrong
+
 ## [v0.3.0](https://github.com/KillYoy/DiscordNight/commit/48ec2390a46617efc8525cf8d8b90360ca2bee4a) - 2017-10-22 02:10:
 ### Added
 - Settings & Server settings row button icons
@@ -25,7 +43,7 @@
 - User Preview roles icons, text and buttons
 - User Popout streaming changes
 - User options volume slider bar color
-- BetterDiscord Plugins/Themes list changed "Open Plugins Folder" & Settings button
+- BetterDiscord Plugins/Themes list "Open Plugins Folder" & Settings button
 - BetterDiscord Settings menu title text
 - BetterDiscord Core & Emotes settings margins is more compact
 - BetterDiscord Custom CSS editor is a little bigger

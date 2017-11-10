@@ -1,17 +1,51 @@
 # DiscordNight Changelog
 
+## [v0.3.2](https://github.com/KillYoy/DiscordNight/commit/f33191dd0f30ded824a46696ec323e753011db62) - 2017-11-10 16:10:
+### Added
+- Server emoji Nitro notice
+- Discord Screenshare menu
+- New Server invite chat box
+- Settings row Windows Settings submenu
+- BetterDiscord plugins startup & update notices
+### Updated
+- Quoter plugin icon
+- User Creation Date plugin text margins
+### Changed
+- User profile preview Discord Nitro, Partner and Hypesquad icons
+- User profile preview add friend button margin
+- User profile preview playing text is now smaller than game name text
+- Userlist margins to avoid the limitation on total shown users in the userlist
+- Chat verify identity requirement box
+- Settings close menu button
+- Top bar is slightly smaller
+- Top bar server name header to have more room for longer server names
+- Userpopout Rich Presence text color
+- Userlist Rich Presence icon
+- Centered Called & Pinned message icon
+### Fixed
+- Text/Voice channels top margin slightly hiding the first channel or category
+- Text/Voice channels edit channel icon showing
+- Usernames in userlist being too far apart
+- BetterDiscord Plugins settings text color
+- Profile preview long user names being too high up
+- Notification settings window header
+- DirectMessages search results box window blue shadow
+- DirectMessages search box text to actually be centered
+- Screenshare searchbox not being transparent
+
 ## [v0.3.1](https://github.com/KillYoy/DiscordNight/commit/168bc156b52b40d319444321aacec4a446b7782a) - 2017-10-27 02:45:
 ### Added
 - Server Quick/Invite people notice box button
 - No text channel selected notice
 - Settings games last played hover smaller text size for game install location text
 ### Changed
-- Settings Discord nitro icon slightly
+- Text/Voice channels & Friends sidebar is 10px wider
+- Settings Discord Nitro icon slightly
 - Text channel hover icon color and unread icon color
 - New messages top box color slightly
-- User popout rich presence margin and text color
+- User popout Rich Presence margin and text color
 ### Fixed
-- Chat, text/voice channels, userpopout, headers and much more...
+- Chat, Text/Voice channels, userpopout, headers and much more because of Discords new titlebar update
 - Settings BetterDiscord Plugins/Themes "Open" button when BetterDiscord Blue is disabled
 - Settings BetterDiscord Blue checkbox markers colors fix
 - Settings row selected background color being slightly wrong

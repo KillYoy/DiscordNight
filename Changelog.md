@@ -1,5 +1,36 @@
 # DiscordNight Changelog
 
+## [v0.3.3]() - 2017-12-04 20:30:
+### Added
+- Text/Voice channels new unreads box
+- Mutual Friends/Server empty text
+- User Popout member roles hover border effect
+- User Preview & User Popout spectate/watch game button
+- Blur to search results background chat
+- Chat verify phone menu
+- Chat & settings loading spinner
+- Direct Messages Activity feed support
+- Citar plugin support
+### Changed
+- Chat @Mention highlight color
+- User Preview send message/add friend button placement
+- Pinned messages hover border
+- Text channels mentions in channel icon
+- Popout settings windows headers
+- Direct Messages name text width
+- Search results menu
+### Fixed
+- Discords new User Popout & User Previews because of Discords new profile update
+- Direct Messages list now uses same spacing as Userlist between icon and name
+- Direct Messages and Userlist online icon border inconsistencies
+- Direct Messages friend suggestions add friend button color
+- Mentions padding after user profile icon
+- Topbar channel topic icon being to far up
+- Popout settings buttons being to close to each other
+### Removed
+- Profile Preview background image (needs code rewrite to work correctly)
+- Profile Preview Mutual servers/friends counter (needs code rewrite to work correctly)
+
 ## [v0.3.2](https://github.com/KillYoy/DiscordNight/commit/f33191dd0f30ded824a46696ec323e753011db62) - 2017-11-10 16:10:
 ### Added
 - Server emoji Nitro notice
@@ -11,15 +42,15 @@
 - Quoter plugin icon
 - User Creation Date plugin text margins
 ### Changed
-- User profile preview Discord Nitro, Partner and Hypesquad icons
-- User profile preview add friend button margin
-- User profile preview playing text is now smaller than game name text
+- User Profile Preview Discord Nitro, Partner and Hypesquad icons
+- User Profile Preview add friend button margin
+- User Profile Preview playing text is now smaller than game name text
 - Userlist margins to avoid the limitation on total shown users in the userlist
 - Chat verify identity requirement box
 - Settings close menu button
 - Top bar is slightly smaller
 - Top bar server name header to have more room for longer server names
-- Userpopout Rich Presence text color
+- User popout Rich Presence text color
 - Userlist Rich Presence icon
 - Centered Called & Pinned message icon
 ### Fixed
@@ -27,10 +58,10 @@
 - Text/Voice channels edit channel icon showing
 - Usernames in userlist being too far apart
 - BetterDiscord Plugins settings text color
-- Profile preview long user names being too high up
+- Profile Preview long user names being too high up
 - Notification settings window header
-- DirectMessages search results box window blue shadow
-- DirectMessages search box text to actually be centered
+- Direct Messages search results box window blue shadow
+- Direct Messages search box text to actually be centered
 - Screenshare searchbox not being transparent
 
 ## [v0.3.1](https://github.com/KillYoy/DiscordNight/commit/168bc156b52b40d319444321aacec4a446b7782a) - 2017-10-27 02:45:
@@ -43,9 +74,9 @@
 - Settings Discord Nitro icon slightly
 - Text channel hover icon color and unread icon color
 - New messages top box color slightly
-- User popout Rich Presence margin and text color
+- User Popout Rich Presence margin and text color
 ### Fixed
-- Chat, Text/Voice channels, userpopout, headers and much more because of Discords new titlebar update
+- Chat, Text/Voice channels, User Popout, headers and much more because of Discords new titlebar update
 - Settings BetterDiscord Plugins/Themes "Open" button when BetterDiscord Blue is disabled
 - Settings BetterDiscord Blue checkbox markers colors fix
 - Settings row selected background color being slightly wrong
@@ -60,11 +91,11 @@
 - View Users Permissions plugin support
 - Replaced BetterDiscord Themes & Plugins checkboxes with switches
 - Boxshadowing to BetterDiscord Plugins/Themes list
-- Profile preview now has a counter when viewing mutual friends & servers
-- Profile preview mutual server verified icon
+- Profile Preview now has a counter when viewing mutual friends & servers
+- Profile Preview mutual server verified icon
 - Added user profile & preview rich presence
 - Hover effect to DirectMessages search bar
-- Upload File Menu
+- Upload file menu
 ### Updated
 - BetterDiscord BetterTwitchTV Emotes 3.0 compatibility
 - Support for the new CharacterCounter plugin update
@@ -118,7 +149,7 @@
 ## [v0.2.1](https://github.com/KillYoy/DiscordNight/commit/83455ceab537415c502e9afda2ad820fcbb60a3f) - 2017-09-25 16:35:
 ### Added
 - Settings menu's buttons hover animations
-- Profile preview Discord Nitro subscriber, Discord Partner/Hype Squad icon support
+- Profile Preview Discord Nitro subscriber, Discord Partner/Hype Squad icon support
 - Channel categories collapse/open channels buttons support
 - "You must be a member for at least X to write in this server" box
 - NSFW channel enter notice
@@ -134,8 +165,8 @@
 - Channel topic icon color
 - Popout window color
 - Locked voice channel color
-- Profile preview name, game activity and add friend button color and margin
-- Profile popout name margin and offline status icon border
+- Profile Preview name, game activity and add friend button color and margin
+- Profile Popout name margin and offline status icon border
 - DirectMessages friends row margin and buttons
 - Chat edit message margin
 ### Fixed
@@ -176,8 +207,8 @@
 - Banner toggle button border
 - Servers without avatar selection color
 - User Mute/Deafen icons margin
-- Profile preview background, tabs, online status icon border and profile picture border color
-- User popout game activity size, padding and text shadow
+- Profile Preview background, tabs, online status icon border and profile picture border color
+- User Popout game activity size, padding and text shadow
 - Appearance preview background color
 - Code formatting in chat color
 - Server list add server button
@@ -195,7 +226,7 @@
 - Converted more colors from RGB to HEX
 - Custom Emoji Selection Bug
 - Plugins scroll wrong color
-- Profile preview mutual friends background color not being transparent
+- Profile Preview mutual friends background color not being transparent
 - online status icon inconsistencies
 - Separated server name header from DirectMessages friends list search bar to fix server name padding
 - BetterDiscord separator title font weight being wrong

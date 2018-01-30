@@ -1,6 +1,54 @@
 # DiscordNight Changelog
 
-## [v0.3.3]() - 2017-12-04 20:30:
+## [v0.4.0]() - 2018-01-31 00:10:
+### Added
+- Settings blue colored version/author text on plugins/theme
+- Settings Connections grayscale icons
+- Add friend button notice
+- Dark tooltips
+- Text chat game invite box & popout
+- Zere's fork theme compatability
+- Zere's fork Startup Plugin/Theme Issues Window
+- Plugin Repo plugin support
+### Updated
+- Creation Date plugin support
+### Changed
+- Server User Managment member roles
+- Server unread message color
+- Server header popout items
+- Search filter color
+- Join / Create server icons
+- Profile Connection icons to use Discord built in icons instead
+- Activity feed changes
+- Looking For Group changes
+- Settings menu paddings
+### Fixed
+- Spectate, Watch Game/Stream button
+- Game invite popout window cancel button
+- Chat Jump To Present button color
+- Chat verify identity button color
+- Chat user is typing indicator
+- Chat upload file menu
+- Chat Link embeds
+- Chat Emoji menu
+- Chat BetterDiscord Twitch Emoji menu scrollers
+- Chat Verify phone & popup window
+- Search results background
+- Settings connections icons & background
+- My Account settings page
+- Drop down menu/context menu
+- Add roles/search roles popout window
+- UserPopout Protip & quickmessage not being hidden
+- Create server region selection hover
+- Change online status window
+- Server header dropdown/popout menu
+- Server revoke invite button color
+- Server remove webhook button color
+- Server Members search bar
+- Server Welcome message
+- Popout window corners
+
+## [v0.3.3](https://github.com/KillYoy/DiscordNight/commit/72bb5d00d554a51d8fec35eade7603974b7438fd#diff-b13a363fd2be58db9325ba56eab60b57) - 2017-12-04 20:30:
 ### Added
 - Text/Voice channels new unreads box
 - Mutual Friends/Server empty text

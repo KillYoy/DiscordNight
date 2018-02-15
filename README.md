@@ -6,5 +6,8 @@ Requires [Discord](https://discordapp.com/) desktop app with [BetterDiscord](htt
 2. Refresh Discord using (CTRL+R) or restart Discord
 3. Go to Settings > BetterDiscord > Themes and enable DiscordNight
 
-Note: Makes sure you have **Dark Theme** enabled in Settings > Appearance > Theme and select Dark  
-      DiscordNight is not completely formatted in **Compact** mode yet, so it's recommended to use **Cozy** Message Display
+Make sure you have **Dark Theme** enabled in Settings > Appearance > Theme and select Dark  
+      Having **BetterDiscord Blue** enabled is recommended but not necessary for the theme to work correctly for the most part.  
+	  BetterDiscord Blue is enabled in Settings > BetterDiscord Core > BetterDiscord Blue.  
+
+Keep in mind that things may break at any time because of Discords background updates.

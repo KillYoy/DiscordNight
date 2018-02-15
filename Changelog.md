@@ -1,10 +1,52 @@
 # DiscordNight Changelog
 
-## [v0.4.0]() - 2018-01-31 00:10:
+## [v0.4.1]() - 2018-02-15 01:00:
+### Added
+- Chat file attached background
+- Delete message window
+- Channel List Bottom Bar Spotify listening along box
+- Search for Server, Channels or DMs Window
+- Settings Games Add Game poput
+- Invite to listen window
+- Spotify connection icons
+- User Profile & User Popout Spotify support
+- Server/Group owner crown offline color
+### Changed
+- Window headers
+- User Popout spotify buttons
+- Top Right Search Bar popout
+- Settings link colors
+- User Profile spotify buttons paddings
+- User Profile badges are bigger when not playing anything
+- User Profile activity description text color
+- User Profile watch stream button
+- Larger spacing between channel categories
+- PermissionViewer plugin changes
+- Plugin Repo plugin changes
+### Fixed
+- Chat Compact mode margins
+- Connections icons not loading
+- Connecting/Reconnecting loading screen background
+- Own/Bots User Profile pictures being too far down
+- User Profile badges position not being correct
+- Emotes menu when BetterDiscord Dark Mode is not enabled
+- Settings to App background color
+- Search filter background
+- Unsaved changes box
+- Instant Invite window
+- Server region button
+- User Preview note background selection color
+- User Popout note background selection color
+- Settings My Account "Change Phone Number?" button color
+- Settings Voice & Video menu video preview
+- Channel list quick switcher/invite background
+
+## [v0.4.0](https://github.com/KillYoy/DiscordNight/commit/54a668bd6be9eb82ac1a625c8389af0e07151169#diff-b13a363fd2be58db9325ba56eab60b57) - 2018-01-31 00:10:
 ### Added
 - Settings blue colored version/author text on plugins/theme
 - Settings Connections grayscale icons
 - Add friend button notice
+- Server/Group owner crown
 - Dark tooltips
 - Text chat game invite box & popout
 - Zere's fork theme compatability
@@ -13,6 +55,8 @@
 ### Updated
 - Creation Date plugin support
 ### Changed
+- Emojis are bigger to not screw up resolution
+- Reverted roles to classic style
 - Server User Managment member roles
 - Server unread message color
 - Server header popout items
@@ -38,7 +82,7 @@
 - My Account settings page
 - Drop down menu/context menu
 - Add roles/search roles popout window
-- UserPopout Protip & quickmessage not being hidden
+- User Popout Protip & quickmessage not being hidden
 - Create server region selection hover
 - Change online status window
 - Server header dropdown/popout menu
@@ -98,7 +142,7 @@
 - Settings close menu button
 - Top bar is slightly smaller
 - Top bar server name header to have more room for longer server names
-- User popout Rich Presence text color
+- User Popout Rich Presence text color
 - Userlist Rich Presence icon
 - Centered Called & Pinned message icon
 ### Fixed
@@ -136,7 +180,7 @@
 - Settings & Server settings row button icons
 - Voice & Video menu preview
 - Status Everywhere plugin support
-- View Users Permissions plugin support
+- PermissionViewer plugin support
 - Replaced BetterDiscord Themes & Plugins checkboxes with switches
 - Boxshadowing to BetterDiscord Plugins/Themes list
 - Profile Preview now has a counter when viewing mutual friends & servers

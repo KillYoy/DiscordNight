@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.4.1]() - 2018-02-15 01:00:
+## [v0.4.1](https://github.com/KillYoy/DiscordNight/commit/257b4eeb0d8eb1bba4ffaaf2effa3cf12390067d) - 2018-02-15 01:00:
 ### Added
 - Chat file attached background
 - Delete message window
@@ -13,10 +13,10 @@
 - Server/Group owner crown offline color
 ### Changed
 - Window headers
-- User Popout spotify buttons
+- User Popout Spotify buttons
 - Top Right Search Bar popout
 - Settings link colors
-- User Profile spotify buttons paddings
+- User Profile Spotify buttons paddings
 - User Profile badges are bigger when not playing anything
 - User Profile activity description text color
 - User Profile watch stream button

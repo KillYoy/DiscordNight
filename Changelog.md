@@ -1,5 +1,28 @@
 # DiscordNight Changelog
 
+## [v0.4.2]() - 2018-03-22 14:40:
+### Added
+- User Popout Watch Stream button hover effect
+- User Profile Badges now cast shadows and have a hover effect
+### Changed
+- Instant Invite window
+### Fixed
+- Games feed
+- App buttons
+- DM's call background & titlebar
+- DM's add friend textfield
+- Chat top right search bar "from:user color"
+- Chat NSFW channel enter notice
+- Chat Add Reaction Emoji Menu Position Fix
+- Settings row separator color
+- Settings toggle overlay lock keybind button
+- Settings remove keybind button
+- Settings row selected background not showing
+- Settings row Nitro background and text being blue
+- User Profile send message, add friend, watch stream and Spotify buttons
+- User Profile rich presence text and name margins
+- User Popout being broken
+
 ## [v0.4.1](https://github.com/KillYoy/DiscordNight/commit/257b4eeb0d8eb1bba4ffaaf2effa3cf12390067d) - 2018-02-15 01:00:
 ### Added
 - Chat file attached background

@@ -1,5 +1,16 @@
 # DiscordNight Changelog
 
+## [v0.4.3]() - 2018-04-05 22:55:
+### Updated
+- Status Everywhere Plugin support
+### Changed
+- Games Feed headers
+- Chat new messages top box hover color
+- User List hover transition time
+- User List avatar size
+### Fixed
+- User list
+
 ## [v0.4.2]() - 2018-03-22 14:40:
 ### Added
 - User Popout Watch Stream button hover effect

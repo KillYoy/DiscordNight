@@ -1,5 +1,53 @@
 # DiscordNight Changelog
 
+## [v0.5.0]() - 2018-04-24 14:40:
+### Added
+- User Profile Send Friend Request/Message button hover
+- User Profile Accept and Ignore friend request buttons
+- User Profile Bug Hunter badge support
+- Pinned Messages/Mentions box jump/close button hover
+- Play on Spotify button and Listen along with button hover
+- Direct Messages user AKA tag
+### Updated
+### Changed
+- Red App buttons
+- User Profile header background
+- User Profile streaming header & preview size and text
+- User Profile Rich Presence game icon size
+- Recent Mentions text formatting and color
+- Server Name/Header popout window text and icon brightness
+- Context menu slight decrease in margins and increased max size
+- Game Activity Add Game menu
+- New Group DM button window
+- DM's pending friend request badge notice
+- Chat video player duration bar color
+- Settings checkbox & Radio buttons
+- Notification Settings description color
+- Instant Invite window invite text size
+### Fixed
+- Mentions/pinned messages box
+- Keyboard Controls showcase window
+- Change Online Status popout window
+- RTC Connection Info popout window
+- Server Name popout window
+- Top Right Searchbar Search Options popout
+- User Profile streaming badge row location
+- User Profile Bot tag positioning
+- Friends list tab switch animation not working
+- Server Roles menu hover animations being laggy
+- Instant Invite window copy button image
+- Windows not always having rounded corners
+- Settings Game Activity game name selection background
+- Incoming Call box
+- New Unreads box
+- Top popouts gap
+- Channel list hover margin
+- Context menu scrollbar
+- Changelog window scroller
+- Settings scroller
+### Removed
+- Top right Search Bar divider
+
 ## [v0.4.3]() - 2018-04-05 22:55:
 ### Updated
 - Status Everywhere Plugin support

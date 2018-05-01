@@ -1,6 +1,30 @@
 # DiscordNight Changelog
 
-## [v0.5.0]() - 2018-04-24 14:40:
+## [v0.5.1]() - 2018-05-01 15:50:
+### Added
+- Xbox connection icon
+- Account settings customize tag nutton
+- Search options calendar
+### Changed
+- User Profile Spectate game button
+- User Profile Mutual Friends/Servers names
+- Chat Scrollerbar
+- Chat BetterDiscord emotes menu buttons and size
+- Chat embed reaction margin being to high
+- Games feed user avatar/game icon hover
+- Connections menu icons margin
+- Server Audit Log card color
+- Server Audit Log/Members filtering window
+### Fixed
+- 90% Of the theme being broken due to Discord update
+- User Profile badges not showing when playing
+- User Profile scrollerbar
+- Connections Menu cards
+- App background transition
+- Add reaction emoji menu position
+- Voice/Video call and Screenshare menu
+
+## [v0.5.0](https://github.com/KillYoy/DiscordNight/commit/a60e19c41eccb263f9898e6f9d7167a9205c65a6) - 2018-04-24 14:40:
 ### Added
 - User Profile Send Friend Request/Message button hover
 - User Profile Accept and Ignore friend request buttons
@@ -8,7 +32,6 @@
 - Pinned Messages/Mentions box jump/close button hover
 - Play on Spotify button and Listen along with button hover
 - Direct Messages user AKA tag
-### Updated
 ### Changed
 - Red App buttons
 - User Profile header background
@@ -48,7 +71,7 @@
 ### Removed
 - Top right Search Bar divider
 
-## [v0.4.3]() - 2018-04-05 22:55:
+## [v0.4.3](https://github.com/KillYoy/DiscordNight/commit/7cbbe1421bc0a32cff81dbe2c201a04b2e58cd22) - 2018-04-05 22:55:
 ### Updated
 - Status Everywhere Plugin support
 ### Changed
@@ -59,7 +82,7 @@
 ### Fixed
 - User list
 
-## [v0.4.2]() - 2018-03-22 14:40:
+## [v0.4.2](https://github.com/KillYoy/DiscordNight/commit/98c850c897d07d3604ea300adf6f0386edc0777b) - 2018-03-22 14:40:
 ### Added
 - User Popout Watch Stream button hover effect
 - User Profile Badges now cast shadows and have a hover effect

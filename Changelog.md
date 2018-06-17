@@ -1,6 +1,48 @@
 # DiscordNight Changelog
 
-## [v0.5.1]() - 2018-05-01 15:50:
+## [v0.5.2]() - 2018-06-17 18:40:
+### Added
+- New invited to server window
+- User profile/User popout playing a game on Xbox Live
+- Chat attachment/invite button under emoji button
+- Games feed Quick Launcher & news scroller
+- Settings drop down menu hover
+- Settings delete connection button hover
+### Updated
+- Status Everywhere plugin support
+### Changed
+- BetterDiscord plugin update notice
+- BetterDiscord emotes menu tab hover z-index
+- Settings selection drop down menu
+- Settings connections menu icons is centered
+- User/Member list loading colors
+- User Profile Twitch account name is now capitalized
+- Search Options filter text size
+- Modal Window Notification Settings card hover
+- Attach file/Invite button position/popout position
+- DMs friends list changes
+- Chat Invite To Game chat card
+- Invite friends to server searchbar
+### Fixed
+- Chat No text channels selected notice background color
+- Chat edit message box background
+- Chat attachment button position
+- Chat @Mention highlight overbright background color
+- Chat video player duration/volume bar
+- Chat box "Game supports game invites" text position
+- BetterDiscord dark emoji menu scroller
+- Top bar pinned messages icon border
+- Friends tab Pending badge
+- User Profile friend request ignore button
+- User Profile no server icon background
+- Server emoji nitro notice
+- Server region select button
+- Settings unsaved changes box
+- Upload file popup comment text box
+- Invite menu cancel button
+- Games feed scroller
+
+## [v0.5.1](https://github.com/KillYoy/DiscordNight/commit/569f0bf6283f2c18151091fa2e010cfab7efff45) - 2018-05-01 15:50:
 ### Added
 - Xbox connection icon
 - Account settings customize tag nutton
@@ -8,7 +50,7 @@
 ### Changed
 - User Profile Spectate game button
 - User Profile Mutual Friends/Servers names
-- Chat Scrollerbar
+- Chat scrollerbar
 - Chat BetterDiscord emotes menu buttons and size
 - Chat embed reaction margin being to high
 - Games feed user avatar/game icon hover
@@ -16,7 +58,7 @@
 - Server Audit Log card color
 - Server Audit Log/Members filtering window
 ### Fixed
-- 90% Of the theme being broken due to Discord update
+- 90% of the theme being broken due to Discord update
 - User Profile badges not showing when playing
 - User Profile scrollerbar
 - Connections Menu cards

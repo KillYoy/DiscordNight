@@ -1,6 +1,20 @@
 # DiscordNight Changelog
 
-## [v0.5.2]() - 2018-06-17 18:40:
+## [v0.5.3]() - 2018-06-22 00:20:
+### Added
+- Games Feed data personalization Yes/No notice
+- Server list selected with unread message background
+### Changed
+- BetterDiscord settings row icons to match with Zere's Fork
+### Fixed
+- BetterDiscord plugins settings scroller
+- User Popout and User Profile avatar size
+- User List user offline image size
+- Bottom left Avatar position
+- Bottom left border radius
+- Games Feed no splash art temporay image
+
+## [v0.5.2](https://github.com/KillYoy/DiscordNight/commit/2fc49ca7443bb27fc81317aca0250961656e275f) - 2018-06-17 18:40:
 ### Added
 - New invited to server window
 - User profile/User popout playing a game on Xbox Live

@@ -1,29 +1,145 @@
 # DiscordNight Changelog
 
-## [v0.5.3]() - 2018-06-22 00:20:
+## [v0.6.0]() - 2018-08-08 15:10:
+### Added
+- Discord login box
+- Pinned Plugins/Themes plugin support
+- BetterDiscord plugins list "Check for Updates" Icon
+- BetterDiscord plugins list settings buttons underline hover
+- BetterDiscord plugin success notice now has a different background color
+- Overlay notifications area settings
+- Server list and channel list box shadow line
+- Games Feed and Game Preview news videos is now slightly brighter on hover
+- Games Feed game splash art header is now blurred
+- Games Feed guild icon hover
+- Voice chat list user hover background
+- Chat audio file attached
+- User Profile mutual server/friend avatar slight shadowing
+- User Profile/User Popout game description has slight text shadowing
+- User Popout footer "Message @User" and "I'm new to Discord, say hi!"
+### Updated
+- StatusEverywhere plugin support
+- Character Counter 2.0 plugin support
+### Changed
+- Settings Game Activity list smaller padding
+- Settings Discord Nitro now uses the default icon
+- Settings remove card button
+- Settings My Account card color
+- Settings toggle description color
+- Server settings "Unsaved Changes Box" is slightly transparent
+- BetterDiscord settings toggles title/description is more like default discords margins
+- Connected voice channel icon is now brighter
+- Voice channel selected/active background
+- Voice channel limited/max users channels
+- Voice chat user hover background
+- Incoming call popup is slightly transparent
+- Call user background blur
+- Call screen share menu
+- Chat user avatar hover
+- Chat invite to game and image background
+- Chat auto completion box text
+- Chat file attached icon is now dark
+- Chat file attached download button brighter icon and size on hover
+- Chat embed vertical line size
+- Chat @mentioned background and border
+- Games Feed news header
+- Games Feed Quick Launcher hidden header text and game shortcuts now center
+- Games Feed hovering over overflow menu now makes it slightly bigger
+- Games Feed hovering over User ID makes the text white for better readability
+- Games Feed What's New game news text now has shadowing
+- Games Feed rich presence game icon and description
+- User Popout and User Profile transparent avatars now has a dark background
+- User Popout streaming background brightness
+- User Popout add role button is now visible again
+- User Popout Playing A Game text color now matches the other header text colors
+- User Popout streaming text have more line spacing for easier reading
+- User Profile reddit icon now uses default whitescale icon
+- User Profile ask to join and spectate is now better positioned (still not perfect)
+- User Profile spectate game button can be hovered over even when disabled
+- User Profile and Popout online status line
+- User Profile game icon size
+- User Profile scroller size
+- User list and DM's list application rich presence icon
+- Search results menu and expanded messages does not get blurred
+- Recent mentions formatting and jump/close button background and position
+### Fixed
+- Channel list create new channel button
+- Channel list hover muted channel text color too bright
+- Channel list category text and collapse button margin
+- Search results menu message margins
+- Server list
+- DM's searchbar
+- Chat background, chatbox, new message/date divider and edit message
+- Chat "You must be a member for at least X" box
+- Chat call/pinned icons, reactions, messages and avatar margins
+- Chat add reaction/message options buttons and menu
+- Chat @mention highlight
+- Chat code formatting
+- Chat NSFW channel enter notice
+- Chat box phone verification requirement and verify phone window
+- Call leave call, mute, settings bar
+- Video call screen share scroller
+- Incoming call popup
+- Join server green button hover color
+- Connected voice channel background hover
+- Voice connected UI buttons placement
+- Voice chat user margins
+- Titlebar height when in a call
+- DM's User Online Status position
+- Add Friend To DM group button window
+- RTC Connection Info Popout Window
+- Friends list hover avatar margin
+- Invite friends to server searchbox
+- Notifications settings separation lines
+- Settings plugins setting text area background
+- Settings Discord Nitro selected text color
+- Settings row icon behaving weird when hovering on row above selected
+- User list user selection/hover animation transition
+- User list user background hover effect border outline
+- Pinned Messages/Mentions box messages background
+- Game Preview game not detected button and no image backup slash art
+- Game Preview no news backup splash art changing contrast on hover
+- Games Feed online status border
+- Games Feed Now Playing together in voice channel text and icon
+- User Profile spectate game button
+- User Profile verified server icon
+- User Profile headers and tab buttons inconsistency
+- User Profile avatar box shadow
+- User Profile playing on xbox live margin
+- User Popout rich presence game time elapsed text color
+- User Popout names going outside margins sometimes
+- Server role overflow menu
+- Server permissions settings toggle buttons
+- Server permissions settings default role background color
+- Emoji menu search bar & diversity selector dropdown width
+- Avatar typing indicator position fix
+- Modal window notification settings scroller
+- Help Window
+
+## [v0.5.3](https://github.com/KillYoy/DiscordNight/commit/8eeb58fa82b85c3837ce88118e96212cbe55a5da) - 2018-06-22 00:20:
 ### Added
 - Games Feed data personalization Yes/No notice
-- Server list selected with unread message background
+- Server list selected server with unread message background
 ### Changed
 - BetterDiscord settings row icons to match with Zere's Fork
 ### Fixed
 - BetterDiscord plugins settings scroller
 - User Popout and User Profile avatar size
 - User List user offline image size
-- Bottom left Avatar position
+- Bottom left avatar position
 - Bottom left border radius
 - Games Feed no splash art temporay image
 
 ## [v0.5.2](https://github.com/KillYoy/DiscordNight/commit/2fc49ca7443bb27fc81317aca0250961656e275f) - 2018-06-17 18:40:
 ### Added
 - New invited to server window
-- User profile/User popout playing a game on Xbox Live
+- User Profile/User Popout playing a game on Xbox Live
 - Chat attachment/invite button under emoji button
-- Games feed Quick Launcher & news scroller
+- Games Feed Quick Launcher & news scroller
 - Settings drop down menu hover
 - Settings delete connection button hover
 ### Updated
-- Status Everywhere plugin support
+- StatusEverywhere plugin support
 ### Changed
 - BetterDiscord plugin update notice
 - BetterDiscord emotes menu tab hover z-index
@@ -54,7 +170,7 @@
 - Settings unsaved changes box
 - Upload file popup comment text box
 - Invite menu cancel button
-- Games feed scroller
+- Games Feed scroller
 
 ## [v0.5.1](https://github.com/KillYoy/DiscordNight/commit/569f0bf6283f2c18151091fa2e010cfab7efff45) - 2018-05-01 15:50:
 ### Added
@@ -67,7 +183,7 @@
 - Chat scrollerbar
 - Chat BetterDiscord emotes menu buttons and size
 - Chat embed reaction margin being to high
-- Games feed user avatar/game icon hover
+- Games Feed user avatar/game icon hover
 - Connections menu icons margin
 - Server Audit Log card color
 - Server Audit Log/Members filtering window
@@ -129,7 +245,7 @@
 
 ## [v0.4.3](https://github.com/KillYoy/DiscordNight/commit/7cbbe1421bc0a32cff81dbe2c201a04b2e58cd22) - 2018-04-05 22:55:
 ### Updated
-- Status Everywhere Plugin support
+- StatusEverywhere plugin support
 ### Changed
 - Games Feed headers
 - Chat new messages top box hover color
@@ -340,7 +456,7 @@
 ### Added
 - Settings & Server settings row button icons
 - Voice & Video menu preview
-- Status Everywhere plugin support
+- StatusEverywhere plugin support
 - PermissionViewer plugin support
 - Replaced BetterDiscord Themes & Plugins checkboxes with switches
 - Boxshadowing to BetterDiscord Plugins/Themes list

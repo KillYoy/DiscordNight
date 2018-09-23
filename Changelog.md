@@ -1,6 +1,68 @@
 # DiscordNight Changelog
 
-## [v0.6.0]() - 2018-08-08 15:10:
+## [v0.7.0]() - 2018-09-23 03:10:
+### Added
+- Home Game Library and Application Store
+- Settings row Billing, Game Library and Hypesquad icons
+- Settings row Game Library
+- Settings HypeSquad menu text shadowing
+- Upload file modal autocompletion
+### Updated
+- StatusEverywhere Plugin support for autocompletion & server permissions
+### Changed
+- User Profile header slightly
+- User Profile Spotify description text margins
+- User Profile Playing A Game On Xbox Live Connect Xbox Live button
+- User Popout Playing A Game On Xbox Live margins
+- Settings row and User Profile SVG's are hosted on Github and has been optimized
+- Settings plugins website/source button color
+- Settings Pinned Plugins/Themes plugin card backgrounds is slightly purple
+- Activity Feed small news carousel
+- Activity Feed game splash art now scales correctly
+- Activity Feed less apparent hover background color change
+- Game Preview User Avatar hover no longer resizes online status
+- Game Preview bigger User Avatar and hover effect
+- Modal Window header color
+- Colorblind offline icon no longer has a dot in the center
+- Chat Invited To Join Server link box & Joined Server button
+- Emoji menu placeholder text color
+- HypeSquad houses icons to original HypeSquad icon but recolored to respective house color
+- Server Audit Log filtering window background color
+- Server Permissions list add roles or members button and text color
+- Search results header is now slightly smaller
+- Add Roles & Members Popout window sections
+- Home search menu hidden the anoying arrows
+- Home list action buttons now show correct colors on hover
+- Home Friends/Activity buttons list is now centered
+- Home DMs Remove from list/Leave button is now easier to click
+### Fixed
+- Emoji menu Twitch category changing emoji menu size
+- Emoji menu search and clear icon
+- Chat Clyde bot notice
+- Chat Reactions
+- Chat Call/Pinned icon margins
+- Chat Add Reaction/Message options button margin
+- Chat Quoter Plugin button going into message
+- Recent Mentions Table/Code formatting color
+- Invite to server modal windows searchbar and link copy field
+- Home Friends friend request badge icon and friend suggestions list hover
+- Home DMs list and application rich presence icon
+- Home search bar and header
+- Activity Feed news promotional splash art color
+- Activity Feed news header image hover and small news background 
+- Activity Feed news splash art bottom background color and text
+- Activity Feed play button is shown when game is disabled
+- Add Roles & Member add Popout window top arrow
+- Channels Bottom Status box color
+- Channels New Unreads box
+- User Profile Activity padding making hovering over badges difficult
+- User Profile bughunter badge shadow and hover
+- User Profile new hypesquad online house badges
+- Settings game activity text margins
+- Settings close menu button
+- Settings row BetterDiscord selection color
+
+## [v0.6.0](https://github.com/KillYoy/DiscordNight/commit/9178fc9dad40dbab464ddbf2667db2e4b1c5b187) - 2018-08-08 15:10:
 ### Added
 - Discord login box
 - Pinned Plugins/Themes plugin support

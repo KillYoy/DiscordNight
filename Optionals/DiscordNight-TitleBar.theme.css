@@ -1,0 +1,47 @@
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy","version":"0.1"}*//
+
+.titleBar-AC4pGV .wordmark-2iDDfm {
+	display: none;
+}
+.winButton-iRh8-Z svg, .winButtonClose-2rIvsa svg, .winButtonMinMax-bT_gQ1 svg {
+	height: 16px;
+	width: 16px;
+}
+.titleBar-AC4pGV {
+	margin: 0;
+	padding: 8px 5px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	-webkit-app-region: no-drag;
+}
+.titleBar-AC4pGV:before {
+	content: ' ';
+	height: 6px;
+	width: 100vw;
+	position: absolute;
+	top: 4px;
+	right: 0;
+	z-index: 3000;
+	-webkit-app-region: drag;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z {
+	height: 28px;
+	width: 28px;
+}
+/* Move Buttons */
+.title-3qD0b- .flex-1xMQg5.horizontal-1ae9ci, .titleCall-_b9o8P .flex-1xMQg5.horizontal-1ae9ci, .headerBar-UHpsPw .flex-1xMQg5.horizontal-1ae9ci {
+	margin-right: 86px;
+}
+/* Divider */
+.title-3qD0b- .flex-1xMQg5.horizontal-1ae9ci:after, .titleCall-_b9o8P .flex-1xMQg5.horizontal-1ae9ci:after, .headerBar-UHpsPw .flex-1xMQg5.horizontal-1ae9ci:after {
+	content: ' ';
+	height: 22px;
+	width: 1px;
+	background-color: rgba(247, 247, 248, 0.1);
+}
+/* Notice Dismiss Button */
+.dismiss-SCAH9H {
+	height: 38px;
+	margin-right: 90px;
+}

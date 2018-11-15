@@ -1,5 +1,72 @@
 # DiscordNight Changelog
 
+## [v0.7.1]() - 2018-11-15 15:45:
+### Added
+- User profile early nitro supporter badge
+- Activity Feed large news & game header hover transition
+- Application Store Game Purchased & Install Location modal
+- Library install game modal
+- Library downloading game header
+### Updated
+- cdn.rawgit.com to rawcdn.githack.com
+### Changed
+- Chat image GIF tag is slightly smaller and transparent
+- Chat Badges Everywhere Plugin and Cakeday Plugin margins
+- Chat Upload File modal upload button color
+- Search Results selected & relevant
+- Search Results unfocused relevant is less blurred
+- Search Options calendar
+- Friends list avatar size
+- Friends list hover buttons
+- Friends list & Game Library header color
+- User Popout Spectate, Watch Game & Stream Button padding to fit text
+- Activity Feed small news background opacity
+- Activity Feed splash art backup image
+- Activity Feed & Application Store First on Discord notices
+- Application Store Nitro elements
+- Game Library game card & and game icon
+- Game Preview developer text/border and disabled button color
+- Video Play buttons hover effect
+- Titlebar box shadowing
+- Settings My Account Menu Card color
+- Settings Game Library Install Locations
+- Settings Game Library Hidden Games bottom border color
+- Settings row sidebar is more compacted
+- Settings BD Custom CSS margin size
+- Plugin Repo Plugin modal background
+### Fixed
+- Chat slowmode position
+- Chat date divider color
+- Chat CompactMode tweaks
+- Chat Search Options popout
+- Chat textbox shifting on too long message 
+- Chat textbox scrollbar is now visible on very long messages
+- Chat Game Supports Game Invite tip
+- Userlist loading placeholders
+- Userlist names flashing on channel change
+- Recent Mentions code inline
+- Server Name Popout top margin
+- Activity Feed xbox game icon hover
+- Activity Feed news carousel
+- Activity Feed large news carousel interaction size & bottom margin
+- Activity Feed "Now Playing: Nobody Is Playing Anything Right Now..."
+- Application Store game tiles background & description
+- Application Store game page details & description/details cards
+- User Profile Spectate, Ask to Join & View in Store Button positions misalignment & text color transparency
+- Notification settings modal description and divider colors
+- Settings Game Library Install Locations used disk space bar color
+- Settings row and background colors
+- DM's list being slightly misplaced
+- Game Library cloud save icon position
+- Theme Repo Plugin modal
+- Help Modal search bar
+# Removed
+- Old obsolete owner plugin code
+
+## [v0.7.0.1]() - 2018-09-23 15:55:
+### Fixed
+- Fixed mask SVG 404
+
 ## [v0.7.0]() - 2018-09-23 03:10:
 ### Added
 - Home Game Library and Application Store

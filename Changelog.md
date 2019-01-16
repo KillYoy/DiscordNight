@@ -1,5 +1,74 @@
 # DiscordNight Changelog
 
+## [v0.7.2]() - 2019-01-16 17:00:
+### Added
+- Chat box GIF/Gift button wrapper
+- Chat GIF search menu
+- Chat spoiler tagged image & message
+- Chat X blocked message
+- Chat Gifted Nitro
+- Choose a gift Modal Window
+- Gift Inventory items
+- Video Call server select popout
+- Avatar uploader indicator
+- Settings My Account profile picture hover to show as square
+- Settings My Account mail & Phone number hidden until hover
+- Settings Billing menu "Looking to redeem a Discord Key?" notice
+- Settings Detach/Attach UI for BetterDiscord Custom CSS Editor
+- User Profile stream thumbnail box-shadowing
+- User Profile Hypesquad golden badge
+- Userlist & User Profile/User Popout mobile indicator
+- Titlebar Rename DM Group highlight background
+- Application Store game description/details cards & latest news
+- Server List mentioned badge now has a slight text shadowing
+- Server notification settings override placeholder
+### Updated
+- Plugin Repo/Theme Repo Plugin support
+- Server MemberCount Plugin support
+### Changed
+- Search Results scroller
+- Friends List online status icon is slightly bigger
+- User Profile avatars is larger and now matches header
+- User List user selection/hover animation transition tweaks
+- Settings My Account username & email title text color
+- Server Unread Message background color is slightly changed
+- Server Audit Log text is now selectable
+- Applications Store game page verified discord server join button
+- Direct Messages remove from list/leave button margin
+- Chat box Slowmode is Enabled text is more transparent
+- Chat Missed call icon is now red
+- Chat Emoji menu searchbar background
+### Fixed
+- Black tooltips
+- Windows Titlebar color
+- Titlebar Channel name margin
+- Library My Games/Gift Inventory titlebar buttons
+- Add friends to DM menu searchbar/scrollbar & online status border
+- Home Friends list
+- Chat scrollbar
+- Chat top right searchbar
+- Chat attach file button selection z-index issue
+- Chat Emoji menu searchbar & no results image/text
+- Chat BD Emojimenu scroller temp fix?
+- User Profile badges position
+- User Profile header tab buttons
+- User Profile spotify margin
+- User Popout Play on Spotify button margin
+- Channels bottom status box status border & avatar margin
+- Context menu checkbox color
+- Search Results menu
+- Gifts inventory background
+- Direct Messages list text color
+- Direct Messages Searchbar
+- Direct Messages List name margin
+- Direct Messages List online status border
+- Server List & DM/Channel List border radius
+- Server Emoji settings input box
+- Settings Game Activity menu & add game menu
+- Settings Language menu divider color
+- Settings close menu button text color
+- Application Store featured game background
+
 ## [v0.7.1]() - 2018-11-15 15:45:
 ### Added
 - User profile early nitro supporter badge

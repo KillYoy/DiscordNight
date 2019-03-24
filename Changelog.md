@@ -1,5 +1,43 @@
 # DiscordNight Changelog
 
+## [v0.7.3]() - 2019-03-24 18:25:
+### Added
+- Chat mention with table/code formatting
+- Chat hovering over & reacted reactions images is slightly larger
+- Chat game news link
+- Application Store genre tag
+- DM title mobile indicator
+- Join server in lurk mode wrapper
+- Server List server discovery button and page
+- Activity Feed news no image backup splash art
+- Activity Feed news body text shadowing
+- Application Store news list modal
+- Settings Activity Feed menu and row icon
+- Server header Banner
+### Updated
+### Changed
+- Voice channel users is more compact
+- Text/Voice channel list section channels text is slightly brighter
+- Titlebar channel Name icon moved slightly
+- Titlebar Discord text moved slightly
+- Chat reactions reacted background & text color
+- Autocomplete User Avatar/Status is larger
+- User List is 10px wider
+- User List role group category labels is now centered
+### Fixed
+- Voice channel Hide Names padding fix
+- Invite Friends to server modal searchbox
+- Settings row icons missplacement due to new Activity Feed settings
+- Server list scroller
+- Chat box verify phone "You must be a member for at least X" box
+- User List offline user name margin 1px missaligment
+- User Profile Spotify too long song title moves elements
+- Application Store front page selected game border
+- Application Store small game tiles
+- Application Store game news list modal cards
+- Application Store game description/details cards hover
+- Application Store game purchased/choose install location background
+
 ## [v0.7.2]() - 2019-01-16 17:00:
 ### Added
 - Chat box GIF/Gift button wrapper

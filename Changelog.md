@@ -1,5 +1,38 @@
 # DiscordNight Changelog
 
+## [v0.7.4]() - 2019-04-24 21:00:
+### Added
+### Updated
+### Changed
+- Game Library does not dim non Installed games
+- User list offline avatars is no longer smaller
+- User profile connection icons is slightly larger and less aliased
+- Chat GIF menu header color
+- Autocomplete background color
+- Application store price tag color
+- Server/Disovery button have dotten lines again
+### Fixed
+- Recent Mentions box top buttons bottom padding
+- Game Preview modal
+- User Profile Youtube connection icon
+- Settings Youtube connection icon
+- Black tooltips
+- GIF menu favorites fade background
+- Game News link hover
+- Chat Gifted Nitro box
+- Plugin Repo & Theme Repo plugin ui
+- Emoji menu searchbar and no results is now correct height
+- Server list
+- Settings row
+- Titlebar
+- App Corner rounding
+- Server header side box shadow
+- DM's Search bar
+- Top Right Search bar
+- Server Audit Log filtering window searchbar
+- Add user to role popout window
+- Add friends to DM menu
+
 ## [v0.7.3]() - 2019-03-24 18:25:
 ### Added
 - Chat mention with table/code formatting

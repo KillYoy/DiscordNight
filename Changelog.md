@@ -1,10 +1,128 @@
 # DiscordNight Changelog
 
-## [v0.7.4]() - 2019-04-24 21:00:
+## [v0.7.5]() - 2019-07-24 23:55:
 ### Added
-### Updated
+- Group Chat Default Image is now dark
+- Server Nitro status modal & settings page
+- Nitro booster since X profile badge
+- Game Preview body text shadowing
+- You've been invited to join server modal
+- Bottom status Discord Rich presence game menu
+- User profile & User Popout custom status text
+- User profile Server booster badge no monochrome icon
+- User profile body/footer height changes based on connections, servers and friends
+- User list offline users avatar is now grayscale again
+- Titlebar & Chat now uses old/classic icons for pinned etc
+- Server Discovery language dropdown
+- Server list folders
+- Server header nitro boosted icon
+- Invite to join game modal
+- Tooltips blue
+- Join/Create server modal
+- Status popout background hover
+- Better Friend Count Badge plugin support
+- Send Message Button plugin support
+- JoinedAtDate Plugin support
 ### Changed
-- Game Library does not dim non Installed games
+- Chat box gift button is now hidden
+- DM's Search box tweaks
+- Direct Messages header text opacity
+- Activity Feed Twitch icon
+- Activity Feed now playing Xbox section
+- Activity Feed rich presence placeholder image contrast
+- Pinned messages/Recent Mentions avatars is slightly smaller
+- Server settings Moderation & Widget icon
+- Server list connected voice server badge color
+- BetterTTV/FFZ Emotes in messages is slightly larger
+- Search Results channel title is more to the right
+- Search Results removed next/previus page arrow button border
+- Rearch Results is slightly wider
+- Game Preview date text color
+- Chat hidden embed remove button
+- Chat edit message box save/cancel text color
+- Chat Game News link date color
+- Chat invited to join server description color
+- Chat slowmode clock icon is smaller
+- Chat file download button is now blue instead of gray
+- User list group header bottom border color
+- User list playing/listening to text color is now brighter
+- User list restored playing/listening to text to user status activity text to fix issue with custom status feature
+- User statuses to not be monochrome on activity
+- User profile & User Popout now uses newer Xbox icon
+- User profile box shadow is less opaque
+- User profile streaming game title/description margins to fit more of text
+- User profile moved send friend request/send message and spotify buttons (to make space for longer usernames)
+- Channel list categories collapse/open channels button is bigger
+- Channel list categores now has a different background color when hovered
+- Channel list user speaking border
+- Channel list voice channel limited/max users
+- Friends List status text color
+- Video Call/Voice chat titlebar to not be transparent
+- Titlebar channel follow button
+- Titlebar user status margin
+- Status popout text color
+- Emoji Menu is higher
+- Repo Plugins loading icons color
+- Incoming call popup decline button is now red
+- Call background blur
+### Fixed
+- GIF Menu searchbar
+- Keyboard Combos/hotkeys window scroller
+- Voice Call mute icon border
+- Add friend to group DM window
+- DM User AKA Tag
+- DM List username margins
+- Activity Feed empty quick launcher background
+- Activity Feed Now Playing Xbox icon
+- Activity Feed Now Playing in server and playing game with rich presence
+- Activity Feed Now Playing in server voice channel icon
+- Activity Feed Now Playing & Recently Played title
+- Activity Feed "Nobody Is Playing Anything Right Now..." background color
+- Activity Feed user avatar size
+- Emoji picker BD darkmode
+- Settings dropdown menus
+- Settings scrollbar background
+- Settings Bandaged BetterDiscord icons
+- Settings Activity Feed page searchbar
+- Server Audit log text selection
+- Server header popout leave server color
+- Server header verified icon
+- Server discovery server cards & verified server icon
+- Server list unread message in server notice
+- Server list Blank/Default server icon hover color
+- User profile verified/partnered server icon
+- User profile tab text color
+- User profile and user popouts avatar/statuses
+- User popout Xbox Live game name margin
+- User popout name overflow
+- User list username margin missaligment
+- User roles and usernames flashing when hovering over user
+- Popout window positions
+- Invite friends to server modal
+- Game News list modal
+- Game Preview default image contrast
+- MemberCount plugin padding
+- Search Results moving chat box
+- Chat edit message box padding
+- Chat user avatars size and margin
+- Channel list no category margin
+- Channel list collapsed voice channel background color hover
+- Channel list create channel button not being hidden
+- Voice channel usernames text not getting brighter when speaking
+- Bottom status box & voice connected UI
+- Pinned Messages/Recent Mentions header & avatar/username margin
+- Home activity, library, nitro and friends top and bottom padding
+- Notification settings modal
+- Nitro boost modal
+- Gift modal
+- BOT Tag margins
+- Friends list avatar size
+### Removed
+- Help window code
+
+## [v0.7.4]() - 2019-04-24 21:00:
+### Changed
+- Game Library does not dim non installed games
 - User list offline avatars is no longer smaller
 - User profile connection icons is slightly larger and less aliased
 - Chat GIF menu header color

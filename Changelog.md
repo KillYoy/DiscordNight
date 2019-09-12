@@ -1,8 +1,34 @@
 # DiscordNight Changelog
 
+## [v0.7.6]() - 2019-09-12 03:30:
+### Added
+- Stream to server guide popup
+- Channel list user streaming preview popout
+- Emoji menu twitch favorite emote remove button
+### Changed
+- Server folders custom colors now change the folders color
+- Server folder blank server image background color
+- Small avatar typing indicator is now shorter to not overlap with username
+### Fixed
+- Activity feed hover padding
+- Larger emoji menu for twitch emotes
+- User popout username & nickname text size
+- Blank server image color in invited to join a server link box
+- Profile modal accept and ignore friend request button
+- Nitro Boosted server header icon color and drop shadow
+- Chat font sizes, weight and colors
+- Chat typing indicator
+- Channels sidebar & DMs list
+- Webhook avatar mask
+- Server list corner rounding
+- Server user list
+- Right click context menus
+- Sidebar server header, banner and popout
+- Change online status popout
+
 ## [v0.7.5]() - 2019-07-24 23:55:
 ### Added
-- Group Chat Default Image is now dark
+- Group chat default image is now dark
 - Server Nitro status modal & settings page
 - Nitro booster since X profile badge
 - Game Preview body text shadowing
@@ -115,7 +141,7 @@
 - Notification settings modal
 - Nitro boost modal
 - Gift modal
-- BOT Tag margins
+- BOT tag margins
 - Friends list avatar size
 ### Removed
 - Help window code

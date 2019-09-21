@@ -1,5 +1,32 @@
 # DiscordNight Changelog
 
+## [v0.7.7]() - 2019-09-21 23:10:
+### Added
+- User live streaming placeholder background
+- Two missing Nitro boost profile badges
+- Sidebar & Chat LFG Channels
+### Changed
+- Channel list bottom bar Discord Rich Presence Game and go live feature icon notice
+- User profile playing on xbox live badges margins
+- Settings row items has slightly lower padding
+- BetterDiscord Custom CSS
+### Fixed
+- User profile user/server hover background
+- User profile additional options button color
+- Voice Channel user padding
+- Voice Connected UI
+- Context sub menu max height
+- Settings Game Activity last played text color
+- Settings Game Activity hover remove button
+- Settings sidebar background
+- Channels sidebar & DMs list
+- Chat background
+- User popout body background
+- Nitro page background
+- Library & gift inventory background
+- Pinned & recent mentions popout backgrounds
+- Group DM window friend hover background
+
 ## [v0.7.6]() - 2019-09-12 03:30:
 ### Added
 - Stream to server guide popup

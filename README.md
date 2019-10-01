@@ -14,7 +14,7 @@ Make sure you have **Dark Theme** enabled in Settings > Appearance > Theme and s
 Keep in mind that things may break at any time because of Discords background updates which may cause you to have to reinstall BetterDiscord or wait for the theme to be updated.
 
 ## Installing DiscordNight using other methods
-- If you dont want to use BetterDiscord or it does not work for some reason the CSS can be injected using Discords developer tools using **Ctrl+Shift+I** in the Desktop app or F12 in the browser. In the **Sources** tab go click on **assets** and find the file that ends with **.css** and paste in the code from **DiscordNight.css** into it, if done correctly the theme should be loaded until the next time Discord restarts (Keep in mind that images loaded from an external address will not load this way).
+- If you don't want to use BetterDiscord or it does not work for some reason the CSS can be injected using Discords developer tools using **Ctrl+Shift+I** in the Desktop app or F12 in the browser. In the **Sources** tab go click on **assets** and find the file that ends with **.css** and paste in the code from **DiscordNight.css** into it, if done correctly the theme should be loaded until the next time Discord restarts (Keep in mind that images loaded from an external address will not load this way).
 
 ## Installing DiscordNight to your internet browser
 - By using a stylesheet addon like Stylus, you can create a style for **discordapp.com** and paste in the code from **DiscordNight.css** (Not everything will work correctly like scrollbars and external image)

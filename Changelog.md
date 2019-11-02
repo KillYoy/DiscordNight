@@ -1,5 +1,57 @@
 # DiscordNight Changelog
 
+## [v0.8.0]() - 2019-10-02 16:00:
+### Added
+- Server boost menu
+- Channel list loading placeholders
+- Variable for showing of titlebar help icon
+- Variable for showing of chatbox gift & gif buttons
+- Variable for showing of home menu buttons & DM header
+- Variable for showing of server list add server & server discovery buttons
+- Variable for showing of activity nitro ads
+- Variable for channel list & server user list width
+- Variable for text channels first letter being uppercase
+### Changed
+- User popout activities now applies a gradient background in respective color
+- User popout bot tag
+- User popout roles
+- Channel list bottom bar presence game text actually fits whole text now
+- Channel list bottom bar go live button margins
+- Online status popout & Server name/header popout uses same width as channels list
+- Server name header is fully opaque when hovered/selected
+- Server list add server/discovery button removed dashed border
+- Settings My Account 2factor button color
+- File uploading progress bar color
+- Friends list hover border radius
+- Titlebar is slightly smaller in height
+- Search Results header color
+- Search Options dropdown position and background color
+- Chatbox emoji, gif and attach file button hover improvements
+- User is typing indicator & game supports game invites does no longer block chat box selection
+- User profiles now more resemble default Discord when playing/streaming etc
+- Pinned messages/Recent mentions box is wider to fit embedded content
+- Message options button menu text color and background color  
+### Fixed
+- User list overlapping chatbox
+- User list member margins
+- User list activity text
+- User profile/User popout connect Xbox Live button
+- User popout position
+- Emoji picker position
+- Friends list header
+- Custom status emoji size
+- Chat load more messages top box
+- DM's search box popout
+- Spectate/Watch game & stream button width
+- Application Store main background
+- Settings server boost icon
+- Server Webhooks hover remove button
+- Server emoji settings remove button color
+- Server roles settings background & default role Background
+- Server header popout and change online status popout color issues
+- Windows titlebar color
+- Plugin repo & Theme repo plugin padding issues
+
 ## [v0.7.7]() - 2019-09-21 23:10:
 ### Added
 - User live streaming placeholder background
@@ -61,7 +113,7 @@
 - Game Preview body text shadowing
 - You've been invited to join server modal
 - Bottom status Discord Rich presence game menu
-- User profile & User Popout custom status text
+- User profile & User popout custom status text
 - User profile Server booster badge no monochrome icon
 - User profile body/footer height changes based on connections, servers and friends
 - User list offline users avatar is now grayscale again

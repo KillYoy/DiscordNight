@@ -1105,11 +1105,11 @@
 }
 
 /* Gift Button */
-.chat-3bRxxu .buttons-205you button[tabindex="3"] {
+.chat-3bRxxu .buttons-205you button[tabindex="2"] {
 	display: var(--Chatbox-Gift-Button);
 }
 /* GIF Button */
-.chat-3bRxxu .buttons-205you button[tabindex="4"] {
+.chat-3bRxxu .buttons-205you button[tabindex="3"] {
 	display: var(--Chatbox-GIF-Button);
 }
 /* GIF/Gift Button */

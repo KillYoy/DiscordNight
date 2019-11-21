@@ -1,6 +1,44 @@
 # DiscordNight Changelog
 
-## [v0.8.0]() - 2019-10-02 16:00:
+## [v0.8.1]() - 2019-11-21 17:10:
+### Added
+- --Emoji-Picker-InfoBar for showing emoji menus emoji infobar (default off)
+### Changed
+- Gray tooltips
+- Chat video player & controls
+- Chat game invites, code markups now uses same background color as embeds
+- Chat edit message box
+- Friends list action buttons hover radius
+- Game Library row is now more similar to friends list
+- DM list name is now slightly darker and brighter when hovered/selected
+- Server banner tweaks to work with --Channel-List-Width
+- Removed forced chat emoji min height
+- Custom status solo emoji is smaller
+- Voice connected UI smaller text and buttons
+- --Channel-List-Width and --User-List-Width tweaks
+### Fixed
+- Video titlebar
+- Chat Link embeds
+- Chat Table/Code formatting border
+- Chat divider message line height
+- Channels bottom bar rich presence notice
+- Channels bottom status box being to short
+- Modal Window go live header z-index
+- DM header new DM button not showing
+- DM list and server user list activity text margin
+- Gift Inventory background
+- Avatar mask on new New DMs
+- Emoji picker height and bottom category buttons
+- Change online status popout position
+- Attach File/Invite button popout
+- Invite to game window comment box
+- --Channel-List-Width moving server help notice buttons
+
+## [v0.8.0.1]() - 2019-11-06 16:20:
+### Fixed
+- Chatbox Emoji picker
+
+## [v0.8.0]() - 2019-11-02 16:00:
 ### Added
 - Server boost menu
 - Channel list loading placeholders

@@ -1,5 +1,22 @@
 # DiscordNight Changelog
 
+## [v0.8.2]() - 2019-12-12 16:10:
+### Changed
+- Voice channel user mute/deafen icons is now red
+- Chat "> Quote"
+### Fixed
+- Server list hover verified server icon color
+- Server quick switch/invite people notice box
+- Voice channel user mute/deafen & live icons margin
+- Upload file menu background, chatbox and checkbox
+- Create server footer & region button background color
+- DM's search bar font size
+- Settings language selected/hovered card
+- Emoji menu twitch emojis addon
+- Chatbox font size while typing
+- Call background
+- Chat box
+
 ## [v0.8.1]() - 2019-11-21 17:10:
 ### Added
 - --Emoji-Picker-InfoBar for showing emoji menus emoji infobar (default off)

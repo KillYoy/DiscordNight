@@ -3,7 +3,7 @@
 Requires [Discord](https://discordapp.com/) desktop app with [BetterDiscord](https://betterdiscord.net/home/) addon installed.
 
 After installing BetterDiscord:
-1. Download **DiscordNight.theme.css** and navigate to **Settings > Themes** and click on **Open Theme Folder** or place the file in **%appdata%/BetterDiscord/themes**
+1. Download [**DiscordNight.theme.css**](DiscordNight.theme.css) and navigate to **Settings > Themes** and click on **Open Theme Folder** or place the file in **%appdata%/BetterDiscord/themes**
 2. Refresh Discord using **CTRL+R** or restart Discord.
 3. Go to **Settings > BetterDiscord > Themes** and enable **DiscordNight**.
 

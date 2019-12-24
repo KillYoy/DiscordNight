@@ -1,5 +1,14 @@
 # DiscordNight Changelog
 
+## [v0.8.3]() - 2019-12-24 21:10:
+### Changed
+- Change online status popout active status background color
+- Activity Feed quick launcher game icons & running icon color
+### Fixed
+- Emoji menu BetterDiscord emotes buttons moving slightly when selected
+- Call & joined server message formatting
+- Chat box
+
 ## [v0.8.2]() - 2019-12-12 16:10:
 ### Changed
 - Voice channel user mute/deafen icons is now red

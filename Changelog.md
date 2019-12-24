@@ -1,6 +1,5 @@
 # DiscordNight Changelog
-
-## [v0.8.3]() - 2019-12-24 21:10:
+## [v0.8.3](https://github.com/KillYoy/DiscordNight/commit/5c2a188cfd716b2e45a9cac4683e37bba39e9505) - 2019-12-24 21:10:
 ### Changed
 - Change online status popout active status background color
 - Activity Feed quick launcher game icons & running icon color
@@ -9,7 +8,7 @@
 - Call & joined server message formatting
 - Chat box
 
-## [v0.8.2]() - 2019-12-12 16:10:
+## [v0.8.2](https://github.com/KillYoy/DiscordNight/commit/0fc72f40630458ae2dec9bdd56550e60271324d3) - 2019-12-12 16:10:
 ### Changed
 - Voice channel user mute/deafen icons is now red
 - Chat "> Quote"
@@ -26,7 +25,7 @@
 - Call background
 - Chat box
 
-## [v0.8.1]() - 2019-11-21 17:10:
+## [v0.8.1](https://github.com/KillYoy/DiscordNight/commit/a048c7691cda81e650b3ba04f1a902545979c77d) - 2019-11-21 17:10:
 ### Added
 - --Emoji-Picker-InfoBar for showing emoji menus emoji infobar (default off)
 ### Changed
@@ -60,11 +59,11 @@
 - Invite to game window comment box
 - --Channel-List-Width moving server help notice buttons
 
-## [v0.8.0.1]() - 2019-11-06 16:20:
+## [v0.8.0.1](https://github.com/KillYoy/DiscordNight/commit/968f35ff8106e2d01e16ae395dd259b85aed5741) - 2019-11-06 16:20:
 ### Fixed
 - Chatbox Emoji picker
 
-## [v0.8.0]() - 2019-11-02 16:00:
+## [v0.8.0](https://github.com/KillYoy/DiscordNight/commit/101bb5a39c168116d9d2f03be968b03a4a6168a3) - 2019-11-02 16:00:
 ### Added
 - Server boost menu
 - Channel list loading placeholders
@@ -116,7 +115,7 @@
 - Windows titlebar color
 - Plugin repo & Theme repo plugin padding issues
 
-## [v0.7.7]() - 2019-09-21 23:10:
+## [v0.7.7](https://github.com/KillYoy/DiscordNight/commit/6b67f6ba041c2b39d27913af28971c25f0fe333c) - 2019-09-21 23:10:
 ### Added
 - User live streaming placeholder background
 - Two missing Nitro boost profile badges
@@ -143,7 +142,7 @@
 - Pinned & recent mentions popout backgrounds
 - Group DM window friend hover background
 
-## [v0.7.6]() - 2019-09-12 03:30:
+## [v0.7.6](https://github.com/KillYoy/DiscordNight/commit/617dbfb909cf172ca30e0c377cf57f40c8481fa9) - 2019-09-12 03:30:
 ### Added
 - Stream to server guide popup
 - Channel list user streaming preview popout
@@ -169,7 +168,7 @@
 - Sidebar server header, banner and popout
 - Change online status popout
 
-## [v0.7.5]() - 2019-07-24 23:55:
+## [v0.7.5](https://github.com/KillYoy/DiscordNight/commit/04b440fecbdd54fcdf85a5b36184b94e0e473e1b) - 2019-07-24 23:55:
 ### Added
 - Group chat default image is now dark
 - Server Nitro status modal & settings page
@@ -289,7 +288,7 @@
 ### Removed
 - Help window code
 
-## [v0.7.4]() - 2019-04-24 21:00:
+## [v0.7.4](https://github.com/KillYoy/DiscordNight/commit/cda7b6ea48167775732ab6b0829bfb73df66e6d4) - 2019-04-24 21:00:
 ### Changed
 - Game Library does not dim non installed games
 - User list offline avatars is no longer smaller
@@ -320,7 +319,7 @@
 - Add user to role popout window
 - Add friends to DM menu
 
-## [v0.7.3]() - 2019-03-24 18:25:
+## [v0.7.3](https://github.com/KillYoy/DiscordNight/commit/7a1368a17788f3f8bd65ff9b820bd5b6fb2a7a19) - 2019-03-24 18:25:
 ### Added
 - Chat mention with table/code formatting
 - Chat hovering over & reacted reactions images is slightly larger
@@ -358,7 +357,7 @@
 - Application Store game description/details cards hover
 - Application Store game purchased/choose install location background
 
-## [v0.7.2]() - 2019-01-16 17:00:
+## [v0.7.2](https://github.com/KillYoy/DiscordNight/commit/1ea821ca2dec5884ffb4a4774b1bab7a40472036) - 2019-01-16 17:00:
 ### Added
 - Chat box GIF/Gift button wrapper
 - Chat GIF search menu
@@ -427,7 +426,7 @@
 - Settings close menu button text color
 - Application Store featured game background
 
-## [v0.7.1]() - 2018-11-15 15:45:
+## [v0.7.1](https://github.com/KillYoy/DiscordNight/commit/c3db45736572380c1e0865e1fab49e3497de305a) - 2018-11-15 15:45:
 ### Added
 - User profile early nitro supporter badge
 - Activity Feed large news & game header hover transition
@@ -490,11 +489,11 @@
 # Removed
 - Old obsolete owner plugin code
 
-## [v0.7.0.1]() - 2018-09-23 15:55:
+## [v0.7.0.1](https://github.com/KillYoy/DiscordNight/commit/8f663b8e96661c6950a999aaa3f48b872a9b4f09) - 2018-09-23 15:55:
 ### Fixed
 - Fixed mask SVG 404
 
-## [v0.7.0]() - 2018-09-23 03:10:
+## [v0.7.0](https://github.com/KillYoy/DiscordNight/commit/daa297c3e3778e285613669994b6ab54e9b9429f) - 2018-09-23 03:10:
 ### Added
 - Home Game Library and Application Store
 - Settings row Billing, Game Library and Hypesquad icons
@@ -874,7 +873,7 @@
 - Settings Voice & Video menu video preview
 - Channel list quick switcher/invite background
 
-## [v0.4.0](https://github.com/KillYoy/DiscordNight/commit/54a668bd6be9eb82ac1a625c8389af0e07151169#diff-b13a363fd2be58db9325ba56eab60b57) - 2018-01-31 00:10:
+## [v0.4.0](https://github.com/KillYoy/DiscordNight/commit/54a668bd6be9eb82ac1a625c8389af0e07151169) - 2018-01-31 00:10:
 ### Added
 - Settings blue colored version/author text on plugins/theme
 - Settings Connections grayscale icons
@@ -925,7 +924,7 @@
 - Server Welcome message
 - Popout window corners
 
-## [v0.3.3](https://github.com/KillYoy/DiscordNight/commit/72bb5d00d554a51d8fec35eade7603974b7438fd#diff-b13a363fd2be58db9325ba56eab60b57) - 2017-12-04 20:30:
+## [v0.3.3](https://github.com/KillYoy/DiscordNight/commit/72bb5d00d554a51d8fec35eade7603974b7438fd) - 2017-12-04 20:30:
 ### Added
 - Text/Voice channels new unreads box
 - Mutual Friends/Server empty text
@@ -1187,7 +1186,7 @@
 - Unnecessary file attachment button
 - Unnecessary old code
 
-## v0.1.0 - 2017-09-16 18:30: 
+## [v0.1.0](https://github.com/KillYoy/DiscordNight/commit/48ef5b3945446b93cdf82e717fc5b7983e204d13) - 2017-09-16 18:30: 
 - DiscordNight finally releases on Github
 
 ## v0.0.1 - 2017-08-10 13:00: 

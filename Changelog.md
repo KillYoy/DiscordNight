@@ -1,4 +1,14 @@
-# DiscordNight Changelog
+## [v0.8.4](https://github.com/KillYoy/DiscordNight/commit/50aa80948802ce77eb80009713a1fec7b97af39d) - 2020-01-13 18:30:
+### Changed
+- Home button hover color
+- Users watching stream popout
+- Settings connections list settings
+### Fixed
+- Chat Box
+- Giphy horizontal autocomplete
+- Server Quick Switch/Invite People Notice Box Button box shadow
+- Settings Nitro banner
+
 ## [v0.8.3](https://github.com/KillYoy/DiscordNight/commit/5c2a188cfd716b2e45a9cac4683e37bba39e9505#diff-b13a363fd2be58db9325ba56eab60b57) - 2019-12-24 21:10:
 ### Changed
 - Change online status popout active status background color

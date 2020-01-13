@@ -1,7 +1,7 @@
-/*//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy#0295","version":"0.8.3","update_url":"https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css"}*//**/
+/*//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy#0295","version":"0.8.4","update_url":"https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css"}*//**/
 
 :root {
-	--Settings-Theme-Version: "    DiscordNight v0.8.3";
+	--Settings-Theme-Version: "    DiscordNight v0.8.4";
 	
 	--Channel-List-Width: 175px;	/* 175px, Discord default = 240px */
 	
@@ -74,7 +74,10 @@
 
 /* Home Icon & No Server Icon */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-	background-color: #2F3136 !important;
+	background-color: #2F3136;
+}
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+	background-color: #3C3F44;
 }
 
 /* Server Folders */
@@ -445,6 +448,9 @@
 	padding: 0px;
 }
 /* Server Quick Switch/Invite People Notice Box Button */
+.channelNotice-1-XFjC {
+	box-shadow: none;
+}
 .channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
 	background-color: #262626;
 }
@@ -1066,19 +1072,20 @@
 	background-color: #1B1B1B;
 	border-radius: 0px;
 	border: none;
-	margin: 0px;
+	margin: 2px 0px 0px 0px;
 }
 .chat-3bRxxu .textArea-12jD-V {
-	padding: 12px 0px 12px 3px;
+	padding: 0px 0px 0px 0px;
+}
+.chat-3bRxxu .textArea-12jD-V .slateTextArea-1Mkdgw,
+.chat-3bRxxu .textArea-12jD-V .placeholder-37qJjk {
+	padding: 10px 10px;
+	font-size: 15px;
+	left: -5px;
 }
 .chat-3bRxxu .textArea-12jD-V .markup-2BOw-j .emoji {
 	height: 20px;
 	width: 20px;
-}
-.chat-3bRxxu .slateTextArea-1Mkdgw,
-.chat-3bRxxu .placeholder-37qJjk {
-	font-size: 15px;
-	left: 4px;
 }
 /* Chat Box: Verify Phone, You Must Be A Member, Follow Channel */
 .chat-3bRxxu .wrapper-39oAo3 {
@@ -1137,31 +1144,6 @@
 	transform: scale(1.2);
 	opacity: 1;
 }
-/* GIF Menu */
-.container-3ISnnM .header-1TOWci {
-	box-shadow: none;
-}
-.container-3ISnnM .container-cMG81i {
-	background-color: #191919;
-}
-.container-3ISnnM .result-3w1ZcL:hover:after {
-	box-shadow: inset 0 0 0 2px #3A71C1, inset 0 0 0 3px #141414 !important;
-}
-.container-2jxBbw .categoryText-2-8pri,
-.container-2jxBbw .results-3i9FaE .icon-3wcw1B {
-	filter: drop-shadow(-1px 2px 0px #070707);
-}
-.container-3ISnnM .categoryFadeBlurple-1j72_A {
-	background-color: rgba(58,113,193,0.3);
-}
-.container-2jxBbw .categoryFade-2ybR1J:hover,
-.container-3ISnnM .categoryFadeBlurple-1j72_A:hover {
-	background-color: rgba(0,0,0,0.15);
-}
-.container-2jxBbw::-webkit-scrollbar-thumb,
-.results-3i9FaE::-webkit-scrollbar-thumb {
-	background-color: #101010 !important;
-}
 
 /* Chat Attach File Button */
 .chat-3bRxxu .attachButton-2WznTc {
@@ -1206,7 +1188,7 @@
 .chat-3bRxxu .typing-2GQL18 {
 	background-color: transparent;
 	margin-bottom: -9px;
-	margin-left: -6px;
+	margin-left: -4px;
 	font-size: 10px;
 	width: 90%;
 	pointer-events: none;
@@ -1272,6 +1254,36 @@
 	border: 1px solid #191919;
 	margin-bottom: -2px;
 	transform: scale(0.7);
+}
+
+/* GIF Menu */
+.container-3ISnnM .header-1TOWci {
+	box-shadow: none;
+}
+.container-3ISnnM .container-cMG81i {
+	background-color: #191919;
+}
+.container-3ISnnM .result-3w1ZcL:hover:after {
+	box-shadow: inset 0 0 0 2px #3A71C1, inset 0 0 0 3px #141414 !important;
+}
+.container-2jxBbw .categoryText-2-8pri,
+.container-2jxBbw .results-3i9FaE .icon-3wcw1B {
+	filter: drop-shadow(-1px 2px 0px #070707);
+}
+.container-3ISnnM .categoryFadeBlurple-1j72_A {
+	background-color: rgba(58,113,193,0.3);
+}
+.container-2jxBbw .categoryFade-2ybR1J:hover,
+.container-3ISnnM .categoryFadeBlurple-1j72_A:hover {
+	background-color: rgba(0,0,0,0.15);
+}
+.container-2jxBbw::-webkit-scrollbar-thumb,
+.results-3i9FaE::-webkit-scrollbar-thumb {
+	background-color: #0C0C0C !important;
+}
+/* Giphy Horizontal Autocomplete */
+.horizontalAutocompletes-3blb-Z::-webkit-scrollbar-thumb {
+	background-color: #0C0C0C !important;
 }
 
 /* Text Messages Formatting/Styling/Separation */
@@ -3510,7 +3522,7 @@
 }
 
 /* Nitro Banner */
-.theme-dark .tier1Banner-1B_WXY {
+.theme-dark .tier1Banner-1BTgv0 {
 	background-color: #151515;
 }
 
@@ -3659,32 +3671,36 @@
 .theme-dark .questionMark-CWEQZn:hover {
 	background-color: #4789E5;
 }
-/* Connections Menu */
-.accountList-33MS45 {
-	padding: 14px;
-}
-.connectedAccounts-2-XP1G {
+/* Connections List Settings */
+.accountList-33MS45 .connectedAccounts-2-XP1G {
 	justify-content: space-between;
 }
-.accountBtn-2Nozo3 {
-	margin-right: 4px;
+.accountList-33MS45 .connectedAccounts-2-XP1G .inner-2Y6JuD {
+	width: 54px;
+	height: 54px;
+	background-size: 42px 42px;
 }
-.theme-dark .accountBtnInner-sj5jLs {
+.accountList-33MS45 .accountBtnInner-sj5jLs {
 	background-color: #1C1C1C;
+}
+.accountList-33MS45 .accountBtnInner-sj5jLs:hover {
+	background-color: #313131;
 	border: none;
 }
-.theme-dark .accountBtnInner-sj5jLs:hover {
-	background-color: #292929;
-	border: none;
-}
-.connectionDelete-2Odoln {
-	border: none;
-}
-.connectionDelete-2Odoln:hover, .connectionIcon-2ElzVe:hover {
+.connection-1fbD7X .connectionHeader-2MDqhu .connectionDelete-2Odoln:hover, 
+.connection-1fbD7X .connectionHeader-2MDqhu .connectionIcon-2ElzVe:hover {
 	transform: scale(1.2);
 }
-.elevationLow-2lY09M {
-	filter: saturate(0.8);
+.connection-1fbD7X .connectionHeader-2MDqhu .connectionDelete-2Odoln,
+.connection-1fbD7X .connectionHeader-2MDqhu,
+.connection-1fbD7X .integration-3kMeY4 {
+	border: none;
+}
+.connection-1fbD7X .divider-3573oO {
+	background-color: transparent;
+}
+.connection-1fbD7X .integrationInner-3SUFBs .channelLink-2TxEu3 {
+	color: #CCCCCC;
 }
 /* Billing Menu */
 .standardSidebarView-3F1I7i .codeRedemptionRedirect-1wVR4b {
@@ -3749,9 +3765,14 @@
 }
 #user-settings .game-1ipmAa .lastPlayed-3bQ7Bo {
 	color: #A5A5A5;
+	line-height: 15px;
 }
 #user-settings .game-1ipmAa .hoverRoll-YK53gQ:hover {
 	font-size: 9.5px;
+}
+#user-settings .game-1ipmAa .overlayStatusText-L2IACa {
+	color: #777777;
+	margin-right: 0px;
 }
 #user-settings .flowerStar-1GeTsn {
 	filter: hue-rotate(-20deg);
@@ -4411,6 +4432,10 @@
 }
 .content-98HsJk .transparent-2ZlE3R .icon-22AiRD {
 	color: #CCCCCC;
+}
+/* Users Watching Stream Popout */
+.theme-dark .popout-1k352f {
+	background-color: #111111;
 }
 /* Call Background Blur */
 .videoBackground-3-Y-dL .backgroundBlur-dazcBE {
@@ -5372,6 +5397,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/edbbf6107b2cd4334d582b26e1ac786d.png");'] {
 	background-image: url(https://discordapp.com/assets/4c1bab3f945269a5c1be0b3a2c177141.png) !important;
+	/* background-color: #4D337B; */
 }
 /* Youtube */
 .connectedAccountIcon-3P3V6F[src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
@@ -5380,6 +5406,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png");'] {
 	background-image: url(https://discordapp.com/assets/0ef81742942677bcef0bebdfb7061d29.png) !important;
+	/* background-color: #A42322; */
 }
 /* BattleNet */
 .connectedAccountIcon-3P3V6F[src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
@@ -5388,6 +5415,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/8c289d499232cd8e9582b4a5639d9d1d.png");'] {
 	background-image: url(https://discordapp.com/assets/3a257c4cab129e956b05bd50047eb0f9.png) !important;
+	/* background-color: #1186C0; */
 }
 /* Steam */
 .connectedAccountIcon-3P3V6F[src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
@@ -5396,6 +5424,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png");'] {
 	background-image: url(https://discordapp.com/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png) !important;
+	/* background-color: #171F2B; */
 }
 /* Twitter */
 .connectedAccountIcon-3P3V6F[src="/assets/4662875160dc4c56954003ebda995414.png"] {
@@ -5404,6 +5433,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/4662875160dc4c56954003ebda995414.png");'] {
 	background-image: url(https://discordapp.com/assets/2ac50d286a1c883f28b5149239a8ad36.png) !important;
+	/* background-color: #298ECB; */
 }
 /* Reddit */
 .connectedAccountIcon-3P3V6F[src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
@@ -5412,6 +5442,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png");'] {
 	background-image: url(https://discordapp.com/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png) !important;
+	/* background-color: #5C88B2; */
 }
 /* Skype */
 .connectedAccountIcon-3P3V6F[src="/assets/5be6cc17e596c02e7506f2776cfb1622.png"] {
@@ -5420,6 +5451,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/5be6cc17e596c02e7506f2776cfb1622.png");'] {
 	background-image: url(https://discordapp.com/assets/de5fb9e860729912c65048c1c657e1a3.png) !important;
+	/* background-color: #1189B5; */
 }
 /* League Of Legends */
 .connectedAccountIcon-3P3V6F[src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] {
@@ -5428,6 +5460,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/806953fe1cc616477175cbcdf90d5cd3.png");'] {
 	background-image: url(https://discordapp.com/assets/fbbd224a0d94747c102515090682bbe1.png) !important;
+	/* background-color: #051B1F; */
 }
 /* Facebook */
 .connectedAccountIcon-3P3V6F[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
@@ -5436,6 +5469,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png");'] {
 	background-image: url(https://discordapp.com/assets/c926e69c482dac25b8e940db74496813.png) !important;
+	/* background-color: #334873; */
 }
 /* Spotify */
 .connectedAccountIcon-3P3V6F[src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
@@ -5447,6 +5481,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/f0655521c19c08c4ea4e508044ec7d8c.png");'] {
 	background-image: url(https://discordapp.com/assets/fe3770614c2658a07dea3ecb286ce745.png) !important;
+	/* background-color: #2AA153; */
 }
 /* Xbox */
 .connectedAccountIcon-3P3V6F[src="/assets/0d44ba28e39303de3832db580a252456.png"] {
@@ -5455,6 +5490,7 @@
 }
 .accountBtnInner-sj5jLs[style='background-image: url("/assets/0d44ba28e39303de3832db580a252456.png");'] {
 	background-image: url(https://discordapp.com/assets/850ed4fcf5839b7a32651f5959e8511e.png) !important;
+	/* background-color: #186B18; */
 }
 
 /************************************ Profile/User Popout *************************************/

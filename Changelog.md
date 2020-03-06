@@ -1,12 +1,47 @@
+# DiscordNight Changelog
+
+## [v0.8.5]() - 2020-03-06 16:20:
+- New friends list & Active now sidebar
+- Gift inventory settings row icon
+- Chat message hover toolbar
+- added '--Chat-Emoji-Toolbar' variable for visibility of quick reaction emojis on message hover
+- added '--Embed-Remove-Button' variable for visibility of embed hider button
+### Changed
+- Chat box formatting toolbar
+- Chat embeds, quotes and code tables background colors
+- Channel list bottom bar custom status text size and color
+- Channel list new unreads notice
+- Home Nitro tab is hidden by default
+### Fixed
+- Chat message formatting and avatar size
+- Chat reactions
+- Chat edit message box
+- Chat box & text/emoji margins when using new markdown formatting
+- Chat box follow channel wrapper height
+- Chat BetterDiscord emotes margins so it not overlaps images
+- Emoji picker twitch addon header and scroller margins
+- Emoji picker emoji overlapping right side
+- Channels Bottom status box margin & Voice Connected UI
+- Join/Create server modal
+- Settings & server settings row icons
+- Settings Gift Inventory
+- Titlebar classic icons
+- User profile server booster LVL 5 badge
+- User profile mutual friends online status mask
+- Pinned messages/recent mentions header
+- Send message button plugin margin
+- BetterFriendCount plugin badge color
+- Plugin Repo & Theme Repo plugin modal
+
 ## [v0.8.4](https://github.com/KillYoy/DiscordNight/commit/50aa80948802ce77eb80009713a1fec7b97af39d) - 2020-01-13 18:30:
 ### Changed
 - Home button hover color
 - Users watching stream popout
 - Settings connections list settings
 ### Fixed
-- Chat Box
+- Chat box
 - Giphy horizontal autocomplete
-- Server Quick Switch/Invite People Notice Box Button box shadow
+- Server Quick Switch/Invite People Notice box button box shadow
 - Settings Nitro banner
 
 ## [v0.8.3](https://github.com/KillYoy/DiscordNight/commit/5c2a188cfd716b2e45a9cac4683e37bba39e9505#diff-b13a363fd2be58db9325ba56eab60b57) - 2019-12-24 21:10:

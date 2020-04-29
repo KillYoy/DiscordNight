@@ -1,6 +1,39 @@
 # DiscordNight Changelog
 
+## [v0.8.6]() - 2020-04-29 16:50:
+### Added
+- BetterDiscord drop down menus
+- Server template modal
+- Unread messages inbox
+- added '--Voice-Noise-Suppression' variable for visibility of noise suppresion button
+- added '--Context-Menu-Emoji-Toolbar' variable for visibility of right click reaction emojis
+- Emoji picker v2
+### Changed
+- Search results messages padding
+- Current selected/hovered channel background
+- Friends list active now placeholder game icon
+- DMs's list padding and header
+- Invite friends to server modal
+- Voice connected UI video/go live buttons
+### Fixed
+- Titlebar icons
+- Chat dividers
+- Chat server welcome message
+- Chat box and bottom status box padding & height
+- Chat box gift and gif buttons not being hidden
+- Chat box game supports game invites notice
+- Invite to game card more slots color
+- Pinned messages/recent mentions
+- Attach file/invite button popout
+- Betterdiscord setting menus
+- Screen share menu
+- Voice call background color and button colors
+- Server settings template and boost status icons
+- Server name/header popout window position
+- Emoji picker emojis overflow
+
 ## [v0.8.5]() - 2020-03-06 16:20:
+### Added
 - New friends list & Active now sidebar
 - Gift inventory settings row icon
 - Chat message hover toolbar
@@ -9,6 +42,7 @@
 ### Changed
 - Chat box formatting toolbar
 - Chat embeds, quotes and code tables background colors
+- Channel list width
 - Channel list bottom bar custom status text size and color
 - Channel list new unreads notice
 - Home Nitro tab is hidden by default

@@ -1,5 +1,64 @@
 # DiscordNight Changelog
 
+## [v0.8.7]() - 2020-06-21 16:50:
+### Added
+- Theme now has an author ID link
+- Betterdiscord theme/plugin author names with IDs is no colored green
+- Welcome to X server cards
+- Server discovery scroller & search page
+- Server Typing Indicator Plugin support
+- Unread Messages Redux plugin support
+### Changed
+- Channel list & User list width
+- Table content now fits whole chat
+- Join server modal window options 
+- Mentioned reactions background color
+- Text channels unread icon color
+- Voice channel user mute/deafen, camera & live icons margin improvemetns
+- Improved DM userlist padding to mitigate clipping
+- Servers settings row dot notification icon color
+- Settings menus max width and padding
+- BetterDiscord plugin popup sucess notice color
+- Chat auto completion popup
+- Chat message hover timestamp placement improvement
+- Chat blocked message X color and margin
+- User popout user roles & BOT tag margin
+- User profile badges margins
+- Authorize modal
+### Fixed
+- Emoji picker
+- Search results
+- Titlebar inbox dropdown
+- Server discovery menu & button
+- Server lurking notice bar color
+- Server region selector
+- Server name/header popout
+- Change online status popout
+- Input and dropdown menus
+- Right click context menus
+- Chat Reactions 
+- Chat typing indicator margin
+- Chat box no attachments allowed padding
+- Edit message box margin and text color
+- Call turn on screen share menu
+- BetterDiscord settings menu toggle switches off color
+- Servers settings icons row dot notification icon moving setting icons
+- Changed rawcdn.githack.com SVG hosting to raw.githubusercontent.com to fix loading issues
+- Notification settings modal override cards background color
+- Plugin repo & Theme repo plugin modal
+- Settings dividers color
+- DM's muted text color
+- Friends list scroller color
+- Friends list active now
+- Add friends to group DM window header
+- Invite friends to server modal header and scroller
+- Modals copy button color
+- Modals window footer
+- User popout body
+- User profile connections padding
+- User list loading placeholder color
+- Video/Go Live buttons width scaling
+
 ## [v0.8.6]() - 2020-04-29 16:50:
 ### Added
 - BetterDiscord drop down menus

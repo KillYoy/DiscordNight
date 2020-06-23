@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.8.7]() - 2020-06-21 16:50:
+## [v0.8.7](https://github.com/KillYoy/DiscordNight/commit/9bc3896d9d97521e246403b0992999eedffa65fb#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-06-21 16:50:
 ### Added
 - Theme now has an author ID link
 - Betterdiscord theme/plugin author names with IDs is no colored green
@@ -59,7 +59,7 @@
 - User list loading placeholder color
 - Video/Go Live buttons width scaling
 
-## [v0.8.6]() - 2020-04-29 16:50:
+## [v0.8.6](https://github.com/KillYoy/DiscordNight/commit/ae0b0de69b7daa9547451e748e7dae052133a979#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-04-29 16:50:
 ### Added
 - BetterDiscord drop down menus
 - Server template modal
@@ -91,7 +91,7 @@
 - Server name/header popout window position
 - Emoji picker emojis overflow
 
-## [v0.8.5]() - 2020-03-06 16:20:
+## [v0.8.5](https://github.com/KillYoy/DiscordNight/commit/8061abfb5217a0e481ba6e44bbcf15f0bd2767c4#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-03-06 16:20:
 ### Added
 - New friends list & Active now sidebar
 - Gift inventory settings row icon
@@ -126,7 +126,7 @@
 - BetterFriendCount plugin badge color
 - Plugin Repo & Theme Repo plugin modal
 
-## [v0.8.4](https://github.com/KillYoy/DiscordNight/commit/50aa80948802ce77eb80009713a1fec7b97af39d) - 2020-01-13 18:30:
+## [v0.8.4](https://github.com/KillYoy/DiscordNight/commit/50aa80948802ce77eb80009713a1fec7b97af39d#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-01-13 18:30:
 ### Changed
 - Home button hover color
 - Users watching stream popout

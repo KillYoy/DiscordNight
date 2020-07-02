@@ -1,5 +1,33 @@
 # DiscordNight Changelog
 
+## [v0.8.8]() - 2020-07-02 04:40:
+### Added
+- Nitro emoji info popup
+### Changed
+- Titlebar right padding
+- Auto completion box when horizontal
+- Server header dropdown menu invite people text color
+- Chat box user is typing indicator height
+- Tooltips are slightly brighter
+- User profile watch stream icon position
+- Pinned messages background
+### Fixed
+- Change online status invisible hover color & right margins
+- Server header dropdown menu right margins
+- Server header Nitro boosted tier 2 icon color
+- Server notification settings placeholder card
+- Server users list background
+- Server channel list margin
+- Quotes not working correctly in inbox
+- User list typing indicator width
+- Video call/voice call buttons colors
+- Video call/voice call participants popup background
+- Context menu leave server red background
+- Context menus radio select color
+- Plugin repo & Theme repo plugin scroller
+- Pinned messages scroller
+- Mac titlebar buttons background
+
 ## [v0.8.7](https://github.com/KillYoy/DiscordNight/commit/9bc3896d9d97521e246403b0992999eedffa65fb#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-06-21 16:50:
 ### Added
 - Theme now has an author ID link
@@ -14,7 +42,7 @@
 - Join server modal window options 
 - Mentioned reactions background color
 - Text channels unread icon color
-- Voice channel user mute/deafen, camera & live icons margin improvemetns
+- Voice channel user mute/deafen, camera & live icons margin improvements
 - Improved DM userlist padding to mitigate clipping
 - Servers settings row dot notification icon color
 - Settings menus max width and padding

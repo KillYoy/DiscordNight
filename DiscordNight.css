@@ -209,8 +209,7 @@
 
 /* Text/Voice Channels, DM/Friends Area */
 .container-PNkimc, 
-.sidebar-2K8pFh,
-.scroller-1JbKMe {
+.sidebar-2K8pFh {
 	background-color: #161616;
 	border-radius: 0px !important;
 	width: var(--Channel-List-Width);
@@ -2156,10 +2155,10 @@
 
 /* DM List Button Margins */
 .privateChannels-1nO12o [class^='scroller'] {
-	margin: -8px -4px -4px -4px;
+	background-color: #161616;
 }
 .privateChannels-1nO12o .channel-2QD9_O[href="/channels/@me"] {
-	margin-top: 8px;
+	margin-top: -8px;
 }
 .privateChannels-1nO12o .channel-2QD9_O .linkButtonIcon-Mlm5d6 {
 	color: #CCCCCC;
@@ -4846,6 +4845,10 @@
 .modal-3c3bKg .topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
 	color: #CCCCCC;
 	border-bottom: 2px solid #A5A5A5;
+}
+.modal-3c3bKg .topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active,
+.modal-3c3bKg .topSectionStreaming-1Tpf5X .lookOutlined-3sRXeN.colorWhite-rEQuAQ:active {
+	background-color: transparent;
 }
 /* User Profile: Watch Stream Icon */
 .modal-3c3bKg .topSectionPlaying-1J5E4n .lookOutlined-3sRXeN.colorWhite-rEQuAQ .contents-18-Yxp .streamIcon-c3V0JT {

@@ -1,6 +1,60 @@
 # DiscordNight Changelog
 
-## [v0.8.8]() - 2020-07-02 04:40:
+## [v0.8.9() - 2020-08-27 03:40:
+### Added
+- Avatar uploader trimmer
+- Server settings widgets icon
+- Chat replying container
+### Changed
+- Github connection icon
+- User profile listening to spotify duration bar
+- Settings euro symbol to a credit card
+- Chat "Just boosted server" text color and server icon
+- Chat "User replied to User" to look like quotes
+- Emoji picker & Inbox shadowing
+- Bottom rich presence panel
+### Updated
+- SendButton plugin button margin
+- Server TypingIndicator plugin border shadow
+### Fixed
+- Video/Voice call region button
+- Video/Voice call background gradient
+- Video/Voice call icons hiding on idle
+- Voice call button colors
+- Voice channel user hover margins
+- Stream participants popup menu
+- Go Live menu and buttons
+- User profile popout window position margin
+- User profile popout new user wumpus notice
+- User profile watch stream button margin
+- User popout add role button & menu user padding
+- Server channel list margin when no categories
+- Server header partner icon color
+- Server settings members searchbar
+- Server settings new integrations menu cards
+- Server settings audit log text colors
+- Server settings boost page scroller
+- Server settings icon order
+- Server settings community cards
+- Channel list bottom bar margin
+- Context menu scrollers
+- Emoji/GIFs picker list and scroller background
+- GIF Button & Gift Button variables typo
+- Chat Box attach file/invite button popout margin 
+- Chat Welcome to X server card colors
+- Chat new messages top notice
+- Chat scroller bar
+- Chat placeholder/lazy loading colors
+- Chat viewing older messages/jump to present bottom button
+- Online status mask changing when online status changes
+- Add friend to group DM window scroller
+- Keyboard combos hotkeys/leybinds window menu
+- Library scroller and header
+- Screen share menu/context
+- Settings searchbar
+- Search results
+
+## [v0.8.8](https://github.com/KillYoy/DiscordNight/commit/eaa6a78dd59bf67e140f71cdfd35da5c732485df?diff=split)#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-07-02 04:40:
 ### Added
 - Nitro emoji info popup
 ### Changed
@@ -499,7 +553,6 @@
 - Application Store news list modal
 - Settings Activity Feed menu and row icon
 - Server header Banner
-### Updated
 ### Changed
 - Voice channel users is more compact
 - Text/Voice channel list section channels text is slightly brighter

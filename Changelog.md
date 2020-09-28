@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.8.10() - 2020-09-27 16:20:
+## [v0.8.10](https://github.com/KillYoy/DiscordNight/commit/d9971a50afef3837ac8dc72f3d44d4be97e3c989#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-09-27 16:20:
 ### Added
 - View As Role Dropdown
 ### Changed
@@ -40,7 +40,7 @@
 - User popout Spectate/Watch Game & Stream button margins
 - Show all reactions modal
 
-## [v0.8.9(https://github.com/KillYoy/DiscordNight/commit/c26c50dc5495cc51f3a4948f68f18d2b78b2c58d#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-08-27 03:40:
+## [v0.8.9](https://github.com/KillYoy/DiscordNight/commit/c26c50dc5495cc51f3a4948f68f18d2b78b2c58d#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-08-27 03:40:
 ### Added
 - Avatar uploader trimmer
 - Server settings widgets icon
@@ -95,7 +95,7 @@
 - Settings searchbar
 - Search results
 
-## [v0.8.8](https://github.com/KillYoy/DiscordNight/commit/eaa6a78dd59bf67e140f71cdfd35da5c732485df?diff=split#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-07-02 04:40:
+## [v0.8.8](https://github.com/KillYoy/DiscordNight/commit/eaa6a78dd59bf67e140f71cdfd35da5c732485df#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-07-02 04:40:
 ### Added
 - Nitro emoji info popup
 ### Changed

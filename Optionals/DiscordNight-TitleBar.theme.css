@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy","version":"0.2"}*//
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy","version":"0.3"}*//
 
 /* Login Titlebar Buttons Background */
 .platform-win .splashBackground-1FRCko:before {
@@ -40,19 +40,25 @@
 .container-1r6BKw, 
 .title-3qD0b-, 
 .titleCall-_b9o8P {
-	padding-right: 86px
+	padding-right: 86px !important;
 }
 /* Divider */
-.container-1r6BKw:after, 
-.titleCall-_b9o8P:after {
+.headerWrapper-3NUKsd .transparent-2ZlE3R.container-1r6BKw:after, 
+.title-3qD0b-.container-1r6BKw:after {
 	content: ' ';
 	height: 24px;
 	width: 1px;
 	background-color: #313131;
 	margin-right: 8px;
 }
+
 /* Notice Dismiss Button */
 .dismiss-SCAH9H {
 	height: 38px;
+	margin-right: 90px;
+}
+
+/* View As Server Role */
+.notice-1tZwqv .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
 	margin-right: 90px;
 }

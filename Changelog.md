@@ -1,13 +1,53 @@
 # DiscordNight Changelog
 
-## [v0.8.9() - 2020-08-27 03:40:
+## [v0.8.10() - 2020-09-27 16:20:
+### Added
+- View As Role Dropdown
+### Changed
+- Emoji picker placeholder emoji loading background
+- Emoji picker is slightly higher
+- Friends "Active Now" sidebar background color and padding
+- Friends list scroller is now always visble
+- Replying to user text is now white
+- Server member settings user tag text color
+- Settings headers brigther text color
+- Set custom status scroller
+- Server folder hover
+- User roles
+### Fixed
+- DM's search box window scroller
+- DM's List chat muted subtext opacity
+- DM's List bottom margin
+- Chat Welcome to X Text Channel
+- Chat compact mode left padding
+- Chat invited wrapper verified & partnered Server icon color
+- Chat box "Game Supports Game Invites" not being dismissible
+- Chat auto completion box
+- Emoji picker inspector bar
+- Server header verified & partnered server icon color
+- Server settings user role delete button not working
+- Server discovery sidebar scroller margin
+- Server discovery searchbar and search results language dropdown
+- Join/Create server modal
+- Voice channel closed category margins and width
+- Video call video tile and button colors
+- Input and dropdown boxes
+- Settings Nitro promotion
+- User profile monochrome nitro boost levels 7-9 and bughunter 1-2
+- User profile playing game and streaming button margins
+- User profile custom activity & Spotify button margins
+- User profile & user popout Connect Xbox Live button
+- User popout Spectate/Watch Game & Stream button margins
+- Show all reactions modal
+
+## [v0.8.9(https://github.com/KillYoy/DiscordNight/commit/c26c50dc5495cc51f3a4948f68f18d2b78b2c58d#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-08-27 03:40:
 ### Added
 - Avatar uploader trimmer
 - Server settings widgets icon
 - Chat replying container
 ### Changed
 - Github connection icon
-- User profile listening to spotify duration bar
+- User profile listening to Spotify duration bar
 - Settings euro symbol to a credit card
 - Chat "Just boosted server" text color and server icon
 - Chat "User replied to User" to look like quotes
@@ -44,6 +84,7 @@
 - Chat Welcome to X server card colors
 - Chat new messages top notice
 - Chat scroller bar
+- Chat bottom margin
 - Chat placeholder/lazy loading colors
 - Chat viewing older messages/jump to present bottom button
 - Online status mask changing when online status changes
@@ -54,7 +95,7 @@
 - Settings searchbar
 - Search results
 
-## [v0.8.8](https://github.com/KillYoy/DiscordNight/commit/eaa6a78dd59bf67e140f71cdfd35da5c732485df?diff=split)#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-07-02 04:40:
+## [v0.8.8](https://github.com/KillYoy/DiscordNight/commit/eaa6a78dd59bf67e140f71cdfd35da5c732485df?diff=split#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-07-02 04:40:
 ### Added
 - Nitro emoji info popup
 ### Changed

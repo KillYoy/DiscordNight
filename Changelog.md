@@ -1,8 +1,42 @@
 # DiscordNight Changelog
 
+## [v0.8.11]() - 2020-11-13 06:15:
+### Added
+- New variable '--Channel-Invite-Edit-Button' for visibility of channel quick invite/edit shortcut buttons
+- New variable '--Channel-Category-Invite-Button' for visibility of channel category quick create channel shortcut button
+- New variable '--Chatbox-Sticker-Button' for visibility of chatbox stickers shortcut button
+- Blurple/BD-Blue color can now be changed using root variables
+- Emoji picker Stickers tab
+### Updated
+- User CreationDate & JoinedAtDate Plugins
+- PermissionsViewer Plugin
+### Changed
+- Server Roles sidebar is slightly wider
+- User popout Spotify song duration bar
+- Chat >Quote is slightly smaller
+- Right click user invite to join text color
+### Fixed
+- Chat new User replies format
+- Chat box jump to present & mark as read top bar color
+- Chat box Gift/GIF button transparencies
+- Channel list & new unreads color and position tweak
+- Ask to Join disabled hitbox size
+- Ask to Join, Spectate/Watch Game & Stream button right margin
+- User profile single button ask to join button margin
+- User profile badges
+- Invite to game window comment box
+- Settings new toggle switches
+- Settings connections settings
+- Settings my account 
+- Text Messages Formatting & Styling: Compact Mode tweaks
+- Love This Emoji? Get Nitro popup 
+- Titlebar notice bar
+- Game store tweaks
+- Server header
+
 ## [v0.8.10](https://github.com/KillYoy/DiscordNight/commit/d9971a50afef3837ac8dc72f3d44d4be97e3c989#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-09-27 16:20:
 ### Added
-- View As Role Dropdown
+- View as role dropdown
 ### Changed
 - Emoji picker placeholder emoji loading background
 - Emoji picker is slightly higher
@@ -187,8 +221,8 @@
 - BetterDiscord drop down menus
 - Server template modal
 - Unread messages inbox
-- added '--Voice-Noise-Suppression' variable for visibility of noise suppresion button
-- added '--Context-Menu-Emoji-Toolbar' variable for visibility of right click reaction emojis
+- New variable '--Voice-Noise-Suppression' for visibility of noise suppresion button
+- New variable '--Context-Menu-Emoji-Toolbar' for visibility of right click reaction emojis
 - Emoji picker v2
 ### Changed
 - Search results messages padding
@@ -219,8 +253,8 @@
 - New friends list & Active now sidebar
 - Gift inventory settings row icon
 - Chat message hover toolbar
-- added '--Chat-Emoji-Toolbar' variable for visibility of quick reaction emojis on message hover
-- added '--Embed-Remove-Button' variable for visibility of embed hider button
+- New variable '--Chat-Emoji-Toolbar for visibility of quick reaction emojis on message hover
+- New variable '--Embed-Remove-Button for visibility of embed hider button
 ### Changed
 - Chat box formatting toolbar
 - Chat embeds, quotes and code tables background colors

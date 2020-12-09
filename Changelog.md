@@ -1,6 +1,27 @@
 # DiscordNight Changelog
 
-## [v0.8.11]() - 2020-11-13 06:15:
+## [v0.8.12]() - 2020-12-09 04:15:
+### Added
+### Changed
+- User speaking in voice channel
+- Server settings server boost status
+### Fixed
+- Channel list user hover activity preview popout
+- User profile Spotify buttons
+- User profile watch steam/Ask to join button
+- User popout watch steam/Ask to join button
+- user popout play on Spotify button 
+- Server integration settings cards
+- Server user role managment popout
+- Server list folder background
+- Server header banner image is now centered again
+- Settings new radio toggles
+- User reply emoji size & user name text opacity
+- Upload modal replying container 
+- Channel list NEW MENTIONS notice
+- BetterDiscord settings text color
+
+## [v0.8.11](https://github.com/KillYoy/DiscordNight/commit/d2dc2c3d0d91296914d5400f3aa828d60950cce4#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2020-11-13 06:15:
 ### Added
 - New variable '--Channel-Invite-Edit-Button' for visibility of channel quick invite/edit shortcut buttons
 - New variable '--Channel-Category-Invite-Button' for visibility of channel category quick create channel shortcut button
@@ -34,7 +55,7 @@
 - Game store tweaks
 - Server header
 
-## [v0.8.10](https://github.com/KillYoy/DiscordNight/commit/d9971a50afef3837ac8dc72f3d44d4be97e3c989#diff-b13a363fd2be58db9325ba56eab60b57) - 2020-09-27 16:20:
+## [v0.8.10](https://github.com/KillYoy/DiscordNight/commit/d9971a50afef3837ac8dc72f3d44d4be97e3c989#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2020-09-27 16:20:
 ### Added
 - View as role dropdown
 ### Changed

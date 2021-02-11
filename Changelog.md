@@ -1,16 +1,81 @@
 # DiscordNight Changelog
 
+## [v0.8.13]() - 2021-02-11 16:00:
+### Added
+- Chat bot message unique hover background color
+- Community server settings row icons
+- Settings Plugin Repo & Theme Repo icons
+- BetterFriendList plugin support
+- New variable '--Chat-Emoji-Size' for emoji size
+- New variable '--Chat-Emoji-Large-Size' for emojis only message emoji size
+- New variable '--Search-List-Width' for search results sidebar width
+### Changed
+- Chat file/audio attached text color
+- Chat quote and replyied border & when mentioned
+- Chat code mentioned background
+- Chat minimum margin between single message emojis
+- Chat invited to join a server link
+- User profile Send Friend Request/Message Button
+- Emoji picker is slightly higher
+- Emoji picker server list larger icons and changed no server image background color
+- Emoji only messages emojis is slightly larger
+- Audit log filter by X text color
+- Audit log text colors
+- Server popout server emojis counter background color
+- Server settings row icons
+- Server channel category tweaks
+- Friends/Library top bar buttons box invalid invite icon color
+- Auto completion emoji matching larger emoji icons
+- Settings plugin/theme repo settings pages
+- Video call preview camera modal background color
+### Fixed
+- User profile header tab buttons brightness
+- User profile watch screenshare & stream button
+- User profile mutual servers/friends list scroller 
+- User profile spotify buttons play/listen along buttons
+- Chat video player background color
+- Chat user avatar top margin
+- Chat message hover 12h & 24h timestamp positioning
+- Auto completion box using slash commands
+- Server settings integrations bots and apps card color
+- Server settings channel description opacity
+- Server permissions settings boxes
+- Server integration card dropdowns
+- Server preview mode notice bar & buttons
+- Server roles view as role dropdown
+- Server header Nitro boosted server inner icon color
+- Settings profile connections icons
+- Settings Nitro page & billing menu
+- Settings server boost page
+- Select server to boost menu
+- Root Window scroller
+- Now playing missing game icon color
+- Notification settings modal
+- Emoji picker inspector size
+- Emoji picker Nitro needed notice
+- Set custom status clear after dropdown menu
+- Add friends to group DM blue checkbox, window header fix & box shadowing
+- Voice channel camera icon margin 
+- Voice channel selected user background color
+- Black tooltips
+- Search results
+- Search options filters text
+- Upload file spoiler 
+- Show all reactions modal
+- Library install game header
+- Verified & partnered server icon colors
+- "Share with your followers!" publish notice
+
 ## [v0.8.12]() - 2020-12-09 04:15:
 ### Added
 ### Changed
-- User speaking in voice channel
+- Channel list user speaking in voice channel
 - Server settings server boost status
 ### Fixed
-- Channel list user hover activity preview popout
 - User profile Spotify buttons
-- User profile watch steam/Ask to join button
-- User popout watch steam/Ask to join button
-- user popout play on Spotify button 
+- User profile Watch stream/Ask to join button
+- User popout Watch stream/Ask to join button
+- User popout play on Spotify button 
 - Server integration settings cards
 - Server user role managment popout
 - Server list folder background
@@ -18,6 +83,7 @@
 - Settings new radio toggles
 - User reply emoji size & user name text opacity
 - Upload modal replying container 
+- Channel list user hover activity preview popout
 - Channel list NEW MENTIONS notice
 - BetterDiscord settings text color
 
@@ -49,7 +115,7 @@
 - Settings new toggle switches
 - Settings connections settings
 - Settings my account 
-- Text Messages Formatting & Styling: Compact Mode tweaks
+- Text messages formatting/styling & compact mode tweaks
 - Love This Emoji? Get Nitro popup 
 - Titlebar notice bar
 - Game store tweaks

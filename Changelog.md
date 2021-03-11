@@ -1,5 +1,27 @@
 # DiscordNight Changelog
 
+## [v0.8.14]() - 2021-03-11 16:30:
+### Added
+- Add members or roles modal
+- Server channel permissions card
+- Server Permissions icon
+- SpotifyControls plugin support
+### Changed
+- Emoji picker header buttons ordering
+- Auto completion slash commands menu tweaks
+- Settings menu's is sligtly wider
+- Screen share spectators popout
+- Call server select hover background
+- Chat "This is the start of the X private channel" roles backround color
+- Chat user used slash command
+- Chat invited to join a server mentioned color
+### Fixed
+- New server roles/permissions settings menu
+- Set up community server checkboxes
+- Server notice box width
+- Grey tooltips bottom arrow
+- Verify phone modal scroller
+
 ## [v0.8.13]() - 2021-02-11 16:00:
 ### Added
 - Chat bot message unique hover background color
@@ -15,7 +37,7 @@
 - Chat code mentioned background
 - Chat minimum margin between single message emojis
 - Chat invited to join a server link
-- User profile Send Friend Request/Message Button
+- User profile Send Friend Request/Message button
 - Emoji picker is slightly higher
 - Emoji picker server list larger icons and changed no server image background color
 - Emoji only messages emojis is slightly larger
@@ -95,8 +117,8 @@
 - Blurple/BD-Blue color can now be changed using root variables
 - Emoji picker Stickers tab
 ### Updated
-- User CreationDate & JoinedAtDate Plugins
-- PermissionsViewer Plugin
+- User CreationDate & JoinedAtDate plugins
+- PermissionsViewer plugin support
 ### Changed
 - Server Roles sidebar is slightly wider
 - User popout Spotify song duration bar

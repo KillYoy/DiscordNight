@@ -1,5 +1,33 @@
 # DiscordNight Changelog
 
+## [v0.8.15]() - 2021-03-31 15:00:
+### Added
+- Accessibility & Advanced settings row icons
+- Chat text/code preview & language popout
+### Updated
+- .theme meta
+### Changed
+- User roles appearance
+- User popout user note placeholder text color
+- User popout/profile missing game icon size
+- User profile header & tab buttons
+- User profile body & note padding
+- User profile spotify song progressbar background
+- User list user hover background
+- Settings menu's & sidebar width and padding
+- Text channel unread notice background
+- Voice channel user is Live icon
+- Video/Screen share buttons active & hover color
+- Pinned messages appearance
+- BOT Tag appearance
+### Fixed
+- User profile custom status text badge overlapping
+- User profile user CreationDate & JoinedAtDate plugin text & badge overlapping
+- User list & voice channel colored username flicker when hovering
+- User list MemberCount plugin width
+- Server list issue when using ServerFolders plugin
+- Server list & new mentions box
+
 ## [v0.8.14]() - 2021-03-11 16:30:
 ### Added
 - Add members or roles modal
@@ -52,7 +80,7 @@
 - Video call preview camera modal background color
 ### Fixed
 - User profile header tab buttons brightness
-- User profile watch screenshare & stream button
+- User profile watch screen share & stream button
 - User profile mutual servers/friends list scroller 
 - User profile spotify buttons play/listen along buttons
 - Chat video player background color
@@ -497,7 +525,7 @@
 - User is typing indicator & game supports game invites does no longer block chat box selection
 - User profiles now more resemble default Discord when playing/streaming etc
 - Pinned messages/Recent mentions box is wider to fit embedded content
-- Message options button menu text color and background color  
+- Message options button menu text color and background color
 ### Fixed
 - User list overlapping chatbox
 - User list member margins
@@ -1152,7 +1180,7 @@
 - Connections Menu cards
 - App background transition
 - Add reaction emoji menu position
-- Voice/Video call and Screenshare menu
+- Voice/Video call and Screen share menu
 
 ## [v0.5.0](https://github.com/KillYoy/DiscordNight/commit/a60e19c41eccb263f9898e6f9d7167a9205c65a6#diff-b13a363fd2be58db9325ba56eab60b57) - 2018-04-24 14:40:
 ### Added
@@ -1361,7 +1389,7 @@
 ## [v0.3.2](https://github.com/KillYoy/DiscordNight/commit/f33191dd0f30ded824a46696ec323e753011db62#diff-b13a363fd2be58db9325ba56eab60b57) - 2017-11-10 16:10:
 ### Added
 - Server emoji Nitro notice
-- Discord Screenshare menu
+- Discord Screen share menu
 - New Server invite chat box
 - Settings row Windows Settings submenu
 - BetterDiscord plugins startup & update notices
@@ -1389,7 +1417,7 @@
 - Notification settings window header
 - Direct Messages search results box window blue shadow
 - Direct Messages search box text to actually be centered
-- Screenshare searchbox not being transparent
+- Screen share searchbox not being transparent
 
 ## [v0.3.1](https://github.com/KillYoy/DiscordNight/commit/168bc156b52b40d319444321aacec4a446b7782a#diff-b13a363fd2be58db9325ba56eab60b57) - 2017-10-27 02:45:
 ### Added

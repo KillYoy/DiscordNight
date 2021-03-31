@@ -1,3 +1,15 @@
-/*//META{"name":"DiscordNight","description":"Dark and compact theme for BetterDiscord","author":"KillYoy#0295","version":"0.8.14","update_url":"https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css","authorId":"98468214824001536"}*//**/
+/**
+ * @name DiscordNight
+ * @author KillYoy#0295
+ * @version 0.8.15 - Auto Update
+ * @description Dark and compact theme for BetterDiscord
+ * @source https://github.com/KillYoy/DiscordNight/blob/master/DiscordNight.theme.css
+ * @website https://github.com/KillYoy/DiscordNight/
+ * @authorId 98468214824001536
+*/
 
 @import url(https://raw.githack.com/KillYoy/DiscordNight/master/DiscordNight.css);
+
+:root {
+
+}

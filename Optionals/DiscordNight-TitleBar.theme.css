@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy","version":"0.3"}*//
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.4","authorId":"98468214824001536"}*//{}
 
 /* Login Titlebar Buttons Background */
 .platform-win .splashBackground-1FRCko:before {
@@ -15,13 +15,14 @@
 	width: 16px;
 }
 .titleBar-AC4pGV .winButton-iRh8-Z {
+	color: #FFFFFF;
 	height: 28px;
 	width: 28px;
 }
 .titleBar-AC4pGV {
-	margin: 0;
-	padding: 8px 5px;
 	position: absolute;
+	padding: 9px 5px;
+	margin: 0;
 	top: 0;
 	right: 0;
 	-webkit-app-region: no-drag;
@@ -52,13 +53,17 @@
 	margin-right: 8px;
 }
 
-/* Notice Dismiss Button */
-.dismiss-SCAH9H {
+/* Notice */
+.notice-3bPHh- {
+	height: 40px;
+}
+/* Notice: Dismiss Button */
+.closeButton-3cJIM4 {
 	height: 38px;
-	margin-right: 90px;
+	margin-right: 92px;
 }
 
 /* View As Server Role */
 .notice-1tZwqv .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-	margin-right: 90px;
+	margin-right: 92px;
 }

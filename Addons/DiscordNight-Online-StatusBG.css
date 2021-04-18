@@ -1,0 +1,108 @@
+//META{"name":"DiscordNight-Online-StatusBG","description":"Adds a online status background/shadow for profiles","author":"KillYoy#0295","version":"0.5.1","authorId":"98468214824001536"}*//{}
+
+/******************************* Profile Online Status Background ******************************/
+
+/* Online Statuses */
+.userPopout-3XzG_A [aria-label*="Online"] {
+	--user-status-background: #43B581;
+}
+.userPopout-3XzG_A [aria-label*="Idle"] {
+	--user-status-background: #FAA61A;
+}
+.userPopout-3XzG_A [aria-label*="Do Not Disturb"] {
+	--user-status-background: #F04747;
+}
+.userPopout-3XzG_A [aria-label*="Streaming"] {
+	--user-status-background: #593695;
+}
+.userPopout-3XzG_A [aria-label*="Offline"],
+.userPopout-3XzG_A [aria-label*="Invisible"] {
+	--user-status-background: #747F8D;
+}
+.modal-3c3bKg [aria-label*="Online"] {
+	--user-status-background: linear-gradient(#43B581 0px, #40E592 180px);
+}
+.modal-3c3bKg [aria-label*="Idle"] {
+	--user-status-background: linear-gradient(#FAA61A 0px, #FF9D00 180px);
+}
+.modal-3c3bKg [aria-label*="Do Not Disturb"] {
+	--user-status-background: linear-gradient(#F04747 0px, #FF3232 180px);
+}
+.modal-3c3bKg [aria-label*="Offline"],
+.modal-3c3bKg [aria-label*="Invisible"] {
+	--user-status-background: linear-gradient(#747F8D 0px, #ABBACC 180px);
+}
+
+
+/* User Profile Modal */
+.modal-3c3bKg .root-SR8cQa {
+	transform: translateZ(0);
+}
+.modal-3c3bKg .topSectionNormal-2-vo2m .header-QKLPzZ .wrapper-3t9DeA::before {
+	content: '';
+	background: var(--user-status-background);
+	border-radius: 10px 10px 0px 0px;
+	position: fixed;
+	width: 610px;
+	height: 180px;
+	opacity: 1;
+	filter: brightness(0.6);
+	pointer-events: none;
+}
+/* User Profile Modal: Top Overlay */
+.modal-3c3bKg .topSectionNormal-2-vo2m .header-QKLPzZ::after {
+	content: '';
+	background-color: rgba(45,45,45,0.55);
+	-webkit-mask-image: linear-gradient(transparent 0px, #212121 180px);
+	position: fixed;
+	top: 0px;
+	width: 610px;
+	height: 180px;
+	pointer-events: none;
+}
+/* User Profile Modal: Body Blur */
+.modal-3c3bKg .root-SR8cQa .body-3ND3kc {
+	background-color: rgba(45,45,45,0.55);
+	backdrop-filter: blur(4px);
+}
+/* User Profile Modal: Custom Body Support */
+.modal-3c3bKg .body-3ND3kc .infoScroller-3EYYns::after,
+.modal-3c3bKg .body-3ND3kc .listScroller-2_vlfo::after {
+	content: '';
+	position: fixed;
+	top: 0px;
+	width: 610px;
+	height: 100%;
+	pointer-events: none;
+}
+/* User Profile Modal: Element Visibility Fix */
+.modal-3c3bKg .headerFill-adLl4x,
+.modal-3c3bKg .headerInfo-30uryT {
+	position: relative;
+	z-index: 1;
+}
+.modal-3c3bKg .mask-1l8v16 {
+	z-index: 1;
+}
+
+
+/* User Popout Profile */
+.userPopout-3XzG_A {
+	transform: translateZ(0);
+}
+.userPopout-3XzG_A .wrapper-3t9DeA::before {
+	content: '';
+	background: var(--user-status-background) center/cover no-repeat;
+	-webkit-mask: linear-gradient(#161616 var(--User-Popout-Width), transparent calc(var(--User-Popout-Width) + 64px));
+	position: fixed;
+	top: 0px;
+	height: calc(var(--User-Popout-Width) + 64px);
+	width: 100%;
+	opacity: 0.2;
+	pointer-events: none;
+}
+.userPopout-3XzG_A .header-2BwW8b,
+.userPopout-3XzG_A .headerText-2sdzFM {
+	position: relative;
+	z-index: 1;
+}

@@ -63,7 +63,7 @@
 }
 /* User Profile Modal: Body Blur */
 .modal-3c3bKg .root-SR8cQa .body-3ND3kc {
-	background-color: rgba(45,45,45,0.55);
+	background: rgba(45,45,45,0.55) !important;
 	backdrop-filter: blur(4px);
 }
 /* User Profile Modal: Custom Body Support */

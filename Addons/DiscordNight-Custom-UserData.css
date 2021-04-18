@@ -29,7 +29,7 @@
 .modal-3c3bKg [data-user-id="98468214824001536"] .header-QKLPzZ::after,
 .modal-3c3bKg [data-user-id="98468214824001536"] .topSectionPlaying-1J5E4n+.body-3ND3kc .infoScroller-3EYYns, 
 .modal-3c3bKg [data-user-id="98468214824001536"] .topSectionPlaying-1J5E4n+.body-3ND3kc .listScroller-2_vlfo {
-	background-color: transparent;
+	background-color: transparent !important
 }
 .modal-3c3bKg [data-user-id="98468214824001536"] .body-3ND3kc .infoScroller-3EYYns:after,
 .modal-3c3bKg [data-user-id="98468214824001536"] .body-3ND3kc .listScroller-2_vlfo:after {
@@ -46,4 +46,18 @@
 .userPopout-3XzG_A [src*="https://cdn.discordapp.com/avatars/98468214824001536/d63597cc4f64b5312524372fed01b06b"],
 .modal-3c3bKg [src*="https://cdn.discordapp.com/avatars/98468214824001536/d63597cc4f64b5312524372fed01b06b"] {
 	content: url("https://i.imgur.com/ueFAiM4.png") !important;
+}
+
+/************************************* Bots Custom Status **************************************/
+
+/* Bots */
+[data-user-id="272526395337342977"] .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"],
+[data-user-id="402528814548254720"] .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"],
+[data-user-id="345000831499894795"] .pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"] {
+	fill: #7895E0 !important;
+}
+[data-user-id="272526395337342977"] *[aria-label*="Online"],
+[data-user-id="402528814548254720"] *[aria-label*="Online"],
+[data-user-id="345000831499894795"] *[aria-label*="Online"] {
+	--user-status-background: linear-gradient(#7895E0 0px, #7A9FFF 180px) !important; 
 }

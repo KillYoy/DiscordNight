@@ -1,6 +1,4 @@
-//META{"name":"DiscordNight-Online-StatusBG","description":"Adds a online status background/shadow for profiles","author":"KillYoy#0295","version":"0.5.1","authorId":"98468214824001536"}*//{}
-
-/******************************* Profile Online Status Background ******************************/
+/****************************** Profile Online Status Backgrounds ******************************/
 
 /* Online Statuses */
 .userPopout-3XzG_A [aria-label*="Online"] {
@@ -58,21 +56,6 @@
 	top: 0px;
 	width: 610px;
 	height: 180px;
-	pointer-events: none;
-}
-/* User Profile Modal: Body Blur */
-.modal-3c3bKg .root-SR8cQa .body-3ND3kc {
-	background-color: rgba(45,45,45,0.55);
-	backdrop-filter: blur(4px);
-}
-/* User Profile Modal: Custom Body Support */
-.modal-3c3bKg .body-3ND3kc .infoScroller-3EYYns::after,
-.modal-3c3bKg .body-3ND3kc .listScroller-2_vlfo::after {
-	content: '';
-	position: fixed;
-	top: 0px;
-	width: 610px;
-	height: 100%;
 	pointer-events: none;
 }
 /* User Profile Modal: Element Visibility Fix */

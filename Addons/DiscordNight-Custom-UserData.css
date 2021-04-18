@@ -1,0 +1,49 @@
+/*********************************** Profile Custom UserBGs ************************************/
+
+/* KillYoy: Popout */
+.userPopout-3XzG_A[aria-label*="KillYoy"] .wrapper-3t9DeA::after,
+.userPopout-3XzG_A[data-user-id="98468214824001536"] .wrapper-3t9DeA::after {
+	--user-background: url("https://i.imgur.com/8erZe7x.png");
+}
+.userPopout-3XzG_A[aria-label*="KillYoy"] .headerPlaying-j0WQBV,
+.userPopout-3XzG_A[data-user-id="98468214824001536"] .headerPlaying-j0WQBV {
+	background: #202020;
+}
+/* KillYoy: Profile */
+.modal-3c3bKg [aria-label*="KillYoy"].wrapper-3t9DeA::after,
+.modal-3c3bKg [data-user-id="98468214824001536"].wrapper-3t9DeA::after {
+	--user-background: url("https://i.imgur.com/U199yqN.png");
+	-webkit-mask-image: linear-gradient(#161616 180px, transparent 260px) !important;
+	filter: brightness(0.8) grayscale(0.2) !important;
+}
+.modal-3c3bKg .topSectionPlaying-1J5E4n [aria-label*="KillYoy"].wrapper-3t9DeA::after,
+.modal-3c3bKg .topSectionPlaying-1J5E4n [data-user-id="98468214824001536"].wrapper-3t9DeA::after {
+	--user-background: url("https://i.imgur.com/h23UuJ2.png");
+	-webkit-mask-image: linear-gradient(#161616 304px, transparent 360px) !important;
+	filter: brightness(0.8) grayscale(0.2) !important;
+}
+.modal-3c3bKg [data-user-id="98468214824001536"] .topSectionPlaying-1J5E4n .headerFill-adLl4x {
+	background-color: rgba(0,0,0,0.1);
+	backdrop-filter: blur(0px);
+}
+.modal-3c3bKg [data-user-id="98468214824001536"] .header-QKLPzZ::after,
+.modal-3c3bKg [data-user-id="98468214824001536"] .topSectionPlaying-1J5E4n+.body-3ND3kc .infoScroller-3EYYns, 
+.modal-3c3bKg [data-user-id="98468214824001536"] .topSectionPlaying-1J5E4n+.body-3ND3kc .listScroller-2_vlfo {
+	background-color: transparent;
+}
+.modal-3c3bKg [data-user-id="98468214824001536"] .body-3ND3kc .infoScroller-3EYYns:after,
+.modal-3c3bKg [data-user-id="98468214824001536"] .body-3ND3kc .listScroller-2_vlfo:after {
+	background-image: url("https://i.imgur.com/8erZe7x.png");
+	opacity: 0.6;
+}
+
+/*********************************** Profile Custom Avatars ************************************/
+
+/* KillYoy */
+[src*="https://cdn.discordapp.com/avatars/98468214824001536/d63597cc4f64b5312524372fed01b06b"] {
+	content: url("https://pwp.legionfarm.com/img/pro/1614960620_604257ec57a038.11068374.jpg") !important;
+}
+.userPopout-3XzG_A [src*="https://cdn.discordapp.com/avatars/98468214824001536/d63597cc4f64b5312524372fed01b06b"],
+.modal-3c3bKg [src*="https://cdn.discordapp.com/avatars/98468214824001536/d63597cc4f64b5312524372fed01b06b"] {
+	content: url("https://i.imgur.com/ueFAiM4.png") !important;
+}

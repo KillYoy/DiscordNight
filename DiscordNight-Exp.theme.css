@@ -15,6 +15,14 @@
 
 @import url("https://raw.githack.com/KillYoy/DiscordNight/experimental/DiscordNight.css");
 
+/* Addons */
+@import url("https://raw.githack.com/KillYoy/DiscordNight/experimental/Addons/DiscordNight-Online-StatusBG.css");
+@import url("https://raw.githack.com/KillYoy/DiscordNight/experimental/Addons/DiscordNight-Custom-UserBG.css");
+
+/*
+@import url("https://raw.githack.com/KillYoy/DiscordNight/experimental/Addons/DiscordNight-Titlebar.theme.css");
+*/
+
 :root {
 
 }

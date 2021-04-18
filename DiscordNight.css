@@ -13,6 +13,8 @@
  * @authorLink 
 */
 
+@import url("https://raw.githack.com/KillYoy/DiscordNight/experimental/Addons/DiscordNight-Custom-UserData.css");
+
 :root {
 	--Settings-Theme-Version: "DiscordNight v0.9.0-Exp";
 	
@@ -6567,7 +6569,7 @@
 	border-bottom: 2px solid #B5B5B5;
 }
 .modal-3c3bKg .topSectionPlaying-1J5E4n .actionsProfile-jEtjVX .lookOutlined-3sRXeN .contents-18-Yxp {
-    overflow: visible;
+	overflow: visible;
 }
 .modal-3c3bKg .topSectionPlaying-1J5E4n .activityProfile-2bJRaP .content-3JfFJh {
 	min-width: 394px;

@@ -1,4 +1,6 @@
-//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.4","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.5.1","authorId":"98468214824001536"}*//{}
+
+/****************************************** Window Titlebar ******************************************/
 
 /* Login Titlebar Buttons Background */
 .platform-win .splashBackground-1FRCko:before {
@@ -18,6 +20,7 @@
 	color: #FFFFFF;
 	height: 28px;
 	width: 28px;
+	top: -3px;
 }
 .titleBar-AC4pGV {
 	position: absolute;
@@ -64,6 +67,6 @@
 }
 
 /* View As Server Role */
-.notice-1tZwqv .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+.notice-3bPHh- .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
 	margin-right: 92px;
 }

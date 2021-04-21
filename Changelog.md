@@ -1,11 +1,58 @@
 # DiscordNight Changelog
 
-## [v0.8.15]() - 2021-03-31 15:00:
+- **BetterDiscord 1.1.0** is recommended, use [**0.8.15**](https://github.com/KillYoy/DiscordNight/releases/tag/0.8.15) release for versions **<1.0.0**
+
+## [v0.9.0]() - 2021-04-21 17:00:
+### Added
+- New variable '--User-Popout-Width' for user popout width
+- User profile & user popout online status backgrounds
+- User profile & user popout USRBG support
+- User popout streaming title truncating
+- DiscordFreeEmojis plugin support
+### Updated
+- BetterDiscord .theme meta
+- BetterDiscord version 0.3.5 > 1.1.0
+### Changed
+- User profile custom status during activity
+- User profile button during activity
+- Server channel permissions passthrough switch color
+- Server list selected/new messages notice
+- Server Community Settings: Welcome Screen Example & Membership Screening Preview
+- Add members or roles modal
+- Chat mentioned backgrounds
+- Chat scaling options cozy & compact
+- Chat user replied text is selectable
+- Chat box extra buttons visible on hover (still hidden by default)
+- Channel list instant invite, edit & create channel buttons visible on hover (still hidden by default)
+- New server edit role list
+- Titlebar
+### Fixed
+- Show all reactions modal nametag & bottag
+- Emoji picker avaiable with Nitro bottom notice
+- Right click context menu sub menu padding
+- Chat expired gift in chat
+- Profile online status mask
+- User profile watch screen share stream button overflow
+- Voice Channel collapsed avatars padding
+- Server roles wiew as role dropdown
+- Server list add server/discovery button hover color
+- Server discovery sidebar
+- Settings radio toggles border
+- Settings game activity menu
+- BetterDiscord plugins/theme list
+- BetterDiscord dropdowns
+- BetterDiscord custom css
+- BetterDiscord settings row icons
+- BetterDiscord emoji picker menu
+- BetterDiscord public servers menu & button
+- BetterDiscord plugin/theme issues modal
+
+## [v0.8.15](https://github.com/KillYoy/DiscordNight/commit/b7b5a39be094e6d995cc719916407c7ffe011c84#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2021-03-31 15:00:
 ### Added
 - Accessibility & Advanced settings row icons
 - Chat text/code preview & language popout
 ### Updated
-- .theme meta
+- BetterDiscord .theme meta
 ### Changed
 - User roles appearance
 - User popout user note placeholder text color
@@ -28,7 +75,7 @@
 - Server list issue when using ServerFolders plugin
 - Server list & new mentions box
 
-## [v0.8.14]() - 2021-03-11 16:30:
+## [v0.8.14](https://github.com/KillYoy/DiscordNight/commit/75b731d58e18eddd03a4747443af6dfc40b3a447#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2021-03-11 16:30:
 ### Added
 - Add members or roles modal
 - Server channel permissions card
@@ -50,7 +97,7 @@
 - Grey tooltips bottom arrow
 - Verify phone modal scroller
 
-## [v0.8.13]() - 2021-02-11 16:00:
+## [v0.8.13](https://github.com/KillYoy/DiscordNight/commit/05224f974b6cf554de7215e91bc2e670df535bc1#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2021-02-11 16:00:
 ### Added
 - Chat bot message unique hover background color
 - Community server settings row icons
@@ -116,7 +163,7 @@
 - Verified & partnered server icon colors
 - "Share with your followers!" publish notice
 
-## [v0.8.12]() - 2020-12-09 04:15:
+## [v0.8.12](https://github.com/KillYoy/DiscordNight/commit/db348976035e42d9f6efb833203fb2cd26555940#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2020-12-09 04:15:
 ### Added
 ### Changed
 - Channel list user speaking in voice channel

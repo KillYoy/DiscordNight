@@ -4066,6 +4066,42 @@ body {
 
 /****************************************** Main Discord UI ******************************************/
 
+/* Revert Default Avatars */
+[style='background-image: url("/assets/1f0bfc0865d324c2587920a7d80c609b.png");'] {
+	background-image: url("/assets/6debd47ed13483642cf09e832ed0bc1b.png") !important;
+}
+[src*="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
+	content: url("/assets/6debd47ed13483642cf09e832ed0bc1b.png");
+}
+/* Red */
+[style='background-image: url("/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png");'] {
+	background-image: url("/assets/1cbd08c76f8af6dddce02c5138971129.png") !important;
+}
+[src*="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
+	content: url("/assets/1cbd08c76f8af6dddce02c5138971129.png");
+}
+/* Green */
+[style='background-image: url("/assets/7c8f476123d28d103efe381543274c25.png");'] {
+	background-image: url("/assets/dd4dbc0016779df1378e7812eabaa04d.png") !important;
+}
+[src*="/assets/7c8f476123d28d103efe381543274c25.png"] {
+	content: url("/assets/dd4dbc0016779df1378e7812eabaa04d.png");
+}
+/* Yellow */
+[style='background-image: url("/assets/6f26ddd1bf59740c536d2274bb834a05.png");'] {
+	background-image: url("/assets/0e291f67c9274a1abdddeb3fd919cbaa.png") !important;
+}
+[src*="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+	content: url("/assets/0e291f67c9274a1abdddeb3fd919cbaa.png") !important;
+}
+/* Gray */
+[style='background-image: url("/assets/c09a43a372ba81e3018c3151d4ed4773.png");'] {
+	background-image: url("/assets/322c936a8c8be1b803cd94861bdfa868.png") !important;
+}
+[src*="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
+	content: url("/assets/322c936a8c8be1b803cd94861bdfa868.png");
+}
+
 /* Typing Indicator */
 .wrapper-3t9DeA .mask-1l8v16 rect[width="25"] {
 	width: 19px;

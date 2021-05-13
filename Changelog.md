@@ -1,8 +1,45 @@
 # DiscordNight Changelog
 
-- **BetterDiscord 1.1.0** is recommended, use [**0.8.15**](https://github.com/KillYoy/DiscordNight/releases/tag/0.8.15) release for versions **<1.0.0**
+## [v0.9.1]() Discords Rebranding Update - 2021-05-13 19:00:
+### Added
+- Mentioned background color variable
+- GuildProfile pugin support
+- WhoReacted plugin support
+### Remade
+- Reverted new home icon, font and rebranding colors
+- New Group DM/Add friends to group DM popout
+- Friends list is now a friends grid with USRBG support
+- Server channel list now shows a scrollbar on hover
+### Changed
+- User popout activity backgrounds
+- User popout remove role button is now visible on hover
+- User popout USRBG backgrounds
+- User profile activity header heights unified
+- Screen share menu quality settings buttons
+- Server settings boost status icon
+- Chat date/New messages divider margin scaling
+- Auto completion & slash menu
+- Emoji picker is higher
+- Emoji picker emoji hover animations
+- BetterDiscord chat emotes margin
+- BetterDiscord public server page improvments
+- Voice channel icons color to fix differentiation issues
+- Voice connected UI
+- Voice channel user hover activity preview popout
+### Fixed
+- Server header banner interaction height
+- Chat mentioned code background
+- Chat first message in group bottom margin
+- Chat just boosted the server margin
+- Voice channel collapsed user padding
+- Voice chat noise suppression menu popout
+- Settings Nitro/server boost hover/selected background color
+- StaffIcon plugin channel list margin
+- Repo plugins cards
+- New message reactions
+- Friends "Active Now" sidebar
 
-## [v0.9.0]() - 2021-04-21 17:00:
+## [v0.9.0]() BetterDiscord >1.0 Update - 2021-04-21 17:00:
 ### Added
 - New variable '--User-Popout-Width' for user popout width
 - User profile & user popout online status backgrounds
@@ -47,7 +84,7 @@
 - BetterDiscord public servers menu & button
 - BetterDiscord plugin/theme issues modal
 
-## [v0.8.15](https://github.com/KillYoy/DiscordNight/commit/b7b5a39be094e6d995cc719916407c7ffe011c84#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) - 2021-03-31 15:00:
+## [v0.8.15](https://github.com/KillYoy/DiscordNight/commit/b7b5a39be094e6d995cc719916407c7ffe011c84#diff-f6afe9ad82a4b79900fc45745530fd67cc3be08260bf5e6d3028337c9e3d7c5e) Last release for BetterDiscord versions **<1.0** - 2021-03-31 15:00:
 ### Added
 - Accessibility & Advanced settings row icons
 - Chat text/code preview & language popout

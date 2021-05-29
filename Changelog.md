@@ -1,5 +1,29 @@
 # DiscordNight Changelog
 
+## [v0.9.2]() Discords New User Profile Popout Update - 2021-05-29 22:10:
+### Added
+- New variable '--Emoji-Menu-Height' for emoji picker height
+- New variable '--Home-Stages-Button' for visibility of the stage discovery button
+- Home stage discovery page
+### Remade
+- User popouts to match Discords new style
+- Friends grid turns into a list when at ≥64 entries to not completly break due to lazy loading
+### Changed
+- Chat message grouping tweaks
+- Reverted to old default Discord avatars
+- Emoji picker is now higher by default when opened in the chatbox
+### Fixed
+- Emoji picker left side resize handle height
+- Bottom infobar voice channel users padding
+- Auto completion unifications
+- Home active now sidebar
+- User avatar mask margin
+- User profile username margin
+- User profile activity buttons
+- Add a server header & footer text colors
+- Titlebar download button color
+- Chat box replying bar
+
 ## [v0.9.1]() Discords Rebranding Update - 2021-05-13 19:00:
 ### Added
 - Mentioned background color variable

@@ -1,5 +1,44 @@
 # DiscordNight Changelog
 
+## [v0.9.3]() User Profile Customization & Stickers Update - 2021-07-06 23:20:
+### Added
+- New variable '--Chat-Sticker-Size' for adjusting stickers size
+- Home Stages button is now visible by default
+- Emoji picker menu stickers submenu
+- New user profiles modals
+- Settings My Account and User Profile customization menus
+- Settings My Account banner is higher when using a custom banner image
+- Settings billings menu transaction history
+- Settings list user profile menu icon
+- Server settings list stickers menu icon
+- Channel list private & nsfw channel icon identifiers are now yellow & red colored
+- Chat box send longer messages with discord Nitro notice
+- User popout & profile UserDetails plugin support
+- User popout ShowConnections plugin support
+### Remade
+### Changed
+- Reverted Discord Watermark to original logo
+- Settings list My Account menu icon
+- Embedded video players text
+- Spoiler background color
+### Fixed
+- Server settings server boost status
+- Settings server boost header
+- Settings selecting a server to boost modal
+- Settings list Nitro boost menu selected text color
+- Server list default folder colors
+- Server list mentioned box shadow
+- Server userlist activity max width
+- Screen share menu stream quality section
+- Chat box "Try slash commands!" text position
+- Chat replying background color
+- Replying container top
+- Toggle switches colors
+- Online status color
+- User profile popouts
+- User badges
+- Stage channel
+
 ## [v0.9.2]() Discords New User Profile Popout Update - 2021-05-29 22:10:
 ### Added
 - New variable '--Emoji-Menu-Height' for emoji picker height

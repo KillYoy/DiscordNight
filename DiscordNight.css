@@ -7687,7 +7687,7 @@ body {
 }
 /* Role Remove Button */
 .role-2irmRk .roleCircle-3xAZ1j {
-	width: 0px;
+	width: 0px !important;
 }
 .userPopout-xaxa6l .rolesList-1geHY1:hover .roleCircle-3xAZ1j,
 .customScroller-26gWhv .card-FDVird:hover .role-2irmRk .roleCircle-3xAZ1j {

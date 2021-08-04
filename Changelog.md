@@ -1,9 +1,32 @@
 # DiscordNight Changelog
 
+## [v0.9.4]() Channel Threads Update - 2021-08-04 04:50:
+### Added
+- Thread sidebar & threads popout
+- Server list scrollbar when overflowing
+- Stickers suggestion popup
+- StatusEverywhere plugin v2.0 support
+### Changed
+- User profile body/footer now automaticly fits the whole info section
+- User popout badges positioning
+- Hidden chat wave to user notice
+### Fixed
+- User popout Xbox Live activity margin
+- User popout/profile do not disturb status backgrounds
+- Avatar uploader trimmer background color
+- Keyboard combos hotkeys/keybinds modal scroller
+- Server list add a server/discovery buttons
+- Add friends to group DM popout add button placement
+- Auto completion result bar
+- Host a stage server select menu
+- Noise suppression button showing
+- Channel list thread text positioning
+- Chat icons margin
+
 ## [v0.9.3]() User Profile Customization & Stickers Update - 2021-07-06 23:20:
 ### Added
 - New variable '--Chat-Sticker-Size' for adjusting stickers size
-- Home Stages button is now visible by default
+- Home Stages button is now visible by default (can be hidden again via variable)
 - Emoji picker menu stickers submenu
 - New user profiles modals
 - Settings My Account and User Profile customization menus
@@ -15,9 +38,8 @@
 - Chat box send longer messages with discord Nitro notice
 - User popout & profile UserDetails plugin support
 - User popout ShowConnections plugin support
-### Remade
 ### Changed
-- Reverted Discord Watermark to original logo
+- Reverted Discord watermark to the original logo
 - Settings list My Account menu icon
 - Embedded video players text
 - Spoiler background color
@@ -1759,7 +1781,7 @@
 - DirectMessages search box padding
 - Slightly tweaked Bottom Status Box to make more space for longer usernames
 ### Fixed
-- DirecMessages names were affected by server userlist hover effect
+- DirectMessages names were affected by server userlist hover effect
 ### Removed
 - Unnecessary file attachment button
 - Unnecessary old code

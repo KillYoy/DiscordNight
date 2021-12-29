@@ -1,0 +1,90 @@
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6","authorId":"98468214824001536"}*//{}
+
+/****************************************** Window Titlebar ******************************************/
+
+/* Login Titlebar Buttons Background */
+.platform-win .splashBackground-1FRCko:before {
+	background: transparent !important;
+}
+
+/* Watermark */
+.titleBar-AC4pGV .wordmark-2iDDfm {
+	display: none; 
+}
+/* Hide Titlebar */
+.titleBar-AC4pGV {
+	position: absolute;
+	padding: 5px 5px;
+	top: 0;
+	right: 0;
+	-webkit-app-region: no-drag;
+}
+/* Allow Draging Top Titlebar */
+.titleBar-AC4pGV:before {
+	content: ' ';
+	position: absolute;
+	height: 7px;
+	width: 100vw;
+	top: 0px;
+	right: 0;
+	-webkit-app-region: drag;
+}
+/* Buttons */
+.titleBar-AC4pGV .winButton-iRh8-Z svg, 
+.titleBar-AC4pGV .winButtonClose-2rIvsa svg, 
+.titleBar-AC4pGV .winButtonMinMax-bT_gQ1 svg {
+	height: 16px;
+	width: 16px;
+}
+.titleBar-AC4pGV .winButton-iRh8-Z {
+	color: #FFFFFF;
+	height: 28px;
+	width: 28px;
+	top: -3px;
+}
+/* Move Buttons */
+.container-1r6BKw,
+.container-1r6BKw.title-3qD0b- {
+	padding-right: 86px !important;
+}
+.threadSidebar-1o3BTy .container-1r6BKw {
+	padding-right: 96px !important;
+}
+.threadSidebarOpen-vdkwIh .container-1r6BKw.title-3qD0b- {
+	padding-right: 0px !important;
+}
+.headerWrapper-3NUKsd .transparent-2ZlE3R.container-1r6BKw .toolbar-1t6TWx {
+	margin-right: 6px;
+}
+/* Move PTB/Canary Bug Report Button */
+.container-1r6BKw .toolbar-1t6TWx [aria-label="Submit bug"] {
+	padding-right: 8px;
+}
+/* Divider */
+.container-1r6BKw:after {
+	content: ' ';
+	background-color: #313131;
+	height: 24px;
+	width: 0.5px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+.threadSidebar-1o3BTy .container-1r6BKw:after {
+	width: 0px;
+	margin-right: 0px;
+}
+
+/* Notice */
+.notice-3bPHh- {
+	height: 40px;
+}
+/* Notice: Dismiss Button */
+.closeButton-3cJIM4 {
+	height: 38px;
+	margin-right: 92px;
+}
+
+/* View As Server Role */
+.notice-3bPHh- .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+	margin-right: 92px;
+}

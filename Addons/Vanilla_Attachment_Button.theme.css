@@ -1,0 +1,15 @@
+//META{"name":"DiscordNight-Vanilla File Attachment","description":"Reverts the file attachment to the default Discord location","author":"KillYoy#0295","version":"0.1","authorId":"98468214824001536"}*//{}
+
+/* Attach File Button */
+.channelTextArea-rNsIhG .attachButton-2WznTc {
+	transform: scale(1) !important;
+	height: 24px !important;
+	width: 24px !important;
+	margin: 12px 4px 0px 0px !important;
+}
+.channelTextArea-rNsIhG .attachWrapper-2TRKBi {
+	position: relative !important;
+}
+.channelTextArea-rNsIhG .attachWrapper-2TRKBi .attachButton-2WznTc .attachButtonInner-PQjIyk {
+	opacity: 1 !important;
+}

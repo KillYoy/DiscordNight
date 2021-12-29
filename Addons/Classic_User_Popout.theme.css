@@ -1,0 +1,77 @@
+//META{"name":"DiscordNight-Classic User Popout","description":"Reverts the user popouts to its old classic DiscordNight look","author":"KillYoy#0295","version":"0.1","authorId":"98468214824001536"}*//{}
+
+/* User Popout Window */
+.userPopout-xaxa6l {
+	width: var(--User-Popout-Width) !important;
+}	
+.userPopout-xaxa6l .banner-2QYc2d {
+	display: none !important;
+}
+.userPopout-xaxa6l .headerTop-3vNv-a {
+	margin-top: calc(var(--User-Popout-Width) - 52px) !important;
+}
+.userPopout-xaxa6l .avatarWrapper-3r9PdD {
+	margin-top: 0px !important;
+	top: 0px !important;
+	left: 0px !important;
+}
+.userPopout-xaxa6l .avatar-37jOim foreignObject,
+.userPopout-xaxa6l svg [mask="url(#svg-mask-avatar-status-mobile-80)"],
+.userPopout-xaxa6l .StatusEverywhere-avatar-chatAvatar foreignObject,
+.userPopout-xaxa6l .StatusEverywhere-avatar-userPopout[data-mobile=false]~svg foreignObject {
+	mask: none !important;
+	border-radius: 0% !important;
+}
+.userPopout-xaxa6l .avatar-37jOim[style*="width: 80px; height: 80px;"],
+.userPopout-xaxa6l .StatusEverywhere-avatar-userPopout .StatusEverywhere-avatar-chatAvatar,
+.userPopout-xaxa6l .StatusEverywhere-avatar-userPopout {
+	width: var(--User-Popout-Width) !important;
+	height: var(--User-Popout-Width) !important;
+	border: none !important;
+	border-radius: 0% !important;
+}
+.userPopout-xaxa6l .avatarHint-2A3RNb {
+	width: var(--User-Popout-Width) !important;
+	height: var(--User-Popout-Width) !important;
+	left: 0px !important;
+	top: 0px !important;
+	mask: none !important;
+	border-radius: 0% !important;
+}
+.userPopout-xaxa6l .wrapper-3t9DeA rect,
+.userPopout-xaxa6l .wrapper-3t9DeA rect[mask*="url(#svg-mask-status-online-mobile)"] {
+	display: none !important;
+}
+.userPopout-xaxa6l .profileBadges-ohc0Vu {
+	max-width: calc(var(--User-Popout-Width) - 150px) !important;
+	top: 62px !important;
+	height: 24px !important;
+	overflow: hidden !important;
+}
+.userPopout-xaxa6l .headerTag-3GFl76,
+.userPopout-xaxa6l .nickname-3M3Jfa {
+	max-width: calc(var(--User-Popout-Width) - 86px) !important;
+}
+/* User Popout Profile: Custom Background */
+.userPopout-xaxa6l .avatarPositionNormal-aZjAsn .wrapper-3t9DeA::before,
+.userPopout-xaxa6l .avatarPositionPremium-3We5Ho .wrapper-3t9DeA::before,
+.userPopout-xaxa6l .avatarPositionNormal-aZjAsn .wrapper-3t9DeA::after,
+.userPopout-xaxa6l .avatarPositionPremium-3We5Ho .wrapper-3t9DeA::after {
+	top: var(--User-Popout-Width) !important;
+}
+
+/* User Profile: Avatar */
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .avatar-AvHqJA {
+	border-radius: 4px !important;
+}	
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .avatar-AvHqJA foreignObject {
+	border-radius: 0px !important;
+	mask: none !important;
+}
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR .wrapper-3t9DeA rect[mask*="url(#svg-mask-status-online-mobile)"] {
+	display: none !important;
+}
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR [aria-label*="mobile"].avatar-AvHqJA,
+.root-3QyAh1 .topSection-y3p-_D .header-4zuFdR [data-mobile="true"] .StatusEverywhere-avatar-chatAvatar {
+	border: 2px solid #43B581 !important;
+}

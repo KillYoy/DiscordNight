@@ -1,5 +1,89 @@
 # DiscordNight Changelog
 
+## [v0.9.5]() Winter Cleanup Update - 2021-12-29 04:05:
+### Added
+- Bottom info box avatar speaking border is now colored based on online status
+- Channel list avatar speaking border is now status colored if using StatusEverywhere plugin
+- New variable '--Channel-List-Active-Threads' to show active threads channel reminder
+- New variable '--Channel-List-Upcoming-Events' to show upcoming server events reminder
+- New variable '--Channel-List-Boost-Goal' to show servers Nitro boost goal bar
+- New variable '--Chat-Wave-To-New-User-Button' to show wave to button when a new user joins the server 
+- New variable '--Chat-Wave-New-DM-Button' to show new DM wave to button
+### Changed
+- Settings My Account card avatar is larger
+- Avatar uploader trimmer slider grabber
+- Active threads modal
+- Threads list more users
+- Discord icons hosting
+- User popout custom activity padding
+- Server Overview & BetterDiscord menu titles unification
+- Pinned Messages/Recent Mentions & Unreads inbox header buttons
+- Voice calls stop streaming and turn off camera button is now green instead of red when active
+### Fixed
+- Settings Gift inventory gift background
+- Settings/server settings sidebar icons
+- Settings empty subscription card
+- Settings BD Plugin toggle switches color
+- Settings Voice & Video menu video/camera settings
+- Settings Discord Nitro & server boost menu color
+- Settings User Profile Customization user popout example preview
+- Settings Accessability text to speech playback rate preview button color
+- Server settings Auditlog
+- Server settings Community menu boxes
+- Server settings Community Membership screening
+- Server settings Roles menu height difference
+- Server settings Template description box color
+- Server Nitro boost menus
+- Search list results header buttons
+- Friends list add friend page input box
+- Report message modal
+- Chatbox inline attachments
+- Chatbox inline emoji size
+- Chatbox replying container thread suggestion bar
+- Chatbox accept DM from X
+- Emoji Picker is too long in certain scenarios
+- Auto completion slash commands menu padding
+- Auto completion horizontal GIFs
+- Channel list voice channel user speaking background showing when channel is collapsed
+- Channel list placeholders
+- Server list
+- Server header banner
+- Server header Nitro boosted icon
+- Server popout verififed icon color
+- Mac Titlebar buttons placement
+- Titlebar channel name capitalization
+- Titlebar top channel search menu hover
+- DM's search box modal hover
+- User roles border
+- User popout "I'm new to Discord" footer margin
+- User popout custom status top border
+- User popout custom role icon 
+- User popout/profile User CreationDate & JoinedAtDate Plugin overflow fix
+- User popout/profile add bot to server button
+- User profile connection icons back to being monochrome
+- Chat empty messages intersect eachother in rare circumstances
+- Chat jumped to highlighted message background flash
+- Chat blocked message X position
+- Chat box slowmode is enabled hover notice
+- Chat timed out notices
+- Chat event wrapper
+- Event info modal
+- Create stage event modal
+- Edit server profile Nitro notice
+- School hubs modal sidebar
+- Avatar uploader indicator
+- Change avatar selection window background
+- Invite friends to server modal search field background
+- Time out X user duration selection color
+- Server Typing Indicator Plugin issues
+- MemberCounter Plugin issues
+- Userdetails Plugin issues
+- Gray outlined buttons border
+- Green outlined buttons color
+- Account switcher
+# Removed
+- Stage Discovery code
+
 ## [v0.9.4]() Channel Threads Update - 2021-08-04 04:50:
 ### Added
 - Thread sidebar & threads popout

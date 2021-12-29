@@ -19,7 +19,7 @@ This theme supports [**USRBG**](https://github.com/Discord-Custom-Covers/usrbg) 
 
 # Preview
 
-A comparison with and without the theme enabled:
+A comparison with and without the theme enabled: (Images are slightly outdated)
 
 ![Main window comparison](https://i.imgur.com/fkQM8JW.png)
 Matching colored underlines for member list roles requires the [**BetterRoleColors**](https://github.com/rauenzi/BetterDiscordAddons/tree/master/Plugins/BetterRoleColors) plugin.
@@ -37,8 +37,11 @@ DiscordNight has certain unique variables that can easily be modified to change 
     --User-Popout-Width: 236px;                      /* 236px, Discord default = 250px */
 
     --Channel-List-Width: 196px;                     /* 196px, Discord default = 240px */
-    --Channel-Invite-Edit-Button: none;              /* flex = ON, none = OFF */
+    --Channel-Invite-Edit-Buttons: none;             /* flex = ON, none = OFF */
     --Channel-Category-Invite-Button: flex;          /* flex = ON, none = OFF */
+    --Channel-List-Active-Threads: flex;             /* flex = ON, none = OFF */
+    --Channel-List-Upcoming-Events: flex;            /* flex = ON, none = OFF */
+    --Channel-List-Boost-Goal: block;                /* block = ON, none = OFF */
 
     --Search-List-Width: 488px;                      /* 488px, Discord default = 418px */
 
@@ -54,7 +57,10 @@ DiscordNight has certain unique variables that can easily be modified to change 
 
     --Chat-Emoji-Size: 1.75rem;                      /* 1.75rem, Discord default = 1.375rem */
     --Chat-Emoji-Large-Size: 2rem;                   /* 2rem, Discord default = 3rem */
-    --Chat-Sticker-Size: 4.5rem;                     /* 4.5rem, Discord default = 10rem */
+    --Chat-Sticker-Size: 5rem;                       /* 5rem, Discord default = 10rem */
+
+    --Chat-Wave-To-New-User-Button: flex;            /* flex = ON, none = OFF */
+    --Chat-Wave-To-New-DM-Button: flex;              /* flex = ON, none = OFF */
 
     --Voice-Noise-Suppression: none;                 /* flex = ON, none = OFF */
 
@@ -63,11 +69,10 @@ DiscordNight has certain unique variables that can easily be modified to change 
     --Context-Menu-Emoji-Toolbar: none;              /* flex = ON, none = OFF */
 
     --Home-Store-Button: none;                       /* block = ON, none = OFF */
-    --Home-Stages-Button: block;                     /* block = ON, none = OFF */
     --Home-Direct-Messages-Header: flex;             /* flex = ON with create DM Button, block = ON, none = OFF */
     --Home-Close-DM-Button: block;                   /* block = ON, none = OFF */
 
-    --Text-Channels-Capital-Letter: uppercase;       /* uppercase, none */
+    --Text-Channels-Capital-Letter: capitalize;      /* capitalize, none */
 }
 ```
 

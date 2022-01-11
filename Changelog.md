@@ -1,5 +1,17 @@
 # DiscordNight Changelog
 
+## [v0.9.5.1]() The Discord "Messed Everything Up" Update - 2022-01-11 03:40:
+### Added
+- New variable '--Friends-List-Searchbar' to show home friends list top searchbar
+- Many of Discords default variables as backups
+### Changed
+- Chat box inline attachments
+- Chat box file attachment button should now look cleared on higher DPI monitors
+### Fixed
+- Picture in picture popout having no background when no stream
+- Thread sidebar when thread has no users
+- Pretty much everything that was broken in todays update
+
 ## [v0.9.5]() Winter Cleanup Update - 2021-12-29 04:05:
 ### Added
 - Bottom info box avatar speaking border is now colored based on online status
@@ -9,7 +21,7 @@
 - New variable '--Channel-List-Boost-Goal' to show servers Nitro boost goal bar
 - New variable '--Chat-Wave-To-New-User-Button' to show wave to button when a new user joins the server 
 - New variable '--Chat-Wave-New-DM-Button' to show new DM wave to button
-### Changed
+- Certain settings row icons now switch to their colored version on hover
 - Settings My Account card avatar is larger
 - Avatar uploader trimmer slider grabber
 - Active threads modal

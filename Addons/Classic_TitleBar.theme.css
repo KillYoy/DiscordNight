@@ -1,18 +1,18 @@
-//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6.1","authorId":"98468214824001536"}*//{}
 
 /****************************************** Window Titlebar ******************************************/
 
 /* Login Titlebar Buttons Background */
-.platform-win .splashBackground-1FRCko:before {
+.platform-win .splashBackground-6P4u0V:before {
 	background: transparent !important;
 }
 
 /* Watermark */
-.titleBar-AC4pGV .wordmark-2iDDfm {
+.titleBar-1it3bQ .wordmark-2u86JB {
 	display: none; 
 }
 /* Hide Titlebar */
-.titleBar-AC4pGV {
+.titleBar-1it3bQ {
 	position: absolute;
 	padding: 5px 5px;
 	top: 0;
@@ -20,7 +20,7 @@
 	-webkit-app-region: no-drag;
 }
 /* Allow Draging Top Titlebar */
-.titleBar-AC4pGV:before {
+.titleBar-1it3bQ:before {
 	content: ' ';
 	position: absolute;
 	height: 7px;
@@ -30,38 +30,38 @@
 	-webkit-app-region: drag;
 }
 /* Buttons */
-.titleBar-AC4pGV .winButton-iRh8-Z svg, 
-.titleBar-AC4pGV .winButtonClose-2rIvsa svg, 
-.titleBar-AC4pGV .winButtonMinMax-bT_gQ1 svg {
+.titleBar-1it3bQ .winButton-3UMjdg svg, 
+.titleBar-1it3bQ .winButtonClose-2rIvsa svg, 
+.titleBar-1it3bQ .winButtonMinMax-bT_gQ1 svg {
 	height: 16px;
 	width: 16px;
 }
-.titleBar-AC4pGV .winButton-iRh8-Z {
+.titleBar-1it3bQ .winButton-3UMjdg {
 	color: #FFFFFF;
 	height: 28px;
 	width: 28px;
 	top: -3px;
 }
 /* Move Buttons */
-.container-1r6BKw,
-.container-1r6BKw.title-3qD0b- {
+.container-ZMc96U,
+.container-ZMc96U.title-31SJ6t {
 	padding-right: 86px !important;
 }
-.threadSidebar-1o3BTy .container-1r6BKw {
+.threadSidebar-1o3BTy .container-ZMc96U {
 	padding-right: 96px !important;
 }
-.threadSidebarOpen-vdkwIh .container-1r6BKw.title-3qD0b- {
+.threadSidebarOpen-1LSXvU .container-ZMc96U.title-31SJ6t {
 	padding-right: 0px !important;
 }
-.headerWrapper-3NUKsd .transparent-2ZlE3R.container-1r6BKw .toolbar-1t6TWx {
+.headerWrapper-1ULEPv .transparent-1lUmft.container-ZMc96U .toolbar-3_r2xA {
 	margin-right: 6px;
 }
 /* Move PTB/Canary Bug Report Button */
-.container-1r6BKw .toolbar-1t6TWx [aria-label="Submit bug"] {
+.container-ZMc96U .toolbar-3_r2xA [aria-label="Submit bug"] {
 	padding-right: 8px;
 }
 /* Divider */
-.container-1r6BKw:after {
+.container-ZMc96U:after {
 	content: ' ';
 	background-color: #313131;
 	height: 24px;
@@ -69,22 +69,22 @@
 	margin-right: 8px;
 	margin-left: 8px;
 }
-.threadSidebar-1o3BTy .container-1r6BKw:after {
+.threadSidebar-1o3BTy .container-ZMc96U:after {
 	width: 0px;
 	margin-right: 0px;
 }
 
 /* Notice */
-.notice-3bPHh- {
+.notice-2HEN-u {
 	height: 40px;
 }
 /* Notice: Dismiss Button */
-.closeButton-3cJIM4 {
+.closeButton-30b1gR {
 	height: 38px;
 	margin-right: 92px;
 }
 
 /* View As Server Role */
-.notice-3bPHh- .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+.notice-2HEN-u .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
 	margin-right: 92px;
 }

@@ -69,16 +69,29 @@ DiscordNight has certain unique variables that can easily be modified to change 
     --Context-Menu-Emoji-Toolbar: none;              /* flex = ON, none = OFF */
 
     --Home-Store-Button: none;                       /* block = ON, none = OFF */
-    --Home-Direct-Messages-Header: flex;             /* flex = ON with create DM Button, block = ON, none = OFF */
+    --Home-Direct-Messages-Header: flex;             /* flex = ON none = OFF */
     --Home-Close-DM-Button: block;                   /* block = ON, none = OFF */
+	
+    --Friends-List-Searchbar: flex;                  /* flex = ON, none = OFF */
 
     --Text-Channels-Capital-Letter: capitalize;      /* capitalize, none */
 }
 ```
 
-## Installing DiscordNight using other methods (Not recommended)
+## Want certain things to look like they normally do in Discord?
+I have made some import addons which changes certain aspects of the theme.   
+You can change the **Server list message notice** and **Chat file attachment button** back to their original appearance by adding either of these two lines of code to your **DiscordNight.theme.css**
 
-- If you don't want to use BetterDiscord or it does not work for some reason the CSS can be injected using Discords developer tools using **Ctrl+Shift+I** in the Desktop app or F12 in the browser. In the **Sources** tab go click on **assets** and find the file that ends with **.css** and paste in the code from **DiscordNight.css** into it, if done correctly the theme should be loaded until the next time Discord restarts (Keep in mind that images loaded from an external address will not load this way).
+```css 
+@import url("https://killyoy.github.io/DiscordNight/Addons/Vanilla_ServerList_Message_Notice.theme.css"); 
+```   
+```css 
+@import url("https://killyoy.github.io/DiscordNight/Addons/Vanilla_Attachment_Button.theme.css"); 
+```
+
+# Installing DiscordNight using other methods (Not recommended)
+
+- If you don't want to use BetterDiscord or it does not work for some reason the CSS can be injected using Discords developer tools using **Ctrl+Shift+I** in the Desktop app or **F12** in the browser. In the **Sources** tab go click on **assets** and find the file that ends with **.css** and paste in the code from **DiscordNight.css** into it, if done correctly the theme should be loaded until the next time Discord restarts (Keep in mind that images loaded from an external address will not load this way).
 
 ## Installing DiscordNight to your internet browser
 

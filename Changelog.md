@@ -1,6 +1,6 @@
 # DiscordNight Changelog
 
-## [v0.9.5.2]() - 2022-02-23 04:20 CET:
+## [v0.9.5.2]() Bugfix Update - 2022-02-23 04:20 CET:
 ### Fixed
 - DM's list
 - Channel list stream popout

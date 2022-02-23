@@ -1,5 +1,28 @@
 # DiscordNight Changelog
 
+## [v0.9.5.2]() - 2022-02-23 04:20 CET:
+### Fixed
+- DM's list
+- Channel list stream popout
+- Chat box inline attachments
+- Screen share/application stream menu
+- Stage channel top header
+- Server boosting goal plan
+- Server edit role settings menu header
+- Server channel permissions list background color
+- User popout & user profile xbox activity icon
+- User popout avatar hover mask position
+- User popout "I'm new to Discord" footer notice
+- StatusEverywhere user online status border/background
+- Avatar uploader indicator
+- Titlebar rightside search bar & dropdown menu
+- Settings user profile customization bio
+- Settings voice & video mic test volume bar background
+- Settings Nitro menu button
+- Settings connections
+- Settings activity status menu
+- Game library
+
 ## [v0.9.5.1]() The Discord "Messed Everything Up" Update - 2022-01-11 03:40:
 ### Added
 - New variable '--Friends-List-Searchbar' to show home friends list top searchbar
@@ -10,7 +33,7 @@
 ### Fixed
 - Picture in picture popout having no background when no stream
 - Thread sidebar when thread has no users
-- Pretty much everything that was broken in todays update
+- Pretty much everything theme related that was broken in today's update
 
 ## [v0.9.5]() Winter Cleanup Update - 2021-12-29 04:05:
 ### Added

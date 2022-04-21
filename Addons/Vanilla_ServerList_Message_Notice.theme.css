@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight-Vanilla Serverlist Notices","description":"Reverts the serverlist message notices to the default Discord look","author":"KillYoy#0295","version":"0.1.1","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight | Vanilla Serverlist Notices","description":"Reverts the serverlist message notices to the default Discord look","author":"KillYoy#0295","version":"0.1.2","authorId":"98468214824001536"}*//{}
 
 /* Server Message Notice */
 .wrapper-1_HaEi [class^="listItem-"] .item-2LIpTv {
@@ -7,8 +7,12 @@
 	width: 8px !important;
 	min-height: 0px !important;
 }
+.wrapper-1_HaEi [class^="listItem-"]:hover .item-2LIpTv,
 .wrapper-1_HaEi [class^="listItem-"] .item-2LIpTv[style*="opacity: 1; height: 8px"],
 .wrapper-1_HaEi [class^="listItem-"] .item-2LIpTv[style*="opacity: 1; height: 40px"],
-.wrapper-1_HaEi [class^="listItem-"]:hover .item-2LIpTv {
+.wrapper-1_HaEi [class^="listItem-"] .bd-unread .item-2LIpTv,
+.wrapper-1_HaEi [class^="listItem-"] .bd-hovered .item-2LIpTv,
+.wrapper-1_HaEi [class^="listItem-"] .bd-selected .item-2LIpTv,
+.wrapper-1_HaEi [class^="listItem-"] .bd-unread.bd-hovered:not(.bd-selected) .item-2LIpTv {
 	background: #FFFFFF !important;
 }

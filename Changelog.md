@@ -1,5 +1,40 @@
 # DiscordNight Changelog
 
+## [v0.9.5.3]() Easter Cleanup Update - 2022-04-21 02:40 CET:
+### Added
+- ShowAllActivities Plugin Support
+### Changed
+- Chatbox buttons
+- Edit message box
+- Home "Active Now" sidebar stream hover
+- Screen share show members button
+- Spotify boxart icon statuses are now again rounded
+- SpotifyControls Plugin maximized mode
+- Search filters text & search results header
+- Replied to messages links now look and behave like links
+- Settings BD plugin & theme cards are slightly more compact
+- Status picker account switcher
+- Chat link & attachment remove button
+### Fixed
+- Channel list NSFW red icon color on announcment/active threads channels
+- Channel list upcoming events not being highlighted correctly
+- Channel list header public channel
+- Channel list max users notice
+- Channel list locked channel icon & voice channel chat button missing
+- Add a server modal
+- X User timed out notice
+- Miscolored red, white and branded buttons
+- Server discovery searchbar
+- Settings logout / leave server button
+- Settings Game activity add game menu popout
+- Settings dividers
+- User popout description padding
+- User roles hover fix
+- Active threads modal
+- Thread sidebar chat
+- Threads popout
+- Gif picker
+
 ## [v0.9.5.2]() Bugfix Update - 2022-02-23 04:20 CET:
 ### Fixed
 - DM's list

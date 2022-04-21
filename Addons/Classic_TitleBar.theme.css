@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight-Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6.1","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight | Classic Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6.2","authorId":"98468214824001536"}*//{}
 
 /****************************************** Window Titlebar ******************************************/
 
@@ -87,4 +87,26 @@
 /* View As Server Role */
 .notice-2HEN-u .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
 	margin-right: 92px;
+}
+
+/* Voice Channel With Text Chat Button */
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .headerWrapper-1ULEPv .container-ZMc96U {
+	padding-right: 0px !important;
+}
+.wrapper-1gVUIN.chatSidebarOpen--YCxhs .headerWrapper-1ULEPv .container-ZMc96U:after {
+	display: none !important;
+}
+.wrapper-1gVUIN .chatIcon-R5MUNn {
+	margin-right: 86px !important;
+	margin-left: -96px !important;
+}
+/* Stage Channel Padding Fix */
+.participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
+	padding-right: 0px !important;
+}
+.participants-3eCqDy.transparent-1lUmft.container-ZMc96U:after {
+	margin-right: 0px;
+}
+.container-cH6QoY .headerContainer-21E-jZ .headerClose-2iIpCp {
+	margin-left: 8px;
 }

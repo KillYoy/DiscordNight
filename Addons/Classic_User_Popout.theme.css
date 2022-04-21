@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight-Classic User Popout","description":"Reverts the user popouts to its old classic DiscordNight look","author":"KillYoy#0295","version":"0.1.1","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight | Classic User Popout","description":"Reverts the user popouts to its old classic DiscordNight look","author":"KillYoy#0295","version":"0.1.3","authorId":"98468214824001536"}*//{}
 
 /* User Popout Window */
 .userPopout-2j1gM4 {
@@ -73,6 +73,16 @@
 	display: none !important;
 }
 .root-8LYsGj .topSection-13QKHs .header-S26rhB [aria-label*="mobile"].avatar-3QF_VA,
-.root-8LYsGj .topSection-13QKHs .header-S26rhB [data-mobile="true"] .StatusEverywhere-avatar-chatAvatar {
+.root-8LYsGj .topSection-13QKHs .header-S26rhB [data-status="online"][data-mobile="true"] .avatar-3QF_VA {
 	border: 2px solid #43B581 !important;
+}
+
+/* User Popout & Profile: Typing Indicator Position Fix */
+.root-8LYsGj .mask-1FEkla .dots-1BwzZQ,
+.userPopout-2j1gM4 .mask-1FEkla .dots-1BwzZQ {
+	overflow: visible !important;
+}
+.root-8LYsGj .mask-1FEkla .dots-1BwzZQ circle,
+.userPopout-2j1gM4 .mask-1FEkla .dots-1BwzZQ circle {
+	transform: translateX(-4px) translateY(4px) !important;
 }

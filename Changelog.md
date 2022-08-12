@@ -1,8 +1,50 @@
 # DiscordNight Changelog
 
+## [v0.9.5.4]() Discords New Status Picker Update - 2022-08-12 18:00 CET:
+### Added
+- Settings "Friends Requests" icon
+- Settings "Activity Privacy" icon
+- Server settings AutoMod icon & menu
+- Channel list selected unread channel border
+- New status container profile popout/status picker
+### Changed
+- Spotify listen along
+- Chat link embeds
+- Chat server invite banner
+- User popout hidden intrusive get Nitro ad
+- Channel list scrollbar visibility no longer moves elements around on hover
+- Channel list joined voice channel text color is now green when unselected
+- Server Home/Forum channel page
+- Autocompletion menu
+### Fixed
+- Settings Nitro button not showing on hover
+- Chat server invite banner boost icon color
+- Chat box inline attachments bottom border height
+- Chat box inline attachments alt tag color
+- Chat user avatar size when using lower font scaling
+- Voice channel limited/max users video call icon
+- Voice channel user padding
+- Server settings integrations Bots & Apps permission switches
+- Server name header public server text position
+- Server list bottom fixed Nitro button
+- Home friends grid action buttons placement
+- Add a server Join/Create a server modal
+- Add friend to group DM popout header
+- DM header not being centered
+- Unread channel notice height
+- Thread sidebar vertical divider color
+- Profile connection icons
+- Titlebar icons call/voice channel margins
+- X message hidden from likely spammer
+- Channel list bottom status container icons not anchoring to right side
+- Embed & attachment remove button
+- GIF picker favourites hints
+- User roles
+- Reactions
+
 ## [v0.9.5.3]() Easter Cleanup Update - 2022-04-21 02:40 CET:
 ### Added
-- ShowAllActivities Plugin Support
+- ShowAllActivities plugin support
 ### Changed
 - Chatbox buttons
 - Edit message box

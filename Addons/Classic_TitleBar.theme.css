@@ -1,4 +1,4 @@
-//META{"name":"DiscordNight | Classic Titlebar","description":"Reverts titlebar to the classic Discord titlebar","author":"KillYoy#0295","version":"0.6.2","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight | Classic Titlebar","description":"Reverts the titlebar to Discord's classic titlebar","author":"KillYoy#0295","version":"0.9.5.4","authorId":"98468214824001536"}*//{}
 
 /****************************************** Window Titlebar ******************************************/
 
@@ -100,13 +100,14 @@
 	margin-right: 86px !important;
 	margin-left: -96px !important;
 }
-/* Stage Channel Padding Fix */
-.participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
+/* Stage Channel Icon Padding Fix */
+.container-cH6QoY .sidebarVisible-3bgZKv .participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
 	padding-right: 0px !important;
 }
-.participants-3eCqDy.transparent-1lUmft.container-ZMc96U:after {
-	margin-right: 0px;
+.container-cH6QoY .participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
+	padding-right: 94px !important;
 }
-.container-cH6QoY .headerContainer-21E-jZ .headerClose-2iIpCp {
+.container-cH6QoY .participants-3eCqDy.transparent-1lUmft.container-ZMc96U:after,
+.container-cH6QoY .container-cH6QoY .headerContainer-21E-jZ .headerClose-2iIpCp {
 	margin-left: 8px;
 }

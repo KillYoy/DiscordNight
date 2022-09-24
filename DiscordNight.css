@@ -22,6 +22,8 @@
 	--Channel-List-Upcoming-Events: flex;				/* flex = ON, none = OFF */
 	--Channel-List-Boost-Goal: block;					/* block = ON, none = OFF */
 	--Channel-List-Width: 200px;						/* 200px, Discord default = 240px */
+	--Channel-List-Padding: 0px;						/* 0px, Discord default = 4px */
+	--Channel-List-Padding-Left: 0px;						/* 0px, Discord default = 4px */
 	
 	--User-List-Width: 200px;							/* 200px, Discord default = 240px */
 	--User-Popout-Width: 236px;							/* 236px, Discord default = 300px */
@@ -599,7 +601,8 @@
 /* Channels Placement/Formatting */
 .sidebar-1tnWFu [class^='scroller'] [class^='content'] {
 	margin: 0px;
-	padding: 0px;
+	padding: var(--Channel-List-Padding);
+	padding-left: var(--Channel-List-Padding-Left);
 }
 .sidebar-1tnWFu [class^='scroller'] {
 	margin-right: -8px;

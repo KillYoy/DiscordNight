@@ -1,5 +1,58 @@
 # DiscordNight Changelog
 
+## [v0.9.5.5]()  - 2023-03-31 04:20 CET:
+### Added
+- New user profiles
+- New status picker/profile popout
+- Home Message Requests menu
+- App directory page
+- Server home/forum page
+- New variable '--Start-Activities-Button' to show voice chat start activity button
+### Fixed
+- Avatar decorations
+- Sidebar forum new posts counter
+- Sidebar active threads popout position
+- Sidebar show all voice channels buttons
+- Settings BetterDiscord addon error
+- Settings row icons
+- Settings connections
+- Settings toggle switches/sliders colors
+- Settings my account avatar
+- Friends list/grid
+- Friendslist avatar sizes
+- Home DM's list scroller
+- Home friends/library top bar buttons
+- Voice channel open text chat icon not being visible on selected connected channel
+- User profile custom status border header
+- User profile connections icon sizes
+- User profile bottom height
+- User popout add roles popout window
+- User roles background being white
+- Chat box width when typing in forum threads
+- Chat mentioned color in thread sidebar
+- Chat automod avatar size
+- Chat bot interactable buttons margins
+- Server home stream preview image backround
+- Server list home & no icon server color
+- Server role links settings
+- Server preview popout
+- Server name/header popout
+- Server management popout
+- Video call/voice emoji reaction button
+- DM's online status color
+- New mention box notice
+- Event info modal scroll not working
+- Search results page buttons
+- Channel capitalization
+- Activites selection modal
+- Modal background colors
+- Right click context menus
+- Inbox & Pinned messages
+- Create DM popout
+- App button colors
+### Removed
+- BetterDiscord public servers
+
 ## [v0.9.5.4]() Discords New Status Picker Update - 2022-08-12 18:00 CET:
 ### Added
 - Settings "Friends Requests" icon

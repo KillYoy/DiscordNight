@@ -7190,10 +7190,6 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 .bd-addon-list .bd-addon-card .bd-addon-header .bd-meta {
 	color: #CCCCCC;
 }
-.bd-addon-list .bd-addon-card .bd-description {
-	color: #CCCCCC;
-	font-size: 15px;
-}
 .bd-addon-list .bd-addon-card .bd-addon-header .bd-version,
 .bd-addon-list .bd-addon-card .bd-addon-header .bd-author {
 	color: #328BFF;
@@ -7213,6 +7209,9 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 .bd-addon-list .bd-addon-card .bd-description {
 	padding: 8px 12px 0 12px;
 	margin-bottom: 6px;
+	overflow-y: hidden;
+	color: #CCCCCC;
+	font-size: 15px;
 }
 .bd-addon-list .bd-addon-card .bd-footer {
 	padding: 0px 6px 4px 12px;
@@ -7280,6 +7279,10 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 	background-color: #161616;
 	box-shadow: var(--elevation-stroke);
 	border-radius: 5px 5px 0px 0px;
+}
+.theme-dark .root-1CAIjD .footer-1hTRRZ {
+	background-color: #191919;
+	box-shadow: none;
 }
 .theme-dark .root-1CAIjD .option-1O-Hwt {
 	background-color: #161616;
@@ -8400,9 +8403,6 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 }
 
 /* Invite Friends To Server Modal */
-.wrapper-3ByaVZ .header-1ffhsl {
-	background-color: #141414;
-}
 .wrapper-3ByaVZ .container-2oNtJn {
 	background-color: #212121;
 	padding: 4px;
@@ -8416,10 +8416,6 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 .wrapper-3ByaVZ .inviteRow-3vmB7i {
 	padding: 6px 8px 6px 8px;
 	margin: 0px;
-}
-.wrapper-3ByaVZ .footer-1hTRRZ .input-2g-os5,
-.wrapper-3ByaVZ .footer-1hTRRZ .input-2g-os5:hover {
-	background-color: #1E1E1E;
 }
 .wrapper-3ByaVZ .footer-1hTRRZ .inviteBannerUpsell-1t_LYM {
 	background-color: #212121;

@@ -3583,12 +3583,13 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 .cozy-VmLDNB .avatar-2e8lTP {
 	width: 2.1875rem !important;
 	height: 2.1875rem !important;
+	transform: scale(1.1) !important;
 	left: 0.5rem;
 	margin-top: 3px;
 }
 .cozy-VmLDNB .avatar-2e8lTP:hover,
 .cozy-VmLDNB .avatar-2e8lTP:hover+.avatarDecoration-34OC0G {
-	transform: scale(1.07);
+	transform: scale(1.2);
 }
 /* Chat User Avatar: Nitro Decoration */
 .cozy-VmLDNB .avatar-2e8lTP+.avatarDecoration-34OC0G {

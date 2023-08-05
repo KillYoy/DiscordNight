@@ -122,7 +122,7 @@
 	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Code.svg")!important;
 }
 [role="tab"]:nth-child(35)::before{
-	background: url("https://raw.githubusercontent.com/Febera/Icons/main/cloud%20(1).svg?token=GHSAT0AAAAAACFSI3JOLGZOI3TCXJIA7AO6ZGNGNTQ")!important;
+	background: url("https://raw.githubusercontent.com/Febera/DiscordNight-Remix/master/Icons/SVG/Cloud.svg")!important;
 	filter: invert(1);
 }
 [role="tab"]:nth-child(36)::before{
@@ -141,7 +141,7 @@
 	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Logs.svg")!important;
 }
 [role="tab"]:nth-child(44)::before{
-	background-image: url("https://raw.githubusercontent.com/Febera/Icons/main/Hypesquad%20(1).svg?token=GHSAT0AAAAAACFSI3JO7CXR3KNRNV6EBDM4ZGNGPKQ")!important;
+	background-image: url("https://raw.githubusercontent.com/Febera/DiscordNight-Remix/master/Icons/SVG/Discord/Hypesquad.svg")!important;
 	filter: grayscale(1) brightness(2);
 }
 [role="tab"]:nth-child(46)::before{

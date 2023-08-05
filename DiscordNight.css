@@ -3583,12 +3583,13 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 .cozy-VmLDNB .avatar-2e8lTP {
 	width: 2.1875rem !important;
 	height: 2.1875rem !important;
+	transform: scale(1.1) !important;
 	left: 0.5rem;
 	margin-top: 3px;
 }
 .cozy-VmLDNB .avatar-2e8lTP:hover,
 .cozy-VmLDNB .avatar-2e8lTP:hover+.avatarDecoration-34OC0G {
-	transform: scale(1.07);
+	transform: scale(1.2);
 }
 /* Chat User Avatar: Nitro Decoration */
 .cozy-VmLDNB .avatar-2e8lTP+.avatarDecoration-34OC0G {
@@ -10036,18 +10037,18 @@ form .wrapper-2SplAX .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K,
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K svg foreignObject {
-	height: 100px !important;
-	width: 100px !important;
+	height: 80px !important;
+	width: 80px !important;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K svg {
 	overflow: visible;
 	contain: none;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop {
-	height: 100px;
-	width: 100px;
-	top: 4px;
-	left: 4px;
+	height: 100%;
+	width: 100%;
+  top: 0;
+  left: 0;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .avatarHint-k7pYop .avatarHintInner-2HUAWj {
 	text-shadow: -1px 1px 2px #161616;

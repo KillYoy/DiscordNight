@@ -1,6 +1,47 @@
 # DiscordNight Changelog
 
-## [v0.9.5.5]()  - 2023-03-31 04:20 CET:
+## [v0.9.5.6]() 2023-10-18 04:50 CET:
+### Added
+- ShowAllActivities Plugin support
+- Vencord settings row icons
+- New variable '--Super-Reaction-Animations' to hide super reactions obnoxius animations (On by default)
+- New variable '--User-Profile-Effects' to hide user profile animations
+- New channel list members page
+### Changed
+- Server forum gallery view
+- Inbox new unread forum posts
+- Emoji picker bakground/searchbar
+- Voice chat soundboard
+### Fixed
+- Modal window & root window footer color
+- Settings BetterDiscord addon description scroller
+- Codeblock background color
+- Channel list padding & selected thread margin
+- Channel list new channel notice
+- Server userlist padding
+- Server event modals
+- New mention box notice
+- Markdown spoiler text
+- Emoji picker stickers waiting for upload text 
+- Super reactions emoji picker modal
+- Avatar Nitro decorations
+- User profile badges
+- User profile/popout displaynames
+- User profile footer "I'm new to Discord"
+- Leaving Discord link warning modal
+- Home message requests page
+- Settings toggle switches colors
+- Settings row icons
+- Server app directory page
+- Server voice chat "Set a channel status" position
+- Explore discoverable servers page
+- Channels bottom status box icons
+- Create thread name input box color & text box padding
+- Chat Automod avatar size
+- Chat box
+- App titlebar
+
+## [v0.9.5.5]() 2023-03-31 04:20 CET:
 ### Added
 - New user profiles
 - New status picker/profile popout

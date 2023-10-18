@@ -8,11 +8,11 @@
 }
 
 /* Watermark */
-.titleBar-1it3bQ .wordmark-2u86JB {
+.titleBar-3AIemB .wordmark-3wYFg6 {
 	display: none; 
 }
 /* Hide Titlebar */
-.titleBar-1it3bQ {
+.titleBar-3AIemB {
 	position: absolute;
 	padding: 5px 5px;
 	top: 0;
@@ -20,27 +20,30 @@
 	-webkit-app-region: no-drag;
 }
 /* Allow Draging Top Titlebar */
-.titleBar-1it3bQ:before {
+.titleBar-3AIemB:before {
 	content: ' ';
 	position: absolute;
-	height: 7px;
+	height: 8px;
 	width: 100vw;
 	top: 0px;
 	right: 0;
 	-webkit-app-region: drag;
 }
 /* Buttons */
-.titleBar-1it3bQ .winButton-3UMjdg svg, 
-.titleBar-1it3bQ .winButtonClose-2rIvsa svg, 
-.titleBar-1it3bQ .winButtonMinMax-bT_gQ1 svg {
+.titleBar-3AIemB .winButton-3SigSb svg, 
+.titleBar-3AIemB .winButtonClose-23zAIt svg, 
+.titleBar-3AIemB .winButtonMinMax-nT2Irc svg {
 	height: 16px;
 	width: 16px;
 }
-.titleBar-1it3bQ .winButton-3UMjdg {
-	color: #FFFFFF;
+.titleBar-3AIemB .winButton-3SigSb {
+	color: #E5E5E5;
 	height: 28px;
 	width: 28px;
 	top: -3px;
+}
+.titleBar-3AIemB .winButton-3SigSb:hover {
+	color: #FFFFFF;
 }
 /* Move Buttons */
 .container-ZMc96U,
@@ -64,7 +67,7 @@
 .container-ZMc96U:after {
 	content: ' ';
 	background-color: #313131;
-	height: 24px;
+	/* height: 24px; */
 	width: 0.5px;
 	margin-right: 8px;
 	margin-left: 2px;
@@ -79,8 +82,8 @@
 	height: 40px;
 }
 /* Notice: Dismiss Button */
-.closeButton-30b1gR {
-	height: 38px;
+.notice-2HEN-u .closeButton-30b1gR {
+	height: 40px;
 	margin-right: 92px;
 }
 
@@ -97,12 +100,13 @@
 	display: none !important;
 }
 .wrapper-1gVUIN .chatIcon-R5MUNn {
-	margin-right: 86px !important;
-	margin-left: -96px !important;
+	margin-right: 80px !important;
+	margin-left: -88px !important;
 }
+
 /* Stage Channel Icon Padding Fix */
-.container-cH6QoY .sidebarVisible-3bgZKv .participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
-	padding-right: 0px !important;
+.container-cH6QoY .sidebarOrChatVisible-1rjDvK .participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
+	padding-right: 8px !important;
 }
 .container-cH6QoY .participants-3eCqDy.transparent-1lUmft.container-ZMc96U {
 	padding-right: 94px !important;

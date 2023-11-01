@@ -1,6 +1,10 @@
 # DiscordNight Changelog
 
-## [v0.9.5.6]() 2023-10-18 04:50 CET:
+## [v0.9.5.7]() Discords Internal Rework Update - 2023-11-01 01:00 CET:
+### Fixed
+- Hopefully everything Discord broke
+
+## [v0.9.5.6]() - 2023-10-18 04:50 CET:
 ### Added
 - ShowAllActivities Plugin support
 - Vencord settings row icons
@@ -41,7 +45,7 @@
 - Chat box
 - App titlebar
 
-## [v0.9.5.5]() 2023-03-31 04:20 CET:
+## [v0.9.5.5]() - 2023-03-31 04:20 CET:
 ### Added
 - New user profiles
 - New status picker/profile popout

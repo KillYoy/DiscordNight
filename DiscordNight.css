@@ -10134,6 +10134,11 @@ body {
 	background-color: #111111;
 }
 
+/* Read All Button Fix */
+.button_afdfd9 {
+	margin-left: 4px !important;
+}
+
 /******************************************* BetterDiscord *******************************************/
 
 /* BetterDiscord Plugin/Theme Issue Modal */

@@ -1,5 +1,15 @@
 # DiscordNight Changelog
 
+## [v0.9.5.8]() - 2024-04-01 03:40 CET:
+### Fixed
+- Chat text & table/code preview width and right margin
+- Chat add reaction emoji picker header color
+- Channel list thread line when more than one thread open
+- Channel list channels with 1000+ max users width overlap
+- Channels bottom status box button sizes
+- User/Member list width in threads and group DMs
+- Probably everything else Discord broke with the update
+
 ## [v0.9.5.7]() Discords Internal Rework Update - 2023-11-01 01:00 CET:
 ### Fixed
 - Hopefully everything Discord broke

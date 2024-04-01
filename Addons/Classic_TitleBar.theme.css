@@ -1,13 +1,13 @@
-//META{"name":"DiscordNight | Classic Titlebar","description":"Reverts the titlebar to Discord's classic titlebar","author":"KillYoy#0295","version":"0.9.5.7","authorId":"98468214824001536"}*//{}
+//META{"name":"DiscordNight | Classic Titlebar","description":"Reverts the titlebar to Discord's classic titlebar","author":"KillYoy#0295","version":"0.9.5.8","authorId":"98468214824001536"}*//{}
 
 /****************************************** Window Titlebar ******************************************/
 
 /* Watermark */
-.titleBar__01af6 .wordmark__0d178 {
+.titleBar__710b0 .wordmark__5b8c9 {
 	display: none; 
 }
 /* Hide Titlebar */
-.titleBar__01af6 {
+.titleBar__710b0 {
 	position: absolute;
 	padding: 5px 5px;
 	top: 0;
@@ -15,7 +15,7 @@
 	-webkit-app-region: no-drag;
 }
 /* Allow Draging Top Titlebar */
-.titleBar__01af6:before {
+.titleBar__710b0:before {
 	content: ' ';
 	position: absolute;
 	height: 8px;
@@ -25,41 +25,41 @@
 	-webkit-app-region: drag;
 }
 /* Buttons */
-.titleBar__01af6 .winButton__88672 svg, 
-.titleBar__01af6 .winButtonClose__73489 svg, 
-.titleBar__01af6 .winButtonMinMax__72f36 svg {
+.titleBar__710b0 .winButton_f17fb6 svg, 
+.titleBar__710b0 .winButtonClose__6396d svg, 
+.titleBar__710b0 .winButtonMinMax_caf9c8 svg {
 	height: 16px;
 	width: 16px;
 }
-.titleBar__01af6 .winButton__88672 {
+.titleBar__710b0 .winButton_f17fb6 {
 	color: #E5E5E5;
 	height: 28px;
 	width: 28px;
 	top: -3px;
 }
-.titleBar__01af6 .winButton__88672:hover {
+.titleBar__710b0 .winButton_f17fb6:hover {
 	color: #FFFFFF;
 }
 /* Move Buttons */
-.container__11d72,
-.container__11d72.title_b7d661 {
+.container__26baa,
+.container__26baa.title_d4ba1a {
 	padding-right: 86px !important;
 }
-.threadSidebar-1o3BTy .container__11d72 {
+.threadSidebar-1o3BTy .container__26baa {
 	padding-right: 96px !important;
 }
-.threadSidebarOpen_fa231d .container__11d72.title_b7d661 {
+.threadSidebarOpen__62c31 .container__26baa.title_d4ba1a {
 	padding-right: 0px !important;
 }
-.headerWrapper__94dd8 .transparent__7f3e0.container__11d72 .toolbar__88c63 {
+.headerWrapper_ea51a0 .transparent__8d0a5.container__26baa .toolbar__62fb5 {
 	margin-right: 6px;
 }
 /* Move PTB/Canary Bug Report Button */
-.container__11d72 .toolbar__88c63 [aria-label="Submit bug"] {
+.container__26baa .toolbar__62fb5 [aria-label="Submit bug"] {
 	padding-right: 8px;
 }
 /* Divider */
-.container__11d72:after {
+.container__26baa:after {
 	content: ' ';
 	background-color: #313131;
 	/* height: 24px; */
@@ -67,7 +67,7 @@
 	margin-right: 8px;
 	margin-left: 2px;
 }
-.threadSidebar-1o3BTy .container__11d72:after {
+.threadSidebar-1o3BTy .container__26baa:after {
 	width: 0px;
 	margin-right: 0px;
 }
@@ -77,45 +77,45 @@
 	height: 40px;
 }
 /* Notice: Dismiss Button */
-.notice__5fd4c .closeButton_ffc97a {
+.notice__5fd4c .closeButton__90904 {
 	height: 40px;
 	margin-right: 92px;
 }
 
 /* View As Server Role */
-.notice__5fd4c .lookOutlined__46d54.colorWhite__43488 {
+.notice__5fd4c .lookOutlined__014b5.colorWhite__0033e {
 	margin-right: 92px;
 }
 
 /* Voice Channel With Text Chat Button */
-.wrapper_bd2abe.chatSidebarOpen_dfaa6a .headerWrapper__94dd8 .container__11d72 {
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .headerWrapper_ea51a0 .container__26baa {
 	padding-right: 0px !important;
 	margin-left: 30px;
 }
-.wrapper_bd2abe.chatSidebarOpen_dfaa6a .headerWrapper__94dd8 .container__11d72:after {
+.wrapper__6bf2d.chatSidebarOpen_f2e544 .headerWrapper_ea51a0 .container__26baa:after {
 	display: none !important;
 }
-.wrapper_bd2abe .headerWrapper__94dd8 .transparent__7f3e0.container__11d72 .toolbar__88c63 {
+.wrapper__6bf2d .headerWrapper_ea51a0 .transparent__8d0a5.container__26baa .toolbar__62fb5 {
 	margin-right: 40px !important;
-	margin-left: -48px !important;
+	margin-left: -16px !important; /* -48px */
 }
-.wrapper_bd2abe .chatIcon__75eea {
+.wrapper__6bf2d .chatIcon_c43df4 {
 	margin-right: 80px !important;
 	margin-left: -88px !important;
 	pointer-events: auto;
 }
-.wrapper_bd2abe .disabledButtonWrapper__69c70 {
+.wrapper__6bf2d .disabledButtonWrapper_b04230 {
 	display: none;
 }
 
 /* Stage Channel Icon Padding Fix */
-.container__3e5cc .sidebarOrChatVisible__8e92f .participants_d2109a.transparent__7f3e0.container__11d72 {
+.container_ffbc98 .sidebarOrChatVisible__0e520 .participants__9b6fb.transparent__8d0a5.container__26baa {
 	padding-right: 8px !important;
 }
-.container__3e5cc .participants_d2109a.transparent__7f3e0.container__11d72 {
+.container_ffbc98 .participants__9b6fb.transparent__8d0a5.container__26baa {
 	padding-right: 94px !important;
 }
-.container__3e5cc .participants_d2109a.transparent__7f3e0.container__11d72:after,
-.container__3e5cc .container__3e5cc .headerContainer_bff52d .headerClose_f4d62c {
+.container_ffbc98 .participants__9b6fb.transparent__8d0a5.container__26baa:after,
+.container_ffbc98 .container_ffbc98 .headerContainer__73bce .headerClose__75228 {
 	margin-left: 8px;
 }

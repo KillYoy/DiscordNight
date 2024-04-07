@@ -756,9 +756,13 @@
 }
 
 /* Set a Channel Status */
+.sidebar_e031be .wrapper__612a5 .link_ddbb36 .linkTop_c8969d+.linkBottom__942a1 .subtitle_eb6026 {
+	color: var(--channels-default) !important;
+}
 .sidebar_e031be .wrapper__612a5 .link_ddbb36 .linkTop_c8969d+.linkBottom__942a1 .subtitle_eb6026,
 .sidebar_e031be .wrapper__612a5 [aria-label*="(Stage channel)" i] .linkTop_c8969d+.linkBottom__942a1 .subtitle_eb6026 {
-	margin-top: -10px;
+	margin-top: -4px;
+	margin-bottom: -6px;
 }
 /* Set a Channel Status: Emoji */
 .sidebar_e031be .wrapper__612a5 .link_ddbb36 .linkTop_c8969d+.linkBottom__942a1 .subtitle_eb6026 .emoji {

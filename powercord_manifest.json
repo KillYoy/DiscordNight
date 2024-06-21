@@ -1,0 +1,8 @@
+{
+  "name": "DiscordNight",
+  "description": "Dark and compact theme for BetterDiscord and Powercord",
+  "version": "0.9.1",
+  "author": "KillYoy#0295",
+  "theme": "DiscordNight.theme.css",
+  "license": ""
+}
